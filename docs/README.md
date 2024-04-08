@@ -1,3 +1,0 @@
-# ios-sdk-demo
-
-test
