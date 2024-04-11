@@ -1,1 +1,293 @@
-{"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedOfferingResponse\/directUrl"},"kind":"symbol","primaryContentSections":[{"kind":"declarations","declarations":[{"languages":["swift"],"tokens":[{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"directUrl"},{"text":": ","kind":"text"},{"text":"URL","kind":"typeIdentifier","preciseIdentifier":"s:10Foundation3URLV"},{"text":"? { ","kind":"text"},{"text":"get","kind":"keyword"},{"kind":"text","text":" }"}],"platforms":["iOS"]}]}],"abstract":[{"text":"The offering direct URL as contained in the ","type":"text"},{"isActive":true,"type":"reference","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedOfferingResponse\/originalOffering"},{"text":" dictionary","type":"text"}],"metadata":{"symbolKind":"property","title":"directUrl","role":"symbol","fragments":[{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"directUrl","kind":"identifier"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:10Foundation3URLV","kind":"typeIdentifier","text":"URL"},{"kind":"text","text":"?"}],"roleHeading":"Instance Property","externalID":"c:@M@JoynedMobileSDK@objc(cs)JoynedOfferingResponse(py)directUrl","modules":[{"name":"JoynedMobileSDK"}],"navigatorTitle":[{"kind":"identifier","text":"directUrl"}]},"schemaVersion":{"major":0,"minor":3,"patch":0},"variants":[{"paths":["\/documentation\/joynedmobilesdk\/joynedofferingresponse\/directurl"],"traits":[{"interfaceLanguage":"swift"}]},{"traits":[{"interfaceLanguage":"occ"}],"paths":["\/documentation\/joynedmobilesdk\/joynedofferingresponse\/directurl"]}],"hierarchy":{"paths":[["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedOfferingResponse"],["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedOfferingResponse"]]},"sections":[],"references":{"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedOfferingResponse":{"role":"symbol","title":"JoynedOfferingResponse","navigatorTitle":[{"text":"JoynedOfferingResponse","kind":"identifier"}],"abstract":[{"type":"text","text":"A data object containing the offering response as reported by the Joyned servers"}],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedOfferingResponse","kind":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedofferingresponse","fragments":[{"text":"class","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"JoynedOfferingResponse"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedOfferingResponse/originalOffering":{"fragments":[{"kind":"keyword","text":"var"},{"text":" ","kind":"text"},{"kind":"identifier","text":"originalOffering"},{"text":": ","kind":"text"},{"preciseIdentifier":"c:objc(cs)NSDictionary","text":"NSDictionary","kind":"typeIdentifier"}],"kind":"symbol","navigatorTitle":[{"text":"originalOffering","kind":"identifier"}],"type":"topic","role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedofferingresponse\/originaloffering","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedOfferingResponse\/originalOffering","title":"originalOffering","abstract":[{"type":"text","text":"A dictionary containing the original offering data"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK":{"title":"JoynedMobileSDK","abstract":[{"text":"We help people book together. With a better booking experience, better business results","type":"text"}],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","role":"collection","url":"\/documentation\/joynedmobilesdk","kind":"symbol"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedOfferingResponse/directUrl":{"role":"symbol","navigatorTitle":[{"kind":"identifier","text":"directUrl"}],"kind":"symbol","title":"directUrl","url":"\/documentation\/joynedmobilesdk\/joynedofferingresponse\/directurl","fragments":[{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"directUrl","kind":"identifier"},{"kind":"text","text":": "},{"text":"URL","kind":"typeIdentifier","preciseIdentifier":"s:10Foundation3URLV"},{"text":"?","kind":"text"}],"type":"topic","abstract":[{"type":"text","text":"The offering direct URL as contained in the "},{"isActive":true,"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedOfferingResponse\/originalOffering","type":"reference"},{"type":"text","text":" dictionary"}],"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedOfferingResponse\/directUrl"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/GettingStarted":{"title":"Getting Started with Joyned mobile SDK","abstract":[],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","role":"collectionGroup","url":"\/documentation\/joynedmobilesdk\/gettingstarted","kind":"article"}},"variantOverrides":[{"patch":[{"path":"\/identifier\/interfaceLanguage","value":"occ","op":"replace"},{"op":"replace","path":"\/metadata\/roleHeading","value":"Instance Property"},{"value":"directUrl","path":"\/metadata\/title","op":"replace"},{"path":"\/metadata\/symbolKind","op":"replace","value":"property"},{"op":"replace","path":"\/metadata\/fragments","value":[{"kind":"identifier","text":"directUrl"}]},{"value":null,"op":"add","path":"\/topicSections"},{"op":"add","path":"\/relationshipsSections","value":null},{"value":null,"op":"add","path":"\/seeAlsoSections"},{"path":"\/primaryContentSections\/0","op":"replace","value":{"declarations":[{"tokens":[{"text":"@property","kind":"keyword"},{"text":" (","kind":"text"},{"kind":"keyword","text":"nonatomic"},{"text":", ","kind":"text"},{"text":"copy","kind":"keyword"},{"kind":"text","text":", "},{"text":"readonly","kind":"keyword"},{"text":") ","kind":"text"},{"text":"NSURL","kind":"typeIdentifier","preciseIdentifier":"c:objc(cs)NSURL"},{"text":" * ","kind":"text"},{"kind":"identifier","text":"directUrl"},{"text":";","kind":"text"}],"languages":["occ"],"platforms":["iOS"]}],"kind":"declarations"}},{"op":"replace","value":"JoynedOfferingResponse","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedOfferingResponse\/title"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedOfferingResponse\/fragments","value":[{"kind":"identifier","text":"JoynedOfferingResponse"}]},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedOfferingResponse~1originalOffering\/title","value":"originalOffering","op":"replace"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedOfferingResponse~1originalOffering\/fragments","value":[{"text":"originalOffering","kind":"identifier"}],"op":"replace"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedOfferingResponse~1directUrl\/title","value":"directUrl","op":"replace"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedOfferingResponse~1directUrl\/fragments","op":"replace","value":[{"text":"directUrl","kind":"identifier"}]}],"traits":[{"interfaceLanguage":"occ"}]}]}
+{
+  "abstract" : [
+    {
+      "text" : "The offering direct URL as contained in the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingResponse\/originalOffering",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " dictionary",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingResponse"
+      ],
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingResponse"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingResponse\/directUrl"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@JoynedMobileSDK@objc(cs)JoynedOfferingResponse(py)directUrl",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "directUrl"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation3URLV",
+        "text" : "URL"
+      },
+      {
+        "kind" : "text",
+        "text" : "?"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JoynedMobileSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "directUrl"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "directUrl"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10Foundation3URLV",
+              "text" : "URL"
+            },
+            {
+              "kind" : "text",
+              "text" : "? { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/joynedmobilesdk\/joynedofferingresponse\/directurl"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK": {
+  "abstract" : [
+    {
+      "text" : "We help people book together. With a better booking experience, better business results",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JoynedMobileSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/GettingStarted": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Getting Started with Joyned mobile SDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/gettingstarted"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedOfferingResponse": {
+  "abstract" : [
+    {
+      "text" : "A data object containing the offering response as reported by the Joyned servers",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JoynedOfferingResponse"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingResponse",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JoynedOfferingResponse"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JoynedOfferingResponse",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedofferingresponse"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedOfferingResponse/directUrl": {
+  "abstract" : [
+    {
+      "text" : "The offering direct URL as contained in the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingResponse\/originalOffering",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " dictionary",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "directUrl"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingResponse\/directUrl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "directUrl",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedofferingresponse\/directurl"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedOfferingResponse/originalOffering": {
+  "abstract" : [
+    {
+      "text" : "A dictionary containing the original offering data",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "originalOffering"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSDictionary",
+      "text" : "NSDictionary"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingResponse\/originalOffering",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "originalOffering",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedofferingresponse\/originaloffering"
+}
+}
+}

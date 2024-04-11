@@ -1,1 +1,289 @@
-{"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/encode(with:)"},"kind":"symbol","metadata":{"externalID":"c:@M@JoynedMobileSDK@objc(cs)JoynedButton(im)encodeWithCoder:","navigatorTitle":[{"kind":"identifier","text":"encodeWithCoder:"}],"roleHeading":"Instance Method","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"encode","kind":"identifier"},{"text":"(","kind":"text"},{"text":"with","kind":"externalParam"},{"kind":"text","text":": "},{"text":"NSCoder","preciseIdentifier":"c:objc(cs)NSCoder","kind":"typeIdentifier"},{"text":")","kind":"text"}],"title":"encode(with:)","symbolKind":"method","modules":[{"name":"JoynedMobileSDK"}],"role":"symbol"},"schemaVersion":{"minor":3,"patch":0,"major":0},"sections":[],"abstract":[{"text":"Encodes the receiver using a given archiver.","type":"text"}],"variants":[{"paths":["\/documentation\/joynedmobilesdk\/joynedbutton\/encode(with:)"],"traits":[{"interfaceLanguage":"swift"}]},{"paths":["\/documentation\/joynedmobilesdk\/joynedbutton\/encode(with:)"],"traits":[{"interfaceLanguage":"occ"}]}],"hierarchy":{"paths":[["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton"],["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton"]]},"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"override"},{"text":" ","kind":"text"},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"encode"},{"text":"(","kind":"text"},{"kind":"externalParam","text":"with"},{"text":" ","kind":"text"},{"text":"aCoder","kind":"internalParam"},{"text":": ","kind":"text"},{"preciseIdentifier":"c:objc(cs)NSCoder","text":"NSCoder","kind":"typeIdentifier"},{"text":")","kind":"text"}],"platforms":["iOS"],"languages":["swift"]}]},{"parameters":[{"content":[{"inlineContent":[{"text":"An archiver object.","type":"text"}],"type":"paragraph"}],"name":"aCoder"}],"kind":"parameters"}],"references":{"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedButton/encode(with:)":{"role":"symbol","kind":"symbol","navigatorTitle":[{"text":"encodeWithCoder:","kind":"identifier"}],"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/encode(with:)","url":"\/documentation\/joynedmobilesdk\/joynedbutton\/encode(with:)","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"encode"},{"kind":"text","text":"("},{"kind":"externalParam","text":"with"},{"text":": ","kind":"text"},{"preciseIdentifier":"c:objc(cs)NSCoder","text":"NSCoder","kind":"typeIdentifier"},{"text":")","kind":"text"}],"title":"encode(with:)","type":"topic","abstract":[{"type":"text","text":"Encodes the receiver using a given archiver."}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/GettingStarted":{"title":"Getting Started with Joyned mobile SDK","abstract":[],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","role":"collectionGroup","url":"\/documentation\/joynedmobilesdk\/gettingstarted","kind":"article"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedButton":{"title":"JoynedButton","abstract":[{"type":"text","text":"A Joyned UI element meant for usage in the host application, acts as a card like display element, supports border, shadow, corner cliping & more"}],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton","role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedbutton","kind":"symbol","fragments":[{"text":"class","kind":"keyword"},{"kind":"text","text":" "},{"text":"JoynedButton","kind":"identifier"}],"navigatorTitle":[{"text":"JoynedButton","kind":"identifier"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK":{"title":"JoynedMobileSDK","abstract":[{"text":"We help people book together. With a better booking experience, better business results","type":"text"}],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","role":"collection","url":"\/documentation\/joynedmobilesdk","kind":"symbol"}},"variantOverrides":[{"traits":[{"interfaceLanguage":"occ"}],"patch":[{"op":"replace","path":"\/identifier\/interfaceLanguage","value":"occ"},{"value":"Instance Method","op":"replace","path":"\/metadata\/roleHeading"},{"path":"\/metadata\/title","value":"encodeWithCoder:","op":"replace"},{"value":"method","op":"replace","path":"\/metadata\/symbolKind"},{"op":"replace","value":[{"kind":"text","text":"- "},{"kind":"identifier","text":"encodeWithCoder:"}],"path":"\/metadata\/fragments"},{"path":"\/topicSections","value":null,"op":"add"},{"path":"\/relationshipsSections","value":null,"op":"add"},{"path":"\/seeAlsoSections","value":null,"op":"add"},{"path":"\/primaryContentSections\/0","value":{"declarations":[{"languages":["occ"],"platforms":["iOS"],"tokens":[{"kind":"text","text":"- ("},{"preciseIdentifier":"c:v","text":"void","kind":"typeIdentifier"},{"kind":"text","text":") "},{"kind":"identifier","text":"encodeWithCoder:"},{"kind":"text","text":"("},{"text":"NSCoder","kind":"typeIdentifier","preciseIdentifier":"c:objc(cs)NSCoder"},{"kind":"text","text":" *) "},{"kind":"internalParam","text":"aCoder"},{"kind":"text","text":";"}]}],"kind":"declarations"},"op":"replace"},{"op":"replace","value":"encodeWithCoder:","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1encode(with:)\/title"},{"value":[{"text":"- ","kind":"text"},{"text":"encodeWithCoder:","kind":"identifier"}],"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1encode(with:)\/fragments"},{"op":"replace","value":"JoynedButton","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton\/title"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton\/fragments","op":"replace","value":[{"text":"JoynedButton","kind":"identifier"}]}]}]}
+{
+  "abstract" : [
+    {
+      "text" : "Encodes the receiver using a given archiver.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton"
+      ],
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/encode(with:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@JoynedMobileSDK@objc(cs)JoynedButton(im)encodeWithCoder:",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "encode"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "with"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:objc(cs)NSCoder",
+        "text" : "NSCoder"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JoynedMobileSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "encode(with:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "override"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "encode"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "with"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "aCoder"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:objc(cs)NSCoder",
+              "text" : "NSCoder"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "An archiver object.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "aCoder"
+        }
+      ]
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/joynedmobilesdk\/joynedbutton\/encode(with:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK": {
+  "abstract" : [
+    {
+      "text" : "We help people book together. With a better booking experience, better business results",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JoynedMobileSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/GettingStarted": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Getting Started with Joyned mobile SDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/gettingstarted"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedButton": {
+  "abstract" : [
+    {
+      "text" : "A Joyned UI element meant for usage in the host application, acts as a card like display element, supports border, shadow, corner cliping & more",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JoynedButton"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JoynedButton"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JoynedButton",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedbutton"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedButton/encode(with:)": {
+  "abstract" : [
+    {
+      "text" : "Encodes the receiver using a given archiver.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "encode"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "with"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSCoder",
+      "text" : "NSCoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/encode(with:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "encode(with:)",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedbutton\/encode(with:)"
+}
+}
+}

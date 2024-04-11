@@ -1,1 +1,350 @@
-{"abstract":[{"type":"text","text":"The color to be used for card UI background color, only takes effect if the "},{"type":"reference","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/contentColorEnabled","isActive":true},{"type":"text","text":" is set to "},{"code":"true","type":"codeVoice"},{"text":".","type":"text"},{"type":"text","text":" "},{"type":"text","text":"Transperent by default."}],"kind":"symbol","metadata":{"navigatorTitle":[{"kind":"identifier","text":"contentColor"}],"role":"symbol","fragments":[{"text":"var","kind":"keyword"},{"kind":"text","text":" "},{"text":"contentColor","kind":"identifier"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"c:objc(cs)UIColor","text":"UIColor"}],"externalID":"c:@M@JoynedMobileSDK@objc(cs)JoynedButton(py)contentColor","title":"contentColor","modules":[{"name":"JoynedMobileSDK"}],"symbolKind":"property","roleHeading":"Instance Property"},"schemaVersion":{"major":0,"minor":3,"patch":0},"sections":[],"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/contentColor"},"variants":[{"paths":["\/documentation\/joynedmobilesdk\/joynedbutton\/contentcolor"],"traits":[{"interfaceLanguage":"swift"}]},{"paths":["\/documentation\/joynedmobilesdk\/joynedbutton\/contentcolor"],"traits":[{"interfaceLanguage":"occ"}]}],"primaryContentSections":[{"declarations":[{"languages":["swift"],"tokens":[{"text":"@IBInspectable","kind":"attribute"},{"text":" ","kind":"text"},{"kind":"keyword","text":"override"},{"text":" ","kind":"text"},{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"contentColor"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"c:objc(cs)UIColor","text":"UIColor"},{"text":" { ","kind":"text"},{"text":"get","kind":"keyword"},{"text":" ","kind":"text"},{"text":"set","kind":"keyword"},{"text":" }","kind":"text"}],"platforms":["iOS"]}],"kind":"declarations"}],"seeAlsoSections":[{"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/contentColorEnabled"],"title":"Card UI Controls - Content","generated":true}],"hierarchy":{"paths":[["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton"],["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton"]]},"references":{"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/GettingStarted":{"title":"Getting Started with Joyned mobile SDK","abstract":[],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","role":"collectionGroup","url":"\/documentation\/joynedmobilesdk\/gettingstarted","kind":"article"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK":{"title":"JoynedMobileSDK","abstract":[{"text":"We help people book together. With a better booking experience, better business results","type":"text"}],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","role":"collection","url":"\/documentation\/joynedmobilesdk","kind":"symbol"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedButton":{"title":"JoynedButton","abstract":[{"type":"text","text":"A Joyned UI element meant for usage in the host application, acts as a card like display element, supports border, shadow, corner cliping & more"}],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton","role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedbutton","kind":"symbol","fragments":[{"text":"class","kind":"keyword"},{"kind":"text","text":" "},{"text":"JoynedButton","kind":"identifier"}],"navigatorTitle":[{"text":"JoynedButton","kind":"identifier"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedButton/contentColor":{"abstract":[{"type":"text","text":"The color to be used for card UI background color, only takes effect if the "},{"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/contentColorEnabled","type":"reference","isActive":true},{"text":" is set to ","type":"text"},{"code":"true","type":"codeVoice"},{"type":"text","text":"."},{"type":"text","text":" "},{"type":"text","text":"Transperent by default."}],"role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedbutton\/contentcolor","fragments":[{"text":"var","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"contentColor"},{"kind":"text","text":": "},{"text":"UIColor","kind":"typeIdentifier","preciseIdentifier":"c:objc(cs)UIColor"}],"kind":"symbol","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/contentColor","title":"contentColor","type":"topic","navigatorTitle":[{"text":"contentColor","kind":"identifier"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedButton/contentColorEnabled":{"abstract":[{"text":"Determins if the card content should have a background color, defaults to false","type":"text"}],"role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedbutton\/contentcolorenabled","fragments":[{"text":"var","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"contentColorEnabled"},{"kind":"text","text":": "},{"preciseIdentifier":"s:Sb","text":"Bool","kind":"typeIdentifier"}],"kind":"symbol","title":"contentColorEnabled","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/contentColorEnabled","type":"topic","navigatorTitle":[{"text":"contentColorEnabled","kind":"identifier"}]}},"variantOverrides":[{"patch":[{"op":"replace","value":"occ","path":"\/identifier\/interfaceLanguage"},{"path":"\/metadata\/roleHeading","value":"Instance Property","op":"replace"},{"path":"\/metadata\/title","value":"contentColor","op":"replace"},{"path":"\/metadata\/symbolKind","value":"property","op":"replace"},{"value":[{"text":"contentColor","kind":"identifier"}],"path":"\/metadata\/fragments","op":"replace"},{"path":"\/topicSections","value":null,"op":"add"},{"value":null,"path":"\/relationshipsSections","op":"add"},{"op":"replace","value":[{"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/contentColorEnabled"],"generated":true,"title":"Card UI Controls - Content"}],"path":"\/seeAlsoSections"},{"op":"replace","value":{"kind":"declarations","declarations":[{"languages":["occ"],"tokens":[{"text":"@property","kind":"keyword"},{"kind":"text","text":" ("},{"text":"nonatomic","kind":"keyword"},{"kind":"text","text":", "},{"text":"strong","kind":"keyword"},{"text":") ","kind":"text"},{"text":"UIColor","kind":"typeIdentifier","preciseIdentifier":"c:objc(cs)UIColor"},{"kind":"text","text":" * "},{"text":"contentColor","kind":"identifier"},{"text":";","kind":"text"}],"platforms":["iOS"]}]},"path":"\/primaryContentSections\/0"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton\/title","value":"JoynedButton","op":"replace"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton\/fragments","value":[{"text":"JoynedButton","kind":"identifier"}],"op":"replace"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1contentColor\/title","op":"replace","value":"contentColor"},{"value":[{"kind":"identifier","text":"contentColor"}],"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1contentColor\/fragments","op":"replace"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1contentColorEnabled\/title","op":"replace","value":"contentColorEnabled"},{"value":[{"kind":"identifier","text":"contentColorEnabled"}],"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1contentColorEnabled\/fragments","op":"replace"}],"traits":[{"interfaceLanguage":"occ"}]}]}
+{
+  "abstract" : [
+    {
+      "text" : "The color to be used for card UI background color, only takes effect if the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/contentColorEnabled",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " is set to ",
+      "type" : "text"
+    },
+    {
+      "code" : "true",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Transperent by default.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton"
+      ],
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/contentColor"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@JoynedMobileSDK@objc(cs)JoynedButton(py)contentColor",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "contentColor"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:objc(cs)UIColor",
+        "text" : "UIColor"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JoynedMobileSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "contentColor"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@IBInspectable"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "override"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "contentColor"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:objc(cs)UIColor",
+              "text" : "UIColor"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "set"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/contentColorEnabled"
+      ],
+      "title" : "Card UI Controls - Content"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/joynedmobilesdk\/joynedbutton\/contentcolor"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK": {
+  "abstract" : [
+    {
+      "text" : "We help people book together. With a better booking experience, better business results",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JoynedMobileSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/GettingStarted": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Getting Started with Joyned mobile SDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/gettingstarted"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedButton": {
+  "abstract" : [
+    {
+      "text" : "A Joyned UI element meant for usage in the host application, acts as a card like display element, supports border, shadow, corner cliping & more",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JoynedButton"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JoynedButton"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JoynedButton",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedbutton"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedButton/contentColor": {
+  "abstract" : [
+    {
+      "text" : "The color to be used for card UI background color, only takes effect if the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/contentColorEnabled",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " is set to ",
+      "type" : "text"
+    },
+    {
+      "code" : "true",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Transperent by default.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "contentColor"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/contentColor",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contentColor",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedbutton\/contentcolor"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedButton/contentColorEnabled": {
+  "abstract" : [
+    {
+      "text" : "Determins if the card content should have a background color, defaults to false",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "contentColorEnabled"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/contentColorEnabled",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contentColorEnabled",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedbutton\/contentcolorenabled"
+}
+}
+}

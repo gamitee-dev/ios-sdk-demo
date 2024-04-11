@@ -1,1 +1,599 @@
-{"hierarchy":{"paths":[["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK"],["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted"]]},"metadata":{"modules":[{"name":"JoynedMobileSDK"}],"title":"Advance SDK configuration","role":"article","roleHeading":"Article"},"primaryContentSections":[{"content":[{"type":"heading","anchor":"overview","level":2,"text":"Overview"},{"tabs":[{"content":[{"numberOfColumns":6,"columns":[{"size":3,"content":[{"inlineContent":[{"type":"text","text":"Support custom behavior by setting the joynedAreaComputation property of each "},{"inlineContent":[{"type":"text","text":"UIViewController"}],"type":"strong"},{"type":"text","text":" in it’s "},{"inlineContent":[{"text":"viewDidLoad","type":"text"}],"type":"strong"}],"type":"paragraph"}]},{"content":[{"inlineContent":[{"identifier":"drag_area_01.png","type":"image"}],"type":"paragraph"}],"size":1},{"size":1,"content":[{"inlineContent":[{"type":"image","identifier":"drag_area_02.png"}],"type":"paragraph"}]},{"content":[{"inlineContent":[{"identifier":"drag_area_04.png","type":"image"}],"type":"paragraph"}],"size":1}],"type":"row"},{"inlineContent":[{"type":"strong","inlineContent":[{"type":"text","text":"Code Example:"}]}],"type":"paragraph"},{"code":["import Foundation","import UIKit","","import JoynedMobileSDK","","class ProductViewController : UIViewController","{","    @IBOutlet weak var bottomPanelView : UIView!","    @IBOutlet weak var joynedButton : JoynedButton! {","        didSet { joynedButton.delegate = self }","    }","    ","    \/\/ MARK: - View LifeCycle","    override func viewDidLoad()","    {","        super.viewDidLoad()","        ","        ...","        ","        joynedAreaComputation = { [weak self] in","            ","            guard let strongSelf = self else { return nil }","            ","            let converted = strongSelf.view.convert(strongSelf.bottomPanelView.frame, to: strongSelf.bottomPanelView.window)","            return CGRect(","                x: converted.minX,","                y: strongSelf.view.safeAreaLayoutGuide.layoutFrame.minY,","                width: converted.width,","                height: converted.minY - strongSelf.view.safeAreaLayoutGuide.layoutFrame.minY","            )","        }","    }","}"],"type":"codeListing","syntax":"swift"}],"title":"drag area"},{"title":"logger","content":[{"inlineContent":[{"type":"text","text":"Joyned Mobile SDK allows advance usage of its build-in logger via plist based flags"}],"type":"paragraph"},{"inlineContent":[{"text":"Add JoynedMobileSDKAutoLogs as a Dictionary to the ","type":"text"},{"inlineContent":[{"type":"text","text":"Joyned-Info"}],"type":"strong"},{"text":" plist file to configure automatic logs.","type":"text"}],"type":"paragraph"},{"type":"paragraph","inlineContent":[{"type":"text","text":"To the resulting Dictionary add any of the following keys with the relevant boolean value:"}]},{"type":"unorderedList","items":[{"content":[{"type":"paragraph","inlineContent":[{"type":"strong","inlineContent":[{"text":"JoynedMobileSDKAutoLogsGeneral","type":"text"}]}]}]},{"content":[{"inlineContent":[{"type":"strong","inlineContent":[{"text":"JoynedMobileSDKAutoLogsInternalDealloc","type":"text"}]}],"type":"paragraph"}]},{"content":[{"type":"paragraph","inlineContent":[{"type":"strong","inlineContent":[{"type":"text","text":"JoynedMobileSDKAutoLogsInternalPersistence"}]}]}]},{"content":[{"type":"paragraph","inlineContent":[{"type":"strong","inlineContent":[{"text":"JoynedMobileSDKAutoLogsInternalPresentationLogic","type":"text"}]}]}]},{"content":[{"inlineContent":[{"inlineContent":[{"type":"text","text":"JoynedMobileSDKAutoLogsInternalUIPresentation"}],"type":"strong"}],"type":"paragraph"}]},{"content":[{"type":"paragraph","inlineContent":[{"inlineContent":[{"type":"text","text":"JoynedMobileSDKAutoLogsInternalUIFloating"}],"type":"strong"}]}]},{"content":[{"type":"paragraph","inlineContent":[{"type":"strong","inlineContent":[{"text":"JoynedMobileSDKAutoLogsInternalUIJoyned","type":"text"}]}]}]},{"content":[{"inlineContent":[{"type":"strong","inlineContent":[{"type":"text","text":"JoynedMobileSDKAutoLogsInternalNetwork"}]}],"type":"paragraph"}]},{"content":[{"type":"paragraph","inlineContent":[{"type":"strong","inlineContent":[{"text":"JoynedMobileSDKAutoLogsWebConsole","type":"text"}]}]}]},{"content":[{"type":"paragraph","inlineContent":[{"type":"strong","inlineContent":[{"type":"text","text":"JoynedMobileSDKAutoLogsInternalEvents"}]}]}]},{"content":[{"inlineContent":[{"inlineContent":[{"type":"text","text":"JoynedMobileSDKAutoLogsInternalScreenChange"}],"type":"strong"}],"type":"paragraph"}]}]},{"inlineContent":[{"type":"text","text":"Any key with a true value will effect the resulting Console logs"}],"type":"paragraph"},{"inlineContent":[{"inlineContent":[{"text":"Note:","type":"text"}],"type":"strong"},{"text":" You can as many key as you like to the system.","type":"text"}],"type":"paragraph"},{"type":"paragraph","inlineContent":[{"type":"text","text":"Plist integration Example:"}]},{"syntax":"xml","code":["<key>JoynedMobileSDKAutoLogs<\/key>","<dict>","    <key>JoynedMobileSDKAutoLogsGeneral<\/key>","    <false\/>","    <key>JoynedMobileSDKAutoLogsInternalDealloc<\/key>","    <false\/>","    <key>JoynedMobileSDKAutoLogsInternalPersistence<\/key>","    <false\/>","    <key>JoynedMobileSDKAutoLogsInternalPresentationLogic<\/key>","    <false\/>","    <key>JoynedMobileSDKAutoLogsInternalUIPresentation<\/key>","    <false\/>","    <key>JoynedMobileSDKAutoLogsInternalUIFloating<\/key>","    <false\/>","    <key>JoynedMobileSDKAutoLogsInternalUIJoyned<\/key>","    <false\/>","    <key>JoynedMobileSDKAutoLogsInternalNetwork<\/key>","    <false\/>","    <key>JoynedMobileSDKAutoLogsWebConsole<\/key>","    <false\/>","    <key>JoynedMobileSDKAutoLogsInternalEvents<\/key>","    <true\/>","    <key>JoynedMobileSDKAutoLogsInternalScreenChange<\/key>","    <true\/>","<\/dict>"],"type":"codeListing"}]}],"type":"tabNavigator"}],"kind":"content"}],"sections":[],"abstract":[{"type":"text","text":"Extra options to configure SDK sub-elements"}],"identifier":{"url":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_06_advance","interfaceLanguage":"swift"},"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/joynedmobilesdk\/_06_advance"]},{"paths":["\/documentation\/joynedmobilesdk\/_06_advance"],"traits":[{"interfaceLanguage":"occ"}]}],"schemaVersion":{"patch":0,"minor":3,"major":0},"kind":"article","references":{"drag_area_04.png":{"alt":"drag area example 04","type":"image","identifier":"drag_area_04.png","variants":[{"url":"\/images\/drag_area_04.png","traits":["1x","light"]}]},"drag_area_01.png":{"variants":[{"url":"\/images\/drag_area_01.png","traits":["1x","light"]}],"identifier":"drag_area_01.png","alt":"drag area example 01","type":"image"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/GettingStarted":{"title":"Getting Started with Joyned mobile SDK","abstract":[],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","role":"collectionGroup","url":"\/documentation\/joynedmobilesdk\/gettingstarted","kind":"article"},"drag_area_02.png":{"alt":"drag area example 02","type":"image","identifier":"drag_area_02.png","variants":[{"url":"\/images\/drag_area_02.png","traits":["1x","light"]}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK":{"title":"JoynedMobileSDK","abstract":[{"text":"We help people book together. With a better booking experience, better business results","type":"text"}],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","role":"collection","url":"\/documentation\/joynedmobilesdk","kind":"symbol"}},"variantOverrides":[{"traits":[{"interfaceLanguage":"occ"}],"patch":[{"op":"replace","value":"occ","path":"\/identifier\/interfaceLanguage"},{"op":"add","path":"\/topicSections","value":null},{"op":"add","path":"\/seeAlsoSections","value":null}]}]}
+{
+  "abstract" : [
+    {
+      "text" : "Extra options to configure SDK sub-elements",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK"
+      ],
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_06_advance"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "JoynedMobileSDK"
+      }
+    ],
+    "role" : "article",
+    "roleHeading" : "Article",
+    "title" : "Advance SDK configuration"
+  },
+  "primaryContentSections" : [
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "tabs" : [
+            {
+              "content" : [
+                {
+                  "columns" : [
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "Support custom behavior by setting the joynedAreaComputation property of each ",
+                              "type" : "text"
+                            },
+                            {
+                              "inlineContent" : [
+                                {
+                                  "text" : "UIViewController",
+                                  "type" : "text"
+                                }
+                              ],
+                              "type" : "strong"
+                            },
+                            {
+                              "text" : " in it’s ",
+                              "type" : "text"
+                            },
+                            {
+                              "inlineContent" : [
+                                {
+                                  "text" : "viewDidLoad",
+                                  "type" : "text"
+                                }
+                              ],
+                              "type" : "strong"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ],
+                      "size" : 3
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "identifier" : "drag_area_01.png",
+                              "type" : "image"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ],
+                      "size" : 1
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "identifier" : "drag_area_02.png",
+                              "type" : "image"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ],
+                      "size" : 1
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "identifier" : "drag_area_04.png",
+                              "type" : "image"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ],
+                      "size" : 1
+                    }
+                  ],
+                  "numberOfColumns" : 6,
+                  "type" : "row"
+                },
+                {
+                  "inlineContent" : [
+                    {
+                      "inlineContent" : [
+                        {
+                          "text" : "Code Example:",
+                          "type" : "text"
+                        }
+                      ],
+                      "type" : "strong"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "code" : [
+                    "import Foundation",
+                    "import UIKit",
+                    "",
+                    "import JoynedMobileSDK",
+                    "",
+                    "class ProductViewController : UIViewController",
+                    "{",
+                    "    @IBOutlet weak var bottomPanelView : UIView!",
+                    "    @IBOutlet weak var joynedButton : JoynedButton! {",
+                    "        didSet { joynedButton.delegate = self }",
+                    "    }",
+                    "    ",
+                    "    \/\/ MARK: - View LifeCycle",
+                    "    override func viewDidLoad()",
+                    "    {",
+                    "        super.viewDidLoad()",
+                    "        ",
+                    "        ...",
+                    "        ",
+                    "        joynedAreaComputation = { [weak self] in",
+                    "            ",
+                    "            guard let strongSelf = self else { return nil }",
+                    "            ",
+                    "            let converted = strongSelf.view.convert(strongSelf.bottomPanelView.frame, to: strongSelf.bottomPanelView.window)",
+                    "            return CGRect(",
+                    "                x: converted.minX,",
+                    "                y: strongSelf.view.safeAreaLayoutGuide.layoutFrame.minY,",
+                    "                width: converted.width,",
+                    "                height: converted.minY - strongSelf.view.safeAreaLayoutGuide.layoutFrame.minY",
+                    "            )",
+                    "        }",
+                    "    }",
+                    "}"
+                  ],
+                  "syntax" : "swift",
+                  "type" : "codeListing"
+                }
+              ],
+              "title" : "drag area"
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Joyned Mobile SDK allows advance usage of its build-in logger via plist based flags",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Add JoynedMobileSDKAutoLogs as a Dictionary to the ",
+                      "type" : "text"
+                    },
+                    {
+                      "inlineContent" : [
+                        {
+                          "text" : "Joyned-Info",
+                          "type" : "text"
+                        }
+                      ],
+                      "type" : "strong"
+                    },
+                    {
+                      "text" : " plist file to configure automatic logs.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "To the resulting Dictionary add any of the following keys with the relevant boolean value:",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "items" : [
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "inlineContent" : [
+                                {
+                                  "text" : "JoynedMobileSDKAutoLogsGeneral",
+                                  "type" : "text"
+                                }
+                              ],
+                              "type" : "strong"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "inlineContent" : [
+                                {
+                                  "text" : "JoynedMobileSDKAutoLogsInternalDealloc",
+                                  "type" : "text"
+                                }
+                              ],
+                              "type" : "strong"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "inlineContent" : [
+                                {
+                                  "text" : "JoynedMobileSDKAutoLogsInternalPersistence",
+                                  "type" : "text"
+                                }
+                              ],
+                              "type" : "strong"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "inlineContent" : [
+                                {
+                                  "text" : "JoynedMobileSDKAutoLogsInternalPresentationLogic",
+                                  "type" : "text"
+                                }
+                              ],
+                              "type" : "strong"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "inlineContent" : [
+                                {
+                                  "text" : "JoynedMobileSDKAutoLogsInternalUIPresentation",
+                                  "type" : "text"
+                                }
+                              ],
+                              "type" : "strong"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "inlineContent" : [
+                                {
+                                  "text" : "JoynedMobileSDKAutoLogsInternalUIFloating",
+                                  "type" : "text"
+                                }
+                              ],
+                              "type" : "strong"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "inlineContent" : [
+                                {
+                                  "text" : "JoynedMobileSDKAutoLogsInternalUIJoyned",
+                                  "type" : "text"
+                                }
+                              ],
+                              "type" : "strong"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "inlineContent" : [
+                                {
+                                  "text" : "JoynedMobileSDKAutoLogsInternalNetwork",
+                                  "type" : "text"
+                                }
+                              ],
+                              "type" : "strong"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "inlineContent" : [
+                                {
+                                  "text" : "JoynedMobileSDKAutoLogsWebConsole",
+                                  "type" : "text"
+                                }
+                              ],
+                              "type" : "strong"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "inlineContent" : [
+                                {
+                                  "text" : "JoynedMobileSDKAutoLogsInternalEvents",
+                                  "type" : "text"
+                                }
+                              ],
+                              "type" : "strong"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "inlineContent" : [
+                                {
+                                  "text" : "JoynedMobileSDKAutoLogsInternalScreenChange",
+                                  "type" : "text"
+                                }
+                              ],
+                              "type" : "strong"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    }
+                  ],
+                  "type" : "unorderedList"
+                },
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Any key with a true value will effect the resulting Console logs",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "inlineContent" : [
+                    {
+                      "inlineContent" : [
+                        {
+                          "text" : "Note:",
+                          "type" : "text"
+                        }
+                      ],
+                      "type" : "strong"
+                    },
+                    {
+                      "text" : " You can as many key as you like to the system.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Plist integration Example:",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "code" : [
+                    "<key>JoynedMobileSDKAutoLogs<\/key>",
+                    "<dict>",
+                    "    <key>JoynedMobileSDKAutoLogsGeneral<\/key>",
+                    "    <false\/>",
+                    "    <key>JoynedMobileSDKAutoLogsInternalDealloc<\/key>",
+                    "    <false\/>",
+                    "    <key>JoynedMobileSDKAutoLogsInternalPersistence<\/key>",
+                    "    <false\/>",
+                    "    <key>JoynedMobileSDKAutoLogsInternalPresentationLogic<\/key>",
+                    "    <false\/>",
+                    "    <key>JoynedMobileSDKAutoLogsInternalUIPresentation<\/key>",
+                    "    <false\/>",
+                    "    <key>JoynedMobileSDKAutoLogsInternalUIFloating<\/key>",
+                    "    <false\/>",
+                    "    <key>JoynedMobileSDKAutoLogsInternalUIJoyned<\/key>",
+                    "    <false\/>",
+                    "    <key>JoynedMobileSDKAutoLogsInternalNetwork<\/key>",
+                    "    <false\/>",
+                    "    <key>JoynedMobileSDKAutoLogsWebConsole<\/key>",
+                    "    <false\/>",
+                    "    <key>JoynedMobileSDKAutoLogsInternalEvents<\/key>",
+                    "    <true\/>",
+                    "    <key>JoynedMobileSDKAutoLogsInternalScreenChange<\/key>",
+                    "    <true\/>",
+                    "<\/dict>"
+                  ],
+                  "syntax" : "xml",
+                  "type" : "codeListing"
+                }
+              ],
+              "title" : "logger"
+            }
+          ],
+          "type" : "tabNavigator"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/joynedmobilesdk\/_06_advance"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK": {
+  "abstract" : [
+    {
+      "text" : "We help people book together. With a better booking experience, better business results",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JoynedMobileSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/GettingStarted": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Getting Started with Joyned mobile SDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/gettingstarted"
+},
+"drag_area_01.png": {
+  "alt" : "drag area example 01",
+  "identifier" : "drag_area_01.png",
+  "type" : "image",
+  "variants" : [
+    {
+      "traits" : [
+        "1x",
+        "light"
+      ],
+      "url" : "\/images\/drag_area_01.png"
+    }
+  ]
+},
+"drag_area_02.png": {
+  "alt" : "drag area example 02",
+  "identifier" : "drag_area_02.png",
+  "type" : "image",
+  "variants" : [
+    {
+      "traits" : [
+        "1x",
+        "light"
+      ],
+      "url" : "\/images\/drag_area_02.png"
+    }
+  ]
+},
+"drag_area_04.png": {
+  "alt" : "drag area example 04",
+  "identifier" : "drag_area_04.png",
+  "type" : "image",
+  "variants" : [
+    {
+      "traits" : [
+        "1x",
+        "light"
+      ],
+      "url" : "\/images\/drag_area_04.png"
+    }
+  ]
+}
+}
+}

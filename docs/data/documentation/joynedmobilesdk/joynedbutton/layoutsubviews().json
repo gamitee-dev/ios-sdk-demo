@@ -1,1 +1,249 @@
-{"hierarchy":{"paths":[["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton"],["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton"]]},"sections":[],"identifier":{"url":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/layoutSubviews()","interfaceLanguage":"swift"},"primaryContentSections":[{"declarations":[{"languages":["swift"],"platforms":["iOS"],"tokens":[{"text":"override","kind":"keyword"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"layoutSubviews"},{"kind":"text","text":"()"}]}],"kind":"declarations"},{"content":[{"type":"heading","text":"Discussion","anchor":"discussion","level":2},{"inlineContent":[{"text":"The default implementation of this method does nothing on iOS 5.1 and earlier. Otherwise, the default implementation uses any constraints you have set to determine the size and position of any subviews.","type":"text"}],"type":"paragraph"},{"inlineContent":[{"type":"text","text":"Subclasses can override this method as needed to perform more precise layout of their subviews. You should override this method only if the autoresizing and constraint-based behaviors of the subviews do not offer the behavior you want. You can use your implementation to set the frame rectangles of your subviews directly."}],"type":"paragraph"},{"type":"paragraph","inlineContent":[{"type":"text","text":"You should not call this method directly. If you want to force a layout update, call the setNeedsLayout() method instead to do so prior to the next drawing update. If you want to update the layout of your views immediately, call the layoutIfNeeded() method."}]}],"kind":"content"}],"kind":"symbol","metadata":{"modules":[{"name":"JoynedMobileSDK"}],"roleHeading":"Instance Method","title":"layoutSubviews()","navigatorTitle":[{"text":"layoutSubviews","kind":"identifier"}],"symbolKind":"method","role":"symbol","externalID":"c:@M@JoynedMobileSDK@objc(cs)JoynedButton(im)layoutSubviews","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"text":"layoutSubviews","kind":"identifier"},{"kind":"text","text":"()"}]},"abstract":[{"text":"Lays out subviews.","type":"text"}],"schemaVersion":{"major":0,"minor":3,"patch":0},"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/joynedmobilesdk\/joynedbutton\/layoutsubviews()"]},{"traits":[{"interfaceLanguage":"occ"}],"paths":["\/documentation\/joynedmobilesdk\/joynedbutton\/layoutsubviews()"]}],"references":{"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK":{"title":"JoynedMobileSDK","abstract":[{"text":"We help people book together. With a better booking experience, better business results","type":"text"}],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","role":"collection","url":"\/documentation\/joynedmobilesdk","kind":"symbol"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/GettingStarted":{"title":"Getting Started with Joyned mobile SDK","abstract":[],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","role":"collectionGroup","url":"\/documentation\/joynedmobilesdk\/gettingstarted","kind":"article"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedButton/layoutSubviews()":{"fragments":[{"text":"func","kind":"keyword"},{"kind":"text","text":" "},{"text":"layoutSubviews","kind":"identifier"},{"kind":"text","text":"()"}],"abstract":[{"text":"Lays out subviews.","type":"text"}],"type":"topic","navigatorTitle":[{"text":"layoutSubviews","kind":"identifier"}],"title":"layoutSubviews()","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/layoutSubviews()","kind":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedbutton\/layoutsubviews()","role":"symbol"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedButton":{"title":"JoynedButton","abstract":[{"type":"text","text":"A Joyned UI element meant for usage in the host application, acts as a card like display element, supports border, shadow, corner cliping & more"}],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton","role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedbutton","kind":"symbol","fragments":[{"text":"class","kind":"keyword"},{"kind":"text","text":" "},{"text":"JoynedButton","kind":"identifier"}],"navigatorTitle":[{"text":"JoynedButton","kind":"identifier"}]}},"variantOverrides":[{"patch":[{"value":"occ","op":"replace","path":"\/identifier\/interfaceLanguage"},{"value":"Instance Method","path":"\/metadata\/roleHeading","op":"replace"},{"path":"\/metadata\/title","value":"layoutSubviews","op":"replace"},{"value":"method","op":"replace","path":"\/metadata\/symbolKind"},{"path":"\/metadata\/fragments","value":[{"text":"- ","kind":"text"},{"kind":"identifier","text":"layoutSubviews"}],"op":"replace"},{"op":"add","path":"\/topicSections","value":null},{"value":null,"path":"\/relationshipsSections","op":"add"},{"path":"\/seeAlsoSections","value":null,"op":"add"},{"path":"\/primaryContentSections\/0","value":{"kind":"declarations","declarations":[{"platforms":["iOS"],"tokens":[{"text":"- (","kind":"text"},{"preciseIdentifier":"c:v","text":"void","kind":"typeIdentifier"},{"text":") ","kind":"text"},{"kind":"identifier","text":"layoutSubviews"},{"text":";","kind":"text"}],"languages":["occ"]}]},"op":"replace"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1layoutSubviews()\/title","value":"layoutSubviews"},{"value":[{"text":"- ","kind":"text"},{"text":"layoutSubviews","kind":"identifier"}],"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1layoutSubviews()\/fragments"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton\/title","op":"replace","value":"JoynedButton"},{"value":[{"kind":"identifier","text":"JoynedButton"}],"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton\/fragments"}],"traits":[{"interfaceLanguage":"occ"}]}]}
+{
+  "abstract" : [
+    {
+      "text" : "Lays out subviews.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton"
+      ],
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/layoutSubviews()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@JoynedMobileSDK@objc(cs)JoynedButton(im)layoutSubviews",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "layoutSubviews"
+      },
+      {
+        "kind" : "text",
+        "text" : "()"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JoynedMobileSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "layoutSubviews()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "override"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "layoutSubviews"
+            },
+            {
+              "kind" : "text",
+              "text" : "()"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The default implementation of this method does nothing on iOS 5.1 and earlier. Otherwise, the default implementation uses any constraints you have set to determine the size and position of any subviews.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Subclasses can override this method as needed to perform more precise layout of their subviews. You should override this method only if the autoresizing and constraint-based behaviors of the subviews do not offer the behavior you want. You can use your implementation to set the frame rectangles of your subviews directly.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "You should not call this method directly. If you want to force a layout update, call the setNeedsLayout() method instead to do so prior to the next drawing update. If you want to update the layout of your views immediately, call the layoutIfNeeded() method.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/joynedmobilesdk\/joynedbutton\/layoutsubviews()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK": {
+  "abstract" : [
+    {
+      "text" : "We help people book together. With a better booking experience, better business results",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JoynedMobileSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/GettingStarted": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Getting Started with Joyned mobile SDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/gettingstarted"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedButton": {
+  "abstract" : [
+    {
+      "text" : "A Joyned UI element meant for usage in the host application, acts as a card like display element, supports border, shadow, corner cliping & more",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JoynedButton"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JoynedButton"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JoynedButton",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedbutton"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedButton/layoutSubviews()": {
+  "abstract" : [
+    {
+      "text" : "Lays out subviews.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "layoutSubviews"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/layoutSubviews()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "layoutSubviews()",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedbutton\/layoutsubviews()"
+}
+}
+}

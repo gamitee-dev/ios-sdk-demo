@@ -1,1 +1,594 @@
-{"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/shouldClipTopLeft"},"kind":"symbol","variants":[{"paths":["\/documentation\/joynedmobilesdk\/joynedbutton\/shouldcliptopleft"],"traits":[{"interfaceLanguage":"swift"}]},{"paths":["\/documentation\/joynedmobilesdk\/joynedbutton\/shouldcliptopleft"],"traits":[{"interfaceLanguage":"occ"}]}],"schemaVersion":{"minor":3,"patch":0,"major":0},"hierarchy":{"paths":[["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton"],["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton"]]},"abstract":[{"type":"text","text":"Indicates if the top left corner should be cliped or not, used for card UI clipping system."},{"type":"text","text":" "},{"text":"Only takes effect if the ","type":"text"},{"isActive":true,"type":"reference","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/isShapeEnabled"},{"type":"text","text":" is set to "},{"type":"codeVoice","code":"true"},{"text":".","type":"text"}],"seeAlsoSections":[{"title":"Card UI Controls - Clipping","identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/isShapeEnabled","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/shapeRadius","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/shouldClipBottomLeft","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/shouldClipBottomRight","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/shouldClipTopRight"],"generated":true}],"metadata":{"fragments":[{"text":"var","kind":"keyword"},{"kind":"text","text":" "},{"text":"shouldClipTopLeft","kind":"identifier"},{"kind":"text","text":": "},{"text":"Bool","kind":"typeIdentifier","preciseIdentifier":"s:Sb"}],"modules":[{"name":"JoynedMobileSDK"}],"role":"symbol","symbolKind":"property","roleHeading":"Instance Property","title":"shouldClipTopLeft","navigatorTitle":[{"text":"shouldClipTopLeft","kind":"identifier"}],"externalID":"c:@M@JoynedMobileSDK@objc(cs)JoynedButton(py)shouldClipTopLeft"},"primaryContentSections":[{"kind":"declarations","declarations":[{"platforms":["iOS"],"tokens":[{"text":"@IBInspectable","kind":"attribute"},{"text":" ","kind":"text"},{"text":"override","kind":"keyword"},{"text":" ","kind":"text"},{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"shouldClipTopLeft"},{"text":": ","kind":"text"},{"text":"Bool","kind":"typeIdentifier","preciseIdentifier":"s:Sb"},{"text":" { ","kind":"text"},{"kind":"keyword","text":"get"},{"kind":"text","text":" "},{"kind":"keyword","text":"set"},{"text":" }","kind":"text"}],"languages":["swift"]}]}],"sections":[],"references":{"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedButton/shouldClipTopRight":{"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/shouldClipTopRight","fragments":[{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"shouldClipTopRight","kind":"identifier"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:Sb","text":"Bool"}],"navigatorTitle":[{"kind":"identifier","text":"shouldClipTopRight"}],"kind":"symbol","role":"symbol","abstract":[{"text":"Indicates if the top right corner should be cliped or not, used for card UI clipping system.","type":"text"},{"type":"text","text":" "},{"type":"text","text":"Only takes effect if the "},{"type":"reference","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/isShapeEnabled","isActive":true},{"type":"text","text":" is set to "},{"code":"true","type":"codeVoice"},{"text":".","type":"text"}],"title":"shouldClipTopRight","url":"\/documentation\/joynedmobilesdk\/joynedbutton\/shouldcliptopright","type":"topic"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedButton/shouldClipBottomLeft":{"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/shouldClipBottomLeft","fragments":[{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"text":"shouldClipBottomLeft","kind":"identifier"},{"text":": ","kind":"text"},{"text":"Bool","preciseIdentifier":"s:Sb","kind":"typeIdentifier"}],"navigatorTitle":[{"text":"shouldClipBottomLeft","kind":"identifier"}],"kind":"symbol","role":"symbol","abstract":[{"text":"Indicates if the bottom left corner should be cliped or not, used for card UI clipping system.","type":"text"},{"text":" ","type":"text"},{"text":"Only takes effect if the ","type":"text"},{"type":"reference","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/isShapeEnabled","isActive":true},{"type":"text","text":" is set to "},{"type":"codeVoice","code":"true"},{"type":"text","text":"."}],"title":"shouldClipBottomLeft","url":"\/documentation\/joynedmobilesdk\/joynedbutton\/shouldclipbottomleft","type":"topic"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedButton/shapeRadius":{"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/shapeRadius","fragments":[{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"shapeRadius","kind":"identifier"},{"text":": ","kind":"text"},{"text":"CGFloat","preciseIdentifier":"s:14CoreFoundation7CGFloatV","kind":"typeIdentifier"}],"navigatorTitle":[{"text":"shapeRadius","kind":"identifier"}],"kind":"symbol","role":"symbol","abstract":[{"type":"text","text":"The corner clipping radius, used for card UI clipping system. Only takes effect if the "},{"type":"reference","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/isShapeEnabled","isActive":true},{"type":"text","text":" is set to "},{"type":"codeVoice","code":"true"},{"text":".","type":"text"}],"title":"shapeRadius","url":"\/documentation\/joynedmobilesdk\/joynedbutton\/shaperadius","type":"topic"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK":{"title":"JoynedMobileSDK","abstract":[{"text":"We help people book together. With a better booking experience, better business results","type":"text"}],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","role":"collection","url":"\/documentation\/joynedmobilesdk","kind":"symbol"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedButton/shouldClipBottomRight":{"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/shouldClipBottomRight","fragments":[{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"shouldClipBottomRight","kind":"identifier"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:Sb","text":"Bool"}],"navigatorTitle":[{"kind":"identifier","text":"shouldClipBottomRight"}],"kind":"symbol","role":"symbol","abstract":[{"text":"Indicates if the bottom right corner should be cliped or not, used for card UI clipping system.","type":"text"},{"type":"text","text":" "},{"type":"text","text":"Only takes effect if the "},{"type":"reference","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/isShapeEnabled","isActive":true},{"type":"text","text":" is set to "},{"code":"true","type":"codeVoice"},{"text":".","type":"text"}],"title":"shouldClipBottomRight","url":"\/documentation\/joynedmobilesdk\/joynedbutton\/shouldclipbottomright","type":"topic"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedButton/isShapeEnabled":{"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/isShapeEnabled","fragments":[{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"isShapeEnabled"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:Sb","text":"Bool","kind":"typeIdentifier"}],"navigatorTitle":[{"text":"isShapeEnabled","kind":"identifier"}],"kind":"symbol","role":"symbol","abstract":[{"text":"Determins if the card content should its corners cliped or not, defaults to false","type":"text"}],"title":"isShapeEnabled","url":"\/documentation\/joynedmobilesdk\/joynedbutton\/isshapeenabled","type":"topic"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/GettingStarted":{"title":"Getting Started with Joyned mobile SDK","abstract":[],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","role":"collectionGroup","url":"\/documentation\/joynedmobilesdk\/gettingstarted","kind":"article"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedButton":{"title":"JoynedButton","abstract":[{"type":"text","text":"A Joyned UI element meant for usage in the host application, acts as a card like display element, supports border, shadow, corner cliping & more"}],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton","role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedbutton","kind":"symbol","fragments":[{"text":"class","kind":"keyword"},{"kind":"text","text":" "},{"text":"JoynedButton","kind":"identifier"}],"navigatorTitle":[{"text":"JoynedButton","kind":"identifier"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedButton/shouldClipTopLeft":{"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/shouldClipTopLeft","fragments":[{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"text":"shouldClipTopLeft","kind":"identifier"},{"text":": ","kind":"text"},{"text":"Bool","kind":"typeIdentifier","preciseIdentifier":"s:Sb"}],"navigatorTitle":[{"text":"shouldClipTopLeft","kind":"identifier"}],"kind":"symbol","role":"symbol","abstract":[{"text":"Indicates if the top left corner should be cliped or not, used for card UI clipping system.","type":"text"},{"text":" ","type":"text"},{"type":"text","text":"Only takes effect if the "},{"type":"reference","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/isShapeEnabled","isActive":true},{"type":"text","text":" is set to "},{"type":"codeVoice","code":"true"},{"text":".","type":"text"}],"title":"shouldClipTopLeft","url":"\/documentation\/joynedmobilesdk\/joynedbutton\/shouldcliptopleft","type":"topic"}},"variantOverrides":[{"patch":[{"op":"replace","value":"occ","path":"\/identifier\/interfaceLanguage"},{"op":"replace","value":"Instance Property","path":"\/metadata\/roleHeading"},{"value":"shouldClipTopLeft","path":"\/metadata\/title","op":"replace"},{"value":"property","op":"replace","path":"\/metadata\/symbolKind"},{"value":[{"kind":"identifier","text":"shouldClipTopLeft"}],"op":"replace","path":"\/metadata\/fragments"},{"value":null,"op":"add","path":"\/topicSections"},{"op":"add","path":"\/relationshipsSections","value":null},{"op":"replace","path":"\/seeAlsoSections","value":[{"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/isShapeEnabled","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/shapeRadius","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/shouldClipBottomLeft","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/shouldClipBottomRight","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/shouldClipTopRight"],"title":"Card UI Controls - Clipping","generated":true}]},{"path":"\/primaryContentSections\/0","value":{"kind":"declarations","declarations":[{"tokens":[{"text":"@property","kind":"keyword"},{"text":" (","kind":"text"},{"text":"nonatomic","kind":"keyword"},{"text":") ","kind":"text"},{"text":"BOOL","kind":"typeIdentifier","preciseIdentifier":"c:@T@BOOL"},{"text":" ","kind":"text"},{"text":"shouldClipTopLeft","kind":"identifier"},{"kind":"text","text":";"}],"languages":["occ"],"platforms":["iOS"]}]},"op":"replace"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1shouldClipTopRight\/title","value":"shouldClipTopRight"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1shouldClipTopRight\/fragments","value":[{"kind":"identifier","text":"shouldClipTopRight"}],"op":"replace"},{"value":"shouldClipBottomLeft","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1shouldClipBottomLeft\/title","op":"replace"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1shouldClipBottomLeft\/fragments","value":[{"text":"shouldClipBottomLeft","kind":"identifier"}]},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1shapeRadius\/title","value":"shapeRadius","op":"replace"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1shapeRadius\/fragments","value":[{"text":"shapeRadius","kind":"identifier"}],"op":"replace"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1shouldClipBottomRight\/title","op":"replace","value":"shouldClipBottomRight"},{"value":[{"kind":"identifier","text":"shouldClipBottomRight"}],"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1shouldClipBottomRight\/fragments"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1isShapeEnabled\/title","value":"isShapeEnabled"},{"value":[{"text":"isShapeEnabled","kind":"identifier"}],"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1isShapeEnabled\/fragments","op":"replace"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton\/title","value":"JoynedButton"},{"op":"replace","value":[{"kind":"identifier","text":"JoynedButton"}],"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton\/fragments"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1shouldClipTopLeft\/title","value":"shouldClipTopLeft"},{"value":[{"text":"shouldClipTopLeft","kind":"identifier"}],"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1shouldClipTopLeft\/fragments"}],"traits":[{"interfaceLanguage":"occ"}]}]}
+{
+  "abstract" : [
+    {
+      "text" : "Indicates if the top left corner should be cliped or not, used for card UI clipping system.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Only takes effect if the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/isShapeEnabled",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " is set to ",
+      "type" : "text"
+    },
+    {
+      "code" : "true",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton"
+      ],
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shouldClipTopLeft"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@JoynedMobileSDK@objc(cs)JoynedButton(py)shouldClipTopLeft",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "shouldClipTopLeft"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JoynedMobileSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "shouldClipTopLeft"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@IBInspectable"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "override"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "shouldClipTopLeft"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "set"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/isShapeEnabled",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shapeRadius",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shouldClipBottomLeft",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shouldClipBottomRight",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shouldClipTopRight"
+      ],
+      "title" : "Card UI Controls - Clipping"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/joynedmobilesdk\/joynedbutton\/shouldcliptopleft"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK": {
+  "abstract" : [
+    {
+      "text" : "We help people book together. With a better booking experience, better business results",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JoynedMobileSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/GettingStarted": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Getting Started with Joyned mobile SDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/gettingstarted"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedButton": {
+  "abstract" : [
+    {
+      "text" : "A Joyned UI element meant for usage in the host application, acts as a card like display element, supports border, shadow, corner cliping & more",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JoynedButton"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JoynedButton"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JoynedButton",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedbutton"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedButton/isShapeEnabled": {
+  "abstract" : [
+    {
+      "text" : "Determins if the card content should its corners cliped or not, defaults to false",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isShapeEnabled"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/isShapeEnabled",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "isShapeEnabled",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedbutton\/isshapeenabled"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedButton/shapeRadius": {
+  "abstract" : [
+    {
+      "text" : "The corner clipping radius, used for card UI clipping system. Only takes effect if the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/isShapeEnabled",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " is set to ",
+      "type" : "text"
+    },
+    {
+      "code" : "true",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shapeRadius"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
+      "text" : "CGFloat"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shapeRadius",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "shapeRadius",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedbutton\/shaperadius"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedButton/shouldClipBottomLeft": {
+  "abstract" : [
+    {
+      "text" : "Indicates if the bottom left corner should be cliped or not, used for card UI clipping system.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Only takes effect if the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/isShapeEnabled",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " is set to ",
+      "type" : "text"
+    },
+    {
+      "code" : "true",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shouldClipBottomLeft"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shouldClipBottomLeft",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "shouldClipBottomLeft",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedbutton\/shouldclipbottomleft"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedButton/shouldClipBottomRight": {
+  "abstract" : [
+    {
+      "text" : "Indicates if the bottom right corner should be cliped or not, used for card UI clipping system.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Only takes effect if the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/isShapeEnabled",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " is set to ",
+      "type" : "text"
+    },
+    {
+      "code" : "true",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shouldClipBottomRight"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shouldClipBottomRight",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "shouldClipBottomRight",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedbutton\/shouldclipbottomright"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedButton/shouldClipTopLeft": {
+  "abstract" : [
+    {
+      "text" : "Indicates if the top left corner should be cliped or not, used for card UI clipping system.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Only takes effect if the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/isShapeEnabled",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " is set to ",
+      "type" : "text"
+    },
+    {
+      "code" : "true",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shouldClipTopLeft"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shouldClipTopLeft",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "shouldClipTopLeft",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedbutton\/shouldcliptopleft"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedButton/shouldClipTopRight": {
+  "abstract" : [
+    {
+      "text" : "Indicates if the top right corner should be cliped or not, used for card UI clipping system.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Only takes effect if the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/isShapeEnabled",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " is set to ",
+      "type" : "text"
+    },
+    {
+      "code" : "true",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shouldClipTopRight"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shouldClipTopRight",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "shouldClipTopRight",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedbutton\/shouldcliptopright"
+}
+}
+}

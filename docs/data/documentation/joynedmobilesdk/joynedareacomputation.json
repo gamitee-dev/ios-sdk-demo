@@ -1,1 +1,165 @@
-{"schemaVersion":{"major":0,"patch":0,"minor":3},"metadata":{"fragments":[{"kind":"keyword","text":"typealias"},{"text":" ","kind":"text"},{"kind":"identifier","text":"JoynedAreaComputation"}],"roleHeading":"Type Alias","title":"JoynedAreaComputation","role":"symbol","modules":[{"name":"JoynedMobileSDK"}],"externalID":"s:15JoynedMobileSDK0A15AreaComputationa","symbolKind":"typealias","navigatorTitle":[{"kind":"identifier","text":"JoynedAreaComputation"}]},"kind":"symbol","abstract":[{"text":"A helper type used for dynamic drag area computations","type":"text"}],"identifier":{"url":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedAreaComputation","interfaceLanguage":"swift"},"hierarchy":{"paths":[["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK"]]},"variants":[{"paths":["\/documentation\/joynedmobilesdk\/joynedareacomputation"],"traits":[{"interfaceLanguage":"swift"}]}],"primaryContentSections":[{"declarations":[{"platforms":["iOS"],"tokens":[{"text":"typealias","kind":"keyword"},{"kind":"text","text":" "},{"text":"JoynedAreaComputation","kind":"identifier"},{"kind":"text","text":" = () -> "},{"preciseIdentifier":"c:@S@CGRect","text":"CGRect","kind":"typeIdentifier"},{"kind":"text","text":"?"}],"languages":["swift"]}],"kind":"declarations"}],"sections":[],"references":{"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedAreaComputation":{"url":"\/documentation\/joynedmobilesdk\/joynedareacomputation","role":"symbol","navigatorTitle":[{"text":"JoynedAreaComputation","kind":"identifier"}],"abstract":[{"type":"text","text":"A helper type used for dynamic drag area computations"}],"title":"JoynedAreaComputation","kind":"symbol","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedAreaComputation","fragments":[{"text":"typealias","kind":"keyword"},{"text":" ","kind":"text"},{"text":"JoynedAreaComputation","kind":"identifier"}],"type":"topic"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK":{"title":"JoynedMobileSDK","abstract":[{"text":"We help people book together. With a better booking experience, better business results","type":"text"}],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","role":"collection","url":"\/documentation\/joynedmobilesdk","kind":"symbol"}}}
+{
+  "abstract" : [
+    {
+      "text" : "A helper type used for dynamic drag area computations",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedAreaComputation"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15JoynedMobileSDK0A15AreaComputationa",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "typealias"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "JoynedAreaComputation"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JoynedMobileSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "JoynedAreaComputation"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Alias",
+    "symbolKind" : "typealias",
+    "title" : "JoynedAreaComputation"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "typealias"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "JoynedAreaComputation"
+            },
+            {
+              "kind" : "text",
+              "text" : " = () -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@S@CGRect",
+              "text" : "CGRect"
+            },
+            {
+              "kind" : "text",
+              "text" : "?"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/joynedmobilesdk\/joynedareacomputation"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK": {
+  "abstract" : [
+    {
+      "text" : "We help people book together. With a better booking experience, better business results",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JoynedMobileSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedAreaComputation": {
+  "abstract" : [
+    {
+      "text" : "A helper type used for dynamic drag area computations",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JoynedAreaComputation"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedAreaComputation",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JoynedAreaComputation"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JoynedAreaComputation",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedareacomputation"
+}
+}
+}

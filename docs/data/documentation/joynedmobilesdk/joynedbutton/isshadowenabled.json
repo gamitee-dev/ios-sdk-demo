@@ -1,1 +1,514 @@
-{"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/joynedmobilesdk\/joynedbutton\/isshadowenabled"]},{"traits":[{"interfaceLanguage":"occ"}],"paths":["\/documentation\/joynedmobilesdk\/joynedbutton\/isshadowenabled"]}],"seeAlsoSections":[{"title":"Card UI Controls - Shadow","identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/shadowColor","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/shadowOffset","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/shadowOpacity","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/shadowRadius"],"generated":true}],"kind":"symbol","abstract":[{"type":"text","text":"Determins if the card content should have a shadow outline or not, defaults to false"}],"schemaVersion":{"major":0,"minor":3,"patch":0},"primaryContentSections":[{"kind":"declarations","declarations":[{"languages":["swift"],"tokens":[{"kind":"attribute","text":"@IBInspectable"},{"kind":"text","text":" "},{"kind":"keyword","text":"override"},{"kind":"text","text":" "},{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"isShadowEnabled"},{"kind":"text","text":": "},{"preciseIdentifier":"s:Sb","text":"Bool","kind":"typeIdentifier"},{"text":" { ","kind":"text"},{"text":"get","kind":"keyword"},{"text":" ","kind":"text"},{"text":"set","kind":"keyword"},{"text":" }","kind":"text"}],"platforms":["iOS"]}]}],"hierarchy":{"paths":[["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton"],["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton"]]},"sections":[],"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/isShadowEnabled"},"metadata":{"roleHeading":"Instance Property","fragments":[{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"text":"isShadowEnabled","kind":"identifier"},{"text":": ","kind":"text"},{"text":"Bool","kind":"typeIdentifier","preciseIdentifier":"s:Sb"}],"symbolKind":"property","navigatorTitle":[{"text":"isShadowEnabled","kind":"identifier"}],"title":"isShadowEnabled","externalID":"c:@M@JoynedMobileSDK@objc(cs)JoynedButton(py)isShadowEnabled","role":"symbol","modules":[{"name":"JoynedMobileSDK"}]},"references":{"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedButton/shadowOpacity":{"navigatorTitle":[{"kind":"identifier","text":"shadowOpacity"}],"kind":"symbol","abstract":[{"text":"The opacity level of the shadow used by the card UI, only takes effect if the ","type":"text"},{"type":"reference","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/isShadowEnabled","isActive":true},{"type":"text","text":" is set to "},{"type":"codeVoice","code":"true"},{"text":".","type":"text"},{"text":" ","type":"text"},{"type":"text","text":"Zero by default."}],"title":"shadowOpacity","role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedbutton\/shadowopacity","type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/shadowOpacity","fragments":[{"kind":"keyword","text":"var"},{"text":" ","kind":"text"},{"text":"shadowOpacity","kind":"identifier"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","text":"Float","preciseIdentifier":"s:Sf"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedButton":{"title":"JoynedButton","abstract":[{"type":"text","text":"A Joyned UI element meant for usage in the host application, acts as a card like display element, supports border, shadow, corner cliping & more"}],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton","role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedbutton","kind":"symbol","fragments":[{"text":"class","kind":"keyword"},{"kind":"text","text":" "},{"text":"JoynedButton","kind":"identifier"}],"navigatorTitle":[{"text":"JoynedButton","kind":"identifier"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedButton/isShadowEnabled":{"navigatorTitle":[{"text":"isShadowEnabled","kind":"identifier"}],"title":"isShadowEnabled","abstract":[{"text":"Determins if the card content should have a shadow outline or not, defaults to false","type":"text"}],"kind":"symbol","role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedbutton\/isshadowenabled","type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/isShadowEnabled","fragments":[{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"isShadowEnabled"},{"text":": ","kind":"text"},{"text":"Bool","preciseIdentifier":"s:Sb","kind":"typeIdentifier"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedButton/shadowColor":{"navigatorTitle":[{"kind":"identifier","text":"shadowColor"}],"kind":"symbol","abstract":[{"text":"The color to be used for card UI shadow color, only takes effect if the ","type":"text"},{"isActive":true,"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/isShadowEnabled","type":"reference"},{"type":"text","text":" is set to "},{"code":"true","type":"codeVoice"},{"type":"text","text":"."},{"type":"text","text":" "},{"text":"Transperent by default.","type":"text"}],"title":"shadowColor","role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedbutton\/shadowcolor","type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/shadowColor","fragments":[{"text":"var","kind":"keyword"},{"kind":"text","text":" "},{"text":"shadowColor","kind":"identifier"},{"text":": ","kind":"text"},{"text":"UIColor","kind":"typeIdentifier","preciseIdentifier":"c:objc(cs)UIColor"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedButton/shadowOffset":{"navigatorTitle":[{"kind":"identifier","text":"shadowOffset"}],"kind":"symbol","abstract":[{"text":"The offset  of the shadow used by the card UI, only takes effect if the ","type":"text"},{"type":"reference","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/isShadowEnabled","isActive":true},{"type":"text","text":" is set to "},{"type":"codeVoice","code":"true"},{"text":".","type":"text"},{"text":" ","type":"text"},{"type":"text","text":"Zero by default."}],"title":"shadowOffset","role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedbutton\/shadowoffset","type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/shadowOffset","fragments":[{"kind":"keyword","text":"var"},{"text":" ","kind":"text"},{"text":"shadowOffset","kind":"identifier"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","text":"CGSize","preciseIdentifier":"c:@S@CGSize"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/GettingStarted":{"title":"Getting Started with Joyned mobile SDK","abstract":[],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","role":"collectionGroup","url":"\/documentation\/joynedmobilesdk\/gettingstarted","kind":"article"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK":{"title":"JoynedMobileSDK","abstract":[{"text":"We help people book together. With a better booking experience, better business results","type":"text"}],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","role":"collection","url":"\/documentation\/joynedmobilesdk","kind":"symbol"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedButton/shadowRadius":{"navigatorTitle":[{"kind":"identifier","text":"shadowRadius"}],"title":"shadowRadius","abstract":[{"text":"The radius of the shadow used by the card UI, only takes effect if the ","type":"text"},{"isActive":true,"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/isShadowEnabled","type":"reference"},{"type":"text","text":" is set to "},{"code":"true","type":"codeVoice"},{"type":"text","text":"."},{"type":"text","text":" "},{"text":"Zero by default.","type":"text"}],"kind":"symbol","role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedbutton\/shadowradius","type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/shadowRadius","fragments":[{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"shadowRadius"},{"text":": ","kind":"text"},{"text":"CGFloat","preciseIdentifier":"s:14CoreFoundation7CGFloatV","kind":"typeIdentifier"}]}},"variantOverrides":[{"traits":[{"interfaceLanguage":"occ"}],"patch":[{"op":"replace","value":"occ","path":"\/identifier\/interfaceLanguage"},{"op":"replace","path":"\/metadata\/roleHeading","value":"Instance Property"},{"path":"\/metadata\/title","op":"replace","value":"isShadowEnabled"},{"path":"\/metadata\/symbolKind","value":"property","op":"replace"},{"path":"\/metadata\/fragments","value":[{"kind":"identifier","text":"isShadowEnabled"}],"op":"replace"},{"op":"add","path":"\/topicSections","value":null},{"value":null,"op":"add","path":"\/relationshipsSections"},{"op":"replace","path":"\/seeAlsoSections","value":[{"title":"Card UI Controls - Shadow","generated":true,"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/shadowColor","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/shadowOffset","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/shadowOpacity","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/shadowRadius"]}]},{"path":"\/primaryContentSections\/0","value":{"kind":"declarations","declarations":[{"languages":["occ"],"tokens":[{"text":"@property","kind":"keyword"},{"text":" (","kind":"text"},{"text":"nonatomic","kind":"keyword"},{"text":") ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"c:@T@BOOL","text":"BOOL"},{"kind":"text","text":" "},{"text":"isShadowEnabled","kind":"identifier"},{"text":";","kind":"text"}],"platforms":["iOS"]}]},"op":"replace"},{"op":"replace","value":"shadowOpacity","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1shadowOpacity\/title"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1shadowOpacity\/fragments","value":[{"text":"shadowOpacity","kind":"identifier"}],"op":"replace"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton\/title","op":"replace","value":"JoynedButton"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton\/fragments","value":[{"kind":"identifier","text":"JoynedButton"}]},{"value":"isShadowEnabled","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1isShadowEnabled\/title","op":"replace"},{"value":[{"kind":"identifier","text":"isShadowEnabled"}],"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1isShadowEnabled\/fragments","op":"replace"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1shadowColor\/title","value":"shadowColor","op":"replace"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1shadowColor\/fragments","op":"replace","value":[{"text":"shadowColor","kind":"identifier"}]},{"value":"shadowOffset","op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1shadowOffset\/title"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1shadowOffset\/fragments","op":"replace","value":[{"text":"shadowOffset","kind":"identifier"}]},{"op":"replace","value":"shadowRadius","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1shadowRadius\/title"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1shadowRadius\/fragments","op":"replace","value":[{"text":"shadowRadius","kind":"identifier"}]}]}]}
+{
+  "abstract" : [
+    {
+      "text" : "Determins if the card content should have a shadow outline or not, defaults to false",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton"
+      ],
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/isShadowEnabled"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@JoynedMobileSDK@objc(cs)JoynedButton(py)isShadowEnabled",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "isShadowEnabled"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JoynedMobileSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "isShadowEnabled"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@IBInspectable"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "override"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "isShadowEnabled"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "set"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shadowColor",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shadowOffset",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shadowOpacity",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shadowRadius"
+      ],
+      "title" : "Card UI Controls - Shadow"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/joynedmobilesdk\/joynedbutton\/isshadowenabled"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK": {
+  "abstract" : [
+    {
+      "text" : "We help people book together. With a better booking experience, better business results",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JoynedMobileSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/GettingStarted": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Getting Started with Joyned mobile SDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/gettingstarted"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedButton": {
+  "abstract" : [
+    {
+      "text" : "A Joyned UI element meant for usage in the host application, acts as a card like display element, supports border, shadow, corner cliping & more",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JoynedButton"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JoynedButton"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JoynedButton",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedbutton"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedButton/isShadowEnabled": {
+  "abstract" : [
+    {
+      "text" : "Determins if the card content should have a shadow outline or not, defaults to false",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isShadowEnabled"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/isShadowEnabled",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "isShadowEnabled",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedbutton\/isshadowenabled"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedButton/shadowColor": {
+  "abstract" : [
+    {
+      "text" : "The color to be used for card UI shadow color, only takes effect if the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/isShadowEnabled",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " is set to ",
+      "type" : "text"
+    },
+    {
+      "code" : "true",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Transperent by default.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shadowColor"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIColor",
+      "text" : "UIColor"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shadowColor",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "shadowColor",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedbutton\/shadowcolor"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedButton/shadowOffset": {
+  "abstract" : [
+    {
+      "text" : "The offset  of the shadow used by the card UI, only takes effect if the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/isShadowEnabled",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " is set to ",
+      "type" : "text"
+    },
+    {
+      "code" : "true",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Zero by default.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shadowOffset"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@S@CGSize",
+      "text" : "CGSize"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shadowOffset",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "shadowOffset",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedbutton\/shadowoffset"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedButton/shadowOpacity": {
+  "abstract" : [
+    {
+      "text" : "The opacity level of the shadow used by the card UI, only takes effect if the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/isShadowEnabled",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " is set to ",
+      "type" : "text"
+    },
+    {
+      "code" : "true",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Zero by default.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shadowOpacity"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sf",
+      "text" : "Float"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shadowOpacity",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "shadowOpacity",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedbutton\/shadowopacity"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedButton/shadowRadius": {
+  "abstract" : [
+    {
+      "text" : "The radius of the shadow used by the card UI, only takes effect if the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/isShadowEnabled",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " is set to ",
+      "type" : "text"
+    },
+    {
+      "code" : "true",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Zero by default.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shadowRadius"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
+      "text" : "CGFloat"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shadowRadius",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "shadowRadius",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedbutton\/shadowradius"
+}
+}
+}

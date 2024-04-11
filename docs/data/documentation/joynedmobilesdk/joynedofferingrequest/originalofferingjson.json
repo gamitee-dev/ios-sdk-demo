@@ -1,1 +1,296 @@
-{"identifier":{"url":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedOfferingRequest\/originalOfferingJSON","interfaceLanguage":"swift"},"variants":[{"paths":["\/documentation\/joynedmobilesdk\/joynedofferingrequest\/originalofferingjson"],"traits":[{"interfaceLanguage":"swift"}]},{"paths":["\/documentation\/joynedmobilesdk\/joynedofferingrequest\/originalofferingjson"],"traits":[{"interfaceLanguage":"occ"}]}],"hierarchy":{"paths":[["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedOfferingRequest"],["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedOfferingRequest"]]},"seeAlsoSections":[{"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedOfferingRequest\/extraAppContentJSON"],"generated":true,"title":"JSON Representation"}],"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"override"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"text":" ","kind":"text"},{"text":"originalOfferingJSON","kind":"identifier"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":"? { "},{"kind":"keyword","text":"get"},{"kind":"text","text":" }"}],"platforms":["iOS"],"languages":["swift"]}]}],"metadata":{"modules":[{"name":"JoynedMobileSDK"}],"fragments":[{"text":"var","kind":"keyword"},{"kind":"text","text":" "},{"text":"originalOfferingJSON","kind":"identifier"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:SS","text":"String"},{"kind":"text","text":"?"}],"navigatorTitle":[{"text":"originalOfferingJSON","kind":"identifier"}],"symbolKind":"property","roleHeading":"Instance Property","role":"symbol","externalID":"c:@M@JoynedMobileSDK@objc(cs)JoynedOfferingRequest(py)originalOfferingJSON","title":"originalOfferingJSON"},"schemaVersion":{"major":0,"minor":3,"patch":0},"kind":"symbol","abstract":[{"type":"text","text":"A JSON string representation of the offering original content payload"}],"sections":[],"references":{"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedOfferingRequest/originalOfferingJSON":{"title":"originalOfferingJSON","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedOfferingRequest\/originalOfferingJSON","type":"topic","role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedofferingrequest\/originalofferingjson","fragments":[{"kind":"keyword","text":"var"},{"text":" ","kind":"text"},{"kind":"identifier","text":"originalOfferingJSON"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:SS","text":"String"},{"text":"?","kind":"text"}],"kind":"symbol","navigatorTitle":[{"kind":"identifier","text":"originalOfferingJSON"}],"abstract":[{"type":"text","text":"A JSON string representation of the offering original content payload"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/GettingStarted":{"title":"Getting Started with Joyned mobile SDK","abstract":[],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","role":"collectionGroup","url":"\/documentation\/joynedmobilesdk\/gettingstarted","kind":"article"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedOfferingRequest/extraAppContentJSON":{"title":"extraAppContentJSON","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedOfferingRequest\/extraAppContentJSON","type":"topic","role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedofferingrequest\/extraappcontentjson","fragments":[{"kind":"keyword","text":"var"},{"text":" ","kind":"text"},{"kind":"identifier","text":"extraAppContentJSON"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"text":"?","kind":"text"}],"kind":"symbol","navigatorTitle":[{"kind":"identifier","text":"extraAppContentJSON"}],"abstract":[{"type":"text","text":"A JSON string representation of the offering extra application content payload"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedOfferingRequest":{"type":"topic","kind":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedofferingrequest","title":"JoynedOfferingRequest","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedOfferingRequest","abstract":[{"text":"A data object containing the offering information to be reported to the Joyned servers","type":"text"}],"role":"symbol","navigatorTitle":[{"text":"JoynedOfferingRequest","kind":"identifier"}],"fragments":[{"text":"class","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"JoynedOfferingRequest"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK":{"title":"JoynedMobileSDK","abstract":[{"text":"We help people book together. With a better booking experience, better business results","type":"text"}],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","role":"collection","url":"\/documentation\/joynedmobilesdk","kind":"symbol"}},"variantOverrides":[{"patch":[{"path":"\/identifier\/interfaceLanguage","value":"occ","op":"replace"},{"value":"Instance Property","op":"replace","path":"\/metadata\/roleHeading"},{"value":"originalOfferingJSON","op":"replace","path":"\/metadata\/title"},{"path":"\/metadata\/symbolKind","op":"replace","value":"property"},{"op":"replace","path":"\/metadata\/fragments","value":[{"kind":"identifier","text":"originalOfferingJSON"}]},{"op":"add","path":"\/topicSections","value":null},{"op":"add","path":"\/relationshipsSections","value":null},{"path":"\/seeAlsoSections","op":"replace","value":[{"title":"JSON Representation","identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedOfferingRequest\/extraAppContentJSON"],"generated":true}]},{"value":{"kind":"declarations","declarations":[{"platforms":["iOS"],"languages":["occ"],"tokens":[{"kind":"keyword","text":"@property"},{"kind":"text","text":" ("},{"kind":"keyword","text":"nonatomic"},{"kind":"text","text":", "},{"text":"copy","kind":"keyword"},{"text":", ","kind":"text"},{"kind":"keyword","text":"readonly"},{"kind":"text","text":") "},{"kind":"typeIdentifier","text":"NSString","preciseIdentifier":"c:objc(cs)NSString"},{"kind":"text","text":" * "},{"text":"originalOfferingJSON","kind":"identifier"},{"kind":"text","text":";"}]}]},"op":"replace","path":"\/primaryContentSections\/0"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedOfferingRequest~1originalOfferingJSON\/title","op":"replace","value":"originalOfferingJSON"},{"value":[{"kind":"identifier","text":"originalOfferingJSON"}],"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedOfferingRequest~1originalOfferingJSON\/fragments"},{"value":"extraAppContentJSON","op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedOfferingRequest~1extraAppContentJSON\/title"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedOfferingRequest~1extraAppContentJSON\/fragments","op":"replace","value":[{"text":"extraAppContentJSON","kind":"identifier"}]},{"op":"replace","value":"JoynedOfferingRequest","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedOfferingRequest\/title"},{"value":[{"kind":"identifier","text":"JoynedOfferingRequest"}],"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedOfferingRequest\/fragments"}],"traits":[{"interfaceLanguage":"occ"}]}]}
+{
+  "abstract" : [
+    {
+      "text" : "A JSON string representation of the offering original content payload",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingRequest"
+      ],
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingRequest"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingRequest\/originalOfferingJSON"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@JoynedMobileSDK@objc(cs)JoynedOfferingRequest(py)originalOfferingJSON",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "originalOfferingJSON"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : "?"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JoynedMobileSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "originalOfferingJSON"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "override"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "originalOfferingJSON"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : "? { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingRequest\/extraAppContentJSON"
+      ],
+      "title" : "JSON Representation"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/joynedmobilesdk\/joynedofferingrequest\/originalofferingjson"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK": {
+  "abstract" : [
+    {
+      "text" : "We help people book together. With a better booking experience, better business results",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JoynedMobileSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/GettingStarted": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Getting Started with Joyned mobile SDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/gettingstarted"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedOfferingRequest": {
+  "abstract" : [
+    {
+      "text" : "A data object containing the offering information to be reported to the Joyned servers",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JoynedOfferingRequest"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingRequest",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JoynedOfferingRequest"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JoynedOfferingRequest",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedofferingrequest"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedOfferingRequest/extraAppContentJSON": {
+  "abstract" : [
+    {
+      "text" : "A JSON string representation of the offering extra application content payload",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "extraAppContentJSON"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingRequest\/extraAppContentJSON",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "extraAppContentJSON",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedofferingrequest\/extraappcontentjson"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedOfferingRequest/originalOfferingJSON": {
+  "abstract" : [
+    {
+      "text" : "A JSON string representation of the offering original content payload",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "originalOfferingJSON"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingRequest\/originalOfferingJSON",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "originalOfferingJSON",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedofferingrequest\/originalofferingjson"
+}
+}
+}

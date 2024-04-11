@@ -1,1 +1,409 @@
-{"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/joynedmobilesdk\/joynedsdk\/activate(with:and:)"]},{"paths":["\/documentation\/joynedmobilesdk\/joynedsdk\/activate(with:and:)"],"traits":[{"interfaceLanguage":"occ"}]}],"hierarchy":{"paths":[["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK"],["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK"]]},"seeAlsoSections":[{"generated":true,"title":"SDK Activation","identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_01_activation"]}],"schemaVersion":{"minor":3,"major":0,"patch":0},"identifier":{"url":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/activate(with:and:)","interfaceLanguage":"swift"},"kind":"symbol","metadata":{"modules":[{"name":"JoynedMobileSDK"}],"role":"symbol","fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"text":"func","kind":"keyword"},{"kind":"text","text":" "},{"text":"activate","kind":"identifier"},{"text":"(","kind":"text"},{"kind":"externalParam","text":"with"},{"kind":"text","text":": "},{"preciseIdentifier":"s:SS","text":"String","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"and","kind":"externalParam"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:SS","text":"String"},{"text":")","kind":"text"}],"symbolKind":"method","externalID":"c:@M@JoynedMobileSDK@objc(cs)JoynedSDK(cm)activateWithActivationKey:and:","roleHeading":"Type Method","title":"activate(with:and:)","navigatorTitle":[{"text":"activateWithActivationKey:and:","kind":"identifier"}]},"abstract":[{"type":"text","text":"Use this method for manual activation of the SDK"}],"primaryContentSections":[{"kind":"declarations","declarations":[{"platforms":["iOS"],"languages":["swift"],"tokens":[{"text":"@objc","kind":"attribute"},{"kind":"text","text":"(activateWithActivationKey:and:) "},{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"activate"},{"kind":"text","text":"("},{"text":"with","kind":"externalParam"},{"text":" ","kind":"text"},{"text":"activationKey","kind":"internalParam"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:SS","text":"String"},{"kind":"text","text":", "},{"text":"and","kind":"externalParam"},{"text":" ","kind":"text"},{"text":"baseURL","kind":"internalParam"},{"text":": ","kind":"text"},{"text":"String","preciseIdentifier":"s:SS","kind":"typeIdentifier"},{"text":")","kind":"text"}]}]},{"kind":"parameters","parameters":[{"content":[{"type":"paragraph","inlineContent":[{"text":"The key used for activation process, contact Customer success for details","type":"text"}]}],"name":"activationKey"},{"content":[{"type":"paragraph","inlineContent":[{"type":"text","text":"The base url used for remote validation"}]}],"name":"baseURL"}]}],"sections":[],"references":{"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK":{"title":"JoynedSDK","type":"topic","kind":"symbol","role":"symbol","abstract":[{"type":"text","text":"The main public access class to ther Joyned mobile SDK, use it to interact with the system"}],"url":"\/documentation\/joynedmobilesdk\/joynedsdk","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"JoynedSDK"}],"navigatorTitle":[{"text":"JoynedSDK","kind":"identifier"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/_01_activation":{"title":"Activation Methods","type":"topic","kind":"article","role":"article","abstract":[{"type":"text","text":"There are several different ways to activate of the Joyned mobile SDK"}],"url":"\/documentation\/joynedmobilesdk\/_01_activation","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_01_activation"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/activate(with:and:)":{"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/activate(with:and:)","url":"\/documentation\/joynedmobilesdk\/joynedsdk\/activate(with:and:)","title":"activate(with:and:)","abstract":[{"type":"text","text":"Use this method for manual activation of the SDK"}],"fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"kind":"identifier","text":"activate"},{"text":"(","kind":"text"},{"kind":"externalParam","text":"with"},{"kind":"text","text":": "},{"preciseIdentifier":"s:SS","kind":"typeIdentifier","text":"String"},{"kind":"text","text":", "},{"kind":"externalParam","text":"and"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:SS","text":"String","kind":"typeIdentifier"},{"text":")","kind":"text"}],"type":"topic","role":"symbol","kind":"symbol","navigatorTitle":[{"text":"activateWithActivationKey:and:","kind":"identifier"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK":{"title":"JoynedMobileSDK","abstract":[{"text":"We help people book together. With a better booking experience, better business results","type":"text"}],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","role":"collection","url":"\/documentation\/joynedmobilesdk","kind":"symbol"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/GettingStarted":{"title":"Getting Started with Joyned mobile SDK","abstract":[],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","role":"collectionGroup","url":"\/documentation\/joynedmobilesdk\/gettingstarted","kind":"article"}},"variantOverrides":[{"patch":[{"op":"replace","value":"occ","path":"\/identifier\/interfaceLanguage"},{"path":"\/metadata\/roleHeading","value":"Type Method","op":"replace"},{"op":"replace","path":"\/metadata\/title","value":"activateWithActivationKey:and:"},{"op":"replace","value":"method","path":"\/metadata\/symbolKind"},{"path":"\/metadata\/fragments","op":"replace","value":[{"kind":"text","text":"+ "},{"kind":"identifier","text":"activateWithActivationKey:and:"}]},{"path":"\/topicSections","value":null,"op":"add"},{"value":null,"op":"add","path":"\/relationshipsSections"},{"op":"replace","path":"\/seeAlsoSections","value":[{"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_01_activation"],"generated":true,"title":"SDK Activation"}]},{"op":"replace","path":"\/primaryContentSections\/0","value":{"kind":"declarations","declarations":[{"languages":["occ"],"platforms":["iOS"],"tokens":[{"text":"+ (","kind":"text"},{"preciseIdentifier":"c:v","kind":"typeIdentifier","text":"void"},{"kind":"text","text":") "},{"text":"activateWithActivationKey:","kind":"identifier"},{"text":"(","kind":"text"},{"text":"NSString","kind":"typeIdentifier","preciseIdentifier":"c:objc(cs)NSString"},{"kind":"text","text":" *) "},{"text":"activationKey","kind":"internalParam"},{"text":" ","kind":"text"},{"text":"and:","kind":"identifier"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"NSString","preciseIdentifier":"c:objc(cs)NSString"},{"text":" *) ","kind":"text"},{"text":"baseURL","kind":"internalParam"},{"kind":"text","text":";"}]}]}},{"op":"replace","value":"JoynedSDK","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK\/title"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK\/fragments","value":[{"text":"JoynedSDK","kind":"identifier"}]},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1activate(with:and:)\/title","value":"activateWithActivationKey:and:"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1activate(with:and:)\/fragments","value":[{"kind":"text","text":"+ "},{"text":"activateWithActivationKey:and:","kind":"identifier"}],"op":"replace"}],"traits":[{"interfaceLanguage":"occ"}]}]}
+{
+  "abstract" : [
+    {
+      "text" : "Use this method for manual activation of the SDK",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK"
+      ],
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/activate(with:and:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@JoynedMobileSDK@objc(cs)JoynedSDK(cm)activateWithActivationKey:and:",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "activate"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "with"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "and"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JoynedMobileSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Method",
+    "symbolKind" : "method",
+    "title" : "activate(with:and:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@objc"
+            },
+            {
+              "kind" : "text",
+              "text" : "(activateWithActivationKey:and:) "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "activate"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "with"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "activationKey"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "and"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "baseURL"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The key used for activation process, contact Customer success for details",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "activationKey"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The base url used for remote validation",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "baseURL"
+        }
+      ]
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_01_activation"
+      ],
+      "title" : "SDK Activation"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/joynedmobilesdk\/joynedsdk\/activate(with:and:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK": {
+  "abstract" : [
+    {
+      "text" : "We help people book together. With a better booking experience, better business results",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JoynedMobileSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/GettingStarted": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Getting Started with Joyned mobile SDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/gettingstarted"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK": {
+  "abstract" : [
+    {
+      "text" : "The main public access class to ther Joyned mobile SDK, use it to interact with the system",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JoynedSDK"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JoynedSDK"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JoynedSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/activate(with:and:)": {
+  "abstract" : [
+    {
+      "text" : "Use this method for manual activation of the SDK",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "activate"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "with"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "and"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/activate(with:and:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "activate(with:and:)",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/activate(with:and:)"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/_01_activation": {
+  "abstract" : [
+    {
+      "text" : "There are several different ways to activate of the Joyned mobile SDK",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_01_activation",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Activation Methods",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/_01_activation"
+}
+}
+}

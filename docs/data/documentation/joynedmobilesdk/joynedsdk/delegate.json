@@ -1,1 +1,395 @@
-{"schemaVersion":{"patch":0,"minor":3,"major":0},"primaryContentSections":[{"declarations":[{"tokens":[{"kind":"keyword","text":"weak"},{"kind":"text","text":" "},{"text":"static","kind":"keyword"},{"text":" ","kind":"text"},{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"delegate","kind":"identifier"},{"text":": ","kind":"text"},{"text":"JoynedSDKDelegate","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDKDelegate","kind":"typeIdentifier","preciseIdentifier":"c:@M@JoynedMobileSDK@objc(pl)JoynedSDKDelegate"},{"kind":"text","text":"? { "},{"kind":"keyword","text":"get"},{"text":" ","kind":"text"},{"kind":"keyword","text":"set"},{"text":" }","kind":"text"}],"platforms":["iOS"],"languages":["swift"]}],"kind":"declarations"}],"hierarchy":{"paths":[["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK"],["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK"]]},"identifier":{"url":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/delegate","interfaceLanguage":"swift"},"sections":[],"kind":"symbol","metadata":{"externalID":"c:@M@JoynedMobileSDK@objc(cs)JoynedSDK(cpy)delegate","symbolKind":"property","fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"text":"delegate","kind":"identifier"},{"kind":"text","text":": "},{"preciseIdentifier":"c:@M@JoynedMobileSDK@objc(pl)JoynedSDKDelegate","kind":"typeIdentifier","text":"JoynedSDKDelegate"},{"kind":"text","text":"?"}],"navigatorTitle":[{"kind":"identifier","text":"delegate"}],"title":"delegate","modules":[{"name":"JoynedMobileSDK"}],"role":"symbol","roleHeading":"Type Property"},"abstract":[{"type":"text","text":"The delegate of the SDK used for general control hooks into the system."}],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/joynedmobilesdk\/joynedsdk\/delegate"]},{"paths":["\/documentation\/joynedmobilesdk\/joynedsdk\/delegate"],"traits":[{"interfaceLanguage":"occ"}]}],"seeAlsoSections":[{"title":"Properties","identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/libraryVersion","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_01_global-delegate"],"generated":true}],"references":{"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/GettingStarted":{"title":"Getting Started with Joyned mobile SDK","abstract":[],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","role":"collectionGroup","url":"\/documentation\/joynedmobilesdk\/gettingstarted","kind":"article"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/libraryVersion":{"url":"\/documentation\/joynedmobilesdk\/joynedsdk\/libraryversion","navigatorTitle":[{"kind":"identifier","text":"libraryVersion"}],"title":"libraryVersion","role":"symbol","fragments":[{"text":"static","kind":"keyword"},{"text":" ","kind":"text"},{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"libraryVersion","kind":"identifier"},{"kind":"text","text":": "},{"text":"String","kind":"typeIdentifier","preciseIdentifier":"s:SS"}],"kind":"symbol","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/libraryVersion","abstract":[{"type":"text","text":"Returns the SDK version in the following template "},{"code":"x.y.z (buildNumber)","type":"codeVoice"}],"type":"topic"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDKDelegate":{"role":"symbol","navigatorTitle":[{"kind":"identifier","text":"JoynedSDKDelegate"}],"type":"topic","kind":"symbol","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDKDelegate","abstract":[{"type":"text","text":"The Joyned mobile SDK main delegation protocol, implement this to recive notifications on major actions taken by the SDK and affect its behavior"}],"title":"JoynedSDKDelegate","url":"\/documentation\/joynedmobilesdk\/joynedsdkdelegate","fragments":[{"kind":"keyword","text":"protocol"},{"text":" ","kind":"text"},{"text":"JoynedSDKDelegate","kind":"identifier"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK":{"title":"JoynedSDK","type":"topic","kind":"symbol","role":"symbol","abstract":[{"type":"text","text":"The main public access class to ther Joyned mobile SDK, use it to interact with the system"}],"url":"\/documentation\/joynedmobilesdk\/joynedsdk","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"JoynedSDK"}],"navigatorTitle":[{"text":"JoynedSDK","kind":"identifier"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/delegate":{"role":"symbol","navigatorTitle":[{"text":"delegate","kind":"identifier"}],"type":"topic","kind":"symbol","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/delegate","abstract":[{"type":"text","text":"The delegate of the SDK used for general control hooks into the system."}],"title":"delegate","url":"\/documentation\/joynedmobilesdk\/joynedsdk\/delegate","fragments":[{"text":"static","kind":"keyword"},{"kind":"text","text":" "},{"text":"var","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"delegate"},{"kind":"text","text":": "},{"text":"JoynedSDKDelegate","preciseIdentifier":"c:@M@JoynedMobileSDK@objc(pl)JoynedSDKDelegate","kind":"typeIdentifier"},{"text":"?","kind":"text"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK":{"title":"JoynedMobileSDK","abstract":[{"text":"We help people book together. With a better booking experience, better business results","type":"text"}],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","role":"collection","url":"\/documentation\/joynedmobilesdk","kind":"symbol"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/_01_global-delegate":{"title":"Global Delegate","type":"topic","kind":"article","role":"article","url":"\/documentation\/joynedmobilesdk\/_01_global-delegate","abstract":[{"type":"text","text":"Joyned mobile SDK provides several intervention hooks via the "},{"type":"reference","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDKDelegate","isActive":true},{"text":" protocol","type":"text"}],"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_01_global-delegate"}},"variantOverrides":[{"patch":[{"value":"occ","op":"replace","path":"\/identifier\/interfaceLanguage"},{"value":"Type Property","path":"\/metadata\/roleHeading","op":"replace"},{"op":"replace","path":"\/metadata\/title","value":"delegate"},{"op":"replace","value":"property","path":"\/metadata\/symbolKind"},{"path":"\/metadata\/fragments","op":"replace","value":[{"kind":"identifier","text":"delegate"}]},{"path":"\/topicSections","op":"add","value":null},{"value":null,"op":"add","path":"\/relationshipsSections"},{"value":[{"title":"Properties","identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/libraryVersion","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_01_global-delegate"],"generated":true}],"op":"replace","path":"\/seeAlsoSections"},{"path":"\/primaryContentSections\/0","op":"replace","value":{"kind":"declarations","declarations":[{"languages":["occ"],"platforms":["iOS"],"tokens":[{"kind":"keyword","text":"@property"},{"kind":"text","text":" ("},{"kind":"keyword","text":"class"},{"text":", ","kind":"text"},{"kind":"keyword","text":"nonatomic"},{"text":", ","kind":"text"},{"kind":"keyword","text":"weak"},{"text":") ","kind":"text"},{"kind":"typeIdentifier","text":"id<JoynedSDKDelegate>","preciseIdentifier":"c:Qo@M@JoynedMobileSDK@objc(pl)JoynedSDKDelegate"},{"kind":"text","text":" "},{"text":"delegate","kind":"identifier"},{"text":";","kind":"text"}]}]}},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1libraryVersion\/title","value":"libraryVersion"},{"value":[{"kind":"identifier","text":"libraryVersion"}],"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1libraryVersion\/fragments"},{"value":"JoynedSDKDelegate","op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDKDelegate\/title"},{"value":[{"kind":"identifier","text":"JoynedSDKDelegate"}],"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDKDelegate\/fragments"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK\/title","value":"JoynedSDK"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK\/fragments","value":[{"text":"JoynedSDK","kind":"identifier"}]},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1delegate\/title","value":"delegate"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1delegate\/fragments","value":[{"text":"delegate","kind":"identifier"}]}],"traits":[{"interfaceLanguage":"occ"}]}]}
+{
+  "abstract" : [
+    {
+      "text" : "The delegate of the SDK used for general control hooks into the system.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK"
+      ],
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/delegate"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@JoynedMobileSDK@objc(cs)JoynedSDK(cpy)delegate",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "delegate"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:@M@JoynedMobileSDK@objc(pl)JoynedSDKDelegate",
+        "text" : "JoynedSDKDelegate"
+      },
+      {
+        "kind" : "text",
+        "text" : "?"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JoynedMobileSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Property",
+    "symbolKind" : "property",
+    "title" : "delegate"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "weak"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "delegate"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDKDelegate",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@M@JoynedMobileSDK@objc(pl)JoynedSDKDelegate",
+              "text" : "JoynedSDKDelegate"
+            },
+            {
+              "kind" : "text",
+              "text" : "? { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "set"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/libraryVersion",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_01_global-delegate"
+      ],
+      "title" : "Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/joynedmobilesdk\/joynedsdk\/delegate"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK": {
+  "abstract" : [
+    {
+      "text" : "We help people book together. With a better booking experience, better business results",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JoynedMobileSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/GettingStarted": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Getting Started with Joyned mobile SDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/gettingstarted"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK": {
+  "abstract" : [
+    {
+      "text" : "The main public access class to ther Joyned mobile SDK, use it to interact with the system",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JoynedSDK"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JoynedSDK"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JoynedSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/delegate": {
+  "abstract" : [
+    {
+      "text" : "The delegate of the SDK used for general control hooks into the system.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "delegate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@JoynedMobileSDK@objc(pl)JoynedSDKDelegate",
+      "text" : "JoynedSDKDelegate"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/delegate",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "delegate",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/delegate"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/libraryVersion": {
+  "abstract" : [
+    {
+      "text" : "Returns the SDK version in the following template ",
+      "type" : "text"
+    },
+    {
+      "code" : "x.y.z (buildNumber)",
+      "type" : "codeVoice"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "libraryVersion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/libraryVersion",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "libraryVersion",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/libraryversion"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDKDelegate": {
+  "abstract" : [
+    {
+      "text" : "The Joyned mobile SDK main delegation protocol, implement this to recive notifications on major actions taken by the SDK and affect its behavior",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JoynedSDKDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDKDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JoynedSDKDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JoynedSDKDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdkdelegate"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/_01_global-delegate": {
+  "abstract" : [
+    {
+      "text" : "Joyned mobile SDK provides several intervention hooks via the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDKDelegate",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " protocol",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_01_global-delegate",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Global Delegate",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/_01_global-delegate"
+}
+}
+}

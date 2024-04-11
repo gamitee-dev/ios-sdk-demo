@@ -1,0 +1,50 @@
+[
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "GettingStarted.md",
+    "start" : {
+      "column" : 5,
+      "line" : 51
+    },
+    "summary" : "'UIKit' doesn't exist at '\/JoynedMobileSDK\/GettingStarted'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "GettingStarted.md",
+    "start" : {
+      "column" : 5,
+      "line" : 52
+    },
+    "summary" : "'UIKit' doesn't exist at '\/JoynedMobileSDK\/GettingStarted'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "JoynedMobileSDK.md",
+    "start" : {
+      "column" : 5,
+      "line" : 64
+    },
+    "summary" : "'UIKit' doesn't exist at '\/JoynedMobileSDK'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "JoynedMobileSDK.md",
+    "start" : {
+      "column" : 5,
+      "line" : 65
+    },
+    "summary" : "'UIKit' doesn't exist at '\/JoynedMobileSDK'"
+  }
+]

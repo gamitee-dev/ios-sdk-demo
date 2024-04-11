@@ -1,1 +1,325 @@
-{"sections":[],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/joynedmobilesdk\/joynedsdk\/showdisplay()"]},{"traits":[{"interfaceLanguage":"occ"}],"paths":["\/documentation\/joynedmobilesdk\/joynedsdk\/showdisplay()"]}],"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"text":"@objc","kind":"attribute"},{"text":" ","kind":"text"},{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"showDisplay","kind":"identifier"},{"text":"()","kind":"text"}],"platforms":["iOS"],"languages":["swift"]}]}],"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/showDisplay()"},"metadata":{"symbolKind":"method","role":"symbol","roleHeading":"Type Method","modules":[{"name":"JoynedMobileSDK"}],"externalID":"c:@M@JoynedMobileSDK@objc(cs)JoynedSDK(cm)showDisplay","title":"showDisplay()","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"showDisplay"},{"text":"()","kind":"text"}],"navigatorTitle":[{"text":"showDisplay","kind":"identifier"}]},"schemaVersion":{"major":0,"patch":0,"minor":3},"kind":"symbol","abstract":[{"text":"Use this method to make the system show the floating SDK UI elements, if they have been hidden before","type":"text"}],"hierarchy":{"paths":[["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK"],["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK"]]},"seeAlsoSections":[{"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/hideDisplay()","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/minimizeDisplay()"],"generated":true,"title":"SDK UI Controls"}],"references":{"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/hideDisplay()":{"title":"hideDisplay()","type":"topic","kind":"symbol","role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedsdk\/hidedisplay()","abstract":[{"type":"text","text":"Use this method to make the system hide the floating SDK UI elements"}],"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/hideDisplay()","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"kind":"identifier","text":"hideDisplay"},{"kind":"text","text":"()"}],"navigatorTitle":[{"kind":"identifier","text":"hideDisplay"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK":{"title":"JoynedSDK","type":"topic","kind":"symbol","role":"symbol","abstract":[{"type":"text","text":"The main public access class to ther Joyned mobile SDK, use it to interact with the system"}],"url":"\/documentation\/joynedmobilesdk\/joynedsdk","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"JoynedSDK"}],"navigatorTitle":[{"text":"JoynedSDK","kind":"identifier"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/minimizeDisplay()":{"title":"minimizeDisplay()","type":"topic","kind":"symbol","role":"symbol","abstract":[{"type":"text","text":"Use this method to trigger a minimize action on the floating SDK UI elements,"}],"url":"\/documentation\/joynedmobilesdk\/joynedsdk\/minimizedisplay()","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/minimizeDisplay()","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"kind":"identifier","text":"minimizeDisplay"},{"kind":"text","text":"()"}],"navigatorTitle":[{"kind":"identifier","text":"minimizeDisplay"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK":{"title":"JoynedMobileSDK","abstract":[{"text":"We help people book together. With a better booking experience, better business results","type":"text"}],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","role":"collection","url":"\/documentation\/joynedmobilesdk","kind":"symbol"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/showDisplay()":{"title":"showDisplay()","type":"topic","kind":"symbol","role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedsdk\/showdisplay()","abstract":[{"type":"text","text":"Use this method to make the system show the floating SDK UI elements, if they have been hidden before"}],"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/showDisplay()","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"kind":"identifier","text":"showDisplay"},{"kind":"text","text":"()"}],"navigatorTitle":[{"kind":"identifier","text":"showDisplay"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/GettingStarted":{"title":"Getting Started with Joyned mobile SDK","abstract":[],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","role":"collectionGroup","url":"\/documentation\/joynedmobilesdk\/gettingstarted","kind":"article"}},"variantOverrides":[{"traits":[{"interfaceLanguage":"occ"}],"patch":[{"path":"\/identifier\/interfaceLanguage","op":"replace","value":"occ"},{"value":"Type Method","op":"replace","path":"\/metadata\/roleHeading"},{"op":"replace","value":"showDisplay","path":"\/metadata\/title"},{"op":"replace","value":"method","path":"\/metadata\/symbolKind"},{"path":"\/metadata\/fragments","op":"replace","value":[{"kind":"text","text":"+ "},{"kind":"identifier","text":"showDisplay"}]},{"path":"\/topicSections","value":null,"op":"add"},{"path":"\/relationshipsSections","op":"add","value":null},{"path":"\/seeAlsoSections","op":"replace","value":[{"title":"SDK UI Controls","generated":true,"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/hideDisplay()","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/minimizeDisplay()"]}]},{"value":{"kind":"declarations","declarations":[{"platforms":["iOS"],"tokens":[{"text":"+ (","kind":"text"},{"preciseIdentifier":"c:v","text":"void","kind":"typeIdentifier"},{"text":") ","kind":"text"},{"text":"showDisplay","kind":"identifier"},{"text":";","kind":"text"}],"languages":["occ"]}]},"path":"\/primaryContentSections\/0","op":"replace"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1hideDisplay()\/title","value":"hideDisplay","op":"replace"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1hideDisplay()\/fragments","value":[{"kind":"text","text":"+ "},{"kind":"identifier","text":"hideDisplay"}],"op":"replace"},{"value":"JoynedSDK","op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK\/title"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK\/fragments","value":[{"kind":"identifier","text":"JoynedSDK"}],"op":"replace"},{"op":"replace","value":"minimizeDisplay","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1minimizeDisplay()\/title"},{"value":[{"text":"+ ","kind":"text"},{"text":"minimizeDisplay","kind":"identifier"}],"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1minimizeDisplay()\/fragments","op":"replace"},{"value":"showDisplay","op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1showDisplay()\/title"},{"op":"replace","value":[{"text":"+ ","kind":"text"},{"text":"showDisplay","kind":"identifier"}],"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1showDisplay()\/fragments"}]}]}
+{
+  "abstract" : [
+    {
+      "text" : "Use this method to make the system show the floating SDK UI elements, if they have been hidden before",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK"
+      ],
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/showDisplay()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@JoynedMobileSDK@objc(cs)JoynedSDK(cm)showDisplay",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "showDisplay"
+      },
+      {
+        "kind" : "text",
+        "text" : "()"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JoynedMobileSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Method",
+    "symbolKind" : "method",
+    "title" : "showDisplay()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@objc"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "showDisplay"
+            },
+            {
+              "kind" : "text",
+              "text" : "()"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/hideDisplay()",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/minimizeDisplay()"
+      ],
+      "title" : "SDK UI Controls"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/joynedmobilesdk\/joynedsdk\/showdisplay()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK": {
+  "abstract" : [
+    {
+      "text" : "We help people book together. With a better booking experience, better business results",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JoynedMobileSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/GettingStarted": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Getting Started with Joyned mobile SDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/gettingstarted"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK": {
+  "abstract" : [
+    {
+      "text" : "The main public access class to ther Joyned mobile SDK, use it to interact with the system",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JoynedSDK"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JoynedSDK"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JoynedSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/hideDisplay()": {
+  "abstract" : [
+    {
+      "text" : "Use this method to make the system hide the floating SDK UI elements",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hideDisplay"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/hideDisplay()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hideDisplay()",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/hidedisplay()"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/minimizeDisplay()": {
+  "abstract" : [
+    {
+      "text" : "Use this method to trigger a minimize action on the floating SDK UI elements,",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "minimizeDisplay"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/minimizeDisplay()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "minimizeDisplay()",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/minimizedisplay()"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/showDisplay()": {
+  "abstract" : [
+    {
+      "text" : "Use this method to make the system show the floating SDK UI elements, if they have been hidden before",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "showDisplay"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/showDisplay()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "showDisplay()",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/showdisplay()"
+}
+}
+}

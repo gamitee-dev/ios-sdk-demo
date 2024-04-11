@@ -1,1 +1,268 @@
-{"schemaVersion":{"patch":0,"minor":3,"major":0},"kind":"symbol","identifier":{"interfaceLanguage":"swift","url":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedTransactionRequest\/transaction"},"hierarchy":{"paths":[["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedTransactionRequest"],["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedTransactionRequest"]]},"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/joynedmobilesdk\/joynedtransactionrequest\/transaction"]},{"traits":[{"interfaceLanguage":"occ"}],"paths":["\/documentation\/joynedmobilesdk\/joynedtransactionrequest\/transaction"]}],"abstract":[{"type":"text","text":"A dictionary of transaction data stores the information extracted by the system when the request was initialized"}],"seeAlsoSections":[{"title":"Accessing request payload","generated":true,"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedTransactionRequest\/transactionJSON"]}],"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"text":"transaction","kind":"identifier"},{"text":": ","kind":"text"},{"preciseIdentifier":"c:objc(cs)NSDictionary","text":"NSDictionary","kind":"typeIdentifier"}],"languages":["swift"],"platforms":["iOS"]}]}],"sections":[],"metadata":{"role":"symbol","symbolKind":"property","title":"transaction","roleHeading":"Instance Property","navigatorTitle":[{"text":"transaction","kind":"identifier"}],"fragments":[{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"transaction","kind":"identifier"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"c:objc(cs)NSDictionary","text":"NSDictionary"}],"modules":[{"name":"JoynedMobileSDK"}],"externalID":"c:@M@JoynedMobileSDK@objc(cs)JoynedTransactionRequest(py)transaction"},"references":{"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedTransactionRequest":{"type":"topic","kind":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedtransactionrequest","title":"JoynedTransactionRequest","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedTransactionRequest","abstract":[{"type":"text","text":"A data object containing the transaction information to be reported to the Joyned servers"}],"role":"symbol","navigatorTitle":[{"text":"JoynedTransactionRequest","kind":"identifier"}],"fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"JoynedTransactionRequest","kind":"identifier"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedTransactionRequest/transactionJSON":{"type":"topic","kind":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedtransactionrequest\/transactionjson","title":"transactionJSON","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedTransactionRequest\/transactionJSON","abstract":[{"type":"text","text":"A JSON string representation of the transaction request payload"}],"role":"symbol","navigatorTitle":[{"text":"transactionJSON","kind":"identifier"}],"fragments":[{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"transactionJSON","kind":"identifier"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":"?"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK":{"title":"JoynedMobileSDK","abstract":[{"text":"We help people book together. With a better booking experience, better business results","type":"text"}],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","role":"collection","url":"\/documentation\/joynedmobilesdk","kind":"symbol"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/GettingStarted":{"title":"Getting Started with Joyned mobile SDK","abstract":[],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","role":"collectionGroup","url":"\/documentation\/joynedmobilesdk\/gettingstarted","kind":"article"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedTransactionRequest/transaction":{"type":"topic","kind":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedtransactionrequest\/transaction","title":"transaction","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedTransactionRequest\/transaction","abstract":[{"text":"A dictionary of transaction data stores the information extracted by the system when the request was initialized","type":"text"}],"role":"symbol","navigatorTitle":[{"text":"transaction","kind":"identifier"}],"fragments":[{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"text":"transaction","kind":"identifier"},{"text":": ","kind":"text"},{"preciseIdentifier":"c:objc(cs)NSDictionary","text":"NSDictionary","kind":"typeIdentifier"}]}},"variantOverrides":[{"traits":[{"interfaceLanguage":"occ"}],"patch":[{"op":"replace","path":"\/identifier\/interfaceLanguage","value":"occ"},{"path":"\/metadata\/roleHeading","value":"Instance Property","op":"replace"},{"op":"replace","path":"\/metadata\/title","value":"transaction"},{"path":"\/metadata\/symbolKind","value":"property","op":"replace"},{"op":"replace","path":"\/metadata\/fragments","value":[{"kind":"identifier","text":"transaction"}]},{"value":null,"op":"add","path":"\/topicSections"},{"op":"add","path":"\/relationshipsSections","value":null},{"op":"replace","value":[{"generated":true,"title":"Accessing request payload","identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedTransactionRequest\/transactionJSON"]}],"path":"\/seeAlsoSections"},{"value":{"kind":"declarations","declarations":[{"languages":["occ"],"platforms":["iOS"],"tokens":[{"kind":"keyword","text":"@property"},{"text":" (","kind":"text"},{"kind":"keyword","text":"nonatomic"},{"text":", ","kind":"text"},{"text":"strong","kind":"keyword"},{"text":") ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"c:objc(cs)NSDictionary","text":"NSDictionary"},{"text":" * ","kind":"text"},{"text":"transaction","kind":"identifier"},{"text":";","kind":"text"}]}]},"op":"replace","path":"\/primaryContentSections\/0"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedTransactionRequest\/title","value":"JoynedTransactionRequest"},{"op":"replace","value":[{"kind":"identifier","text":"JoynedTransactionRequest"}],"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedTransactionRequest\/fragments"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedTransactionRequest~1transactionJSON\/title","value":"transactionJSON"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedTransactionRequest~1transactionJSON\/fragments","value":[{"text":"transactionJSON","kind":"identifier"}],"op":"replace"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedTransactionRequest~1transaction\/title","op":"replace","value":"transaction"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedTransactionRequest~1transaction\/fragments","value":[{"text":"transaction","kind":"identifier"}],"op":"replace"}]}]}
+{
+  "abstract" : [
+    {
+      "text" : "A dictionary of transaction data stores the information extracted by the system when the request was initialized",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedTransactionRequest"
+      ],
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedTransactionRequest"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedTransactionRequest\/transaction"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@JoynedMobileSDK@objc(cs)JoynedTransactionRequest(py)transaction",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "transaction"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:objc(cs)NSDictionary",
+        "text" : "NSDictionary"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JoynedMobileSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "transaction"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "transaction"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:objc(cs)NSDictionary",
+              "text" : "NSDictionary"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedTransactionRequest\/transactionJSON"
+      ],
+      "title" : "Accessing request payload"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/joynedmobilesdk\/joynedtransactionrequest\/transaction"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK": {
+  "abstract" : [
+    {
+      "text" : "We help people book together. With a better booking experience, better business results",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JoynedMobileSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/GettingStarted": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Getting Started with Joyned mobile SDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/gettingstarted"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedTransactionRequest": {
+  "abstract" : [
+    {
+      "text" : "A data object containing the transaction information to be reported to the Joyned servers",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JoynedTransactionRequest"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedTransactionRequest",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JoynedTransactionRequest"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JoynedTransactionRequest",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedtransactionrequest"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedTransactionRequest/transaction": {
+  "abstract" : [
+    {
+      "text" : "A dictionary of transaction data stores the information extracted by the system when the request was initialized",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "transaction"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSDictionary",
+      "text" : "NSDictionary"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedTransactionRequest\/transaction",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "transaction",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedtransactionrequest\/transaction"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedTransactionRequest/transactionJSON": {
+  "abstract" : [
+    {
+      "text" : "A JSON string representation of the transaction request payload",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "transactionJSON"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedTransactionRequest\/transactionJSON",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "transactionJSON",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedtransactionrequest\/transactionjson"
+}
+}
+}

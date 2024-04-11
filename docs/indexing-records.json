@@ -1,0 +1,1422 @@
+[
+  {
+    "headings" : [
+      "Discussion"
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButtonDelegate\/joynedButton(_:productOfferingForItem:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Called when the User clicks the button, if the button is contained within a UICollectionView and is visiable on screen Asks for the relevent product offering, provides the index path associated with the button  Discussion Note: Only one method will be called out of the TableView\/CollectionView\/Location related methods",
+    "summary" : "Called when the User clicks the button, if the button is contained within a UICollectionView and is visiable on screen Asks for the relevent product offering, provides the index path associated with the button",
+    "title" : "joynedButton(_:productOfferingForItem:)"
+  },
+  {
+    "headings" : [
+      "Overview",
+      "Xib\/Storyboard",
+      "Code Integration",
+      "For more information see:"
+    ],
+    "kind" : "article",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_02_hosted-ui"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Hosted Joyned UI Joyned mobile SDK provides a few views which are ment to be used within application that hosts the SDK Overview There are two ways to integrated Joyned mobile SDK views into the host application: via Xib\/Storyboard via Code Xib\/Storyboard To integrate a JoynedButton in to Xib or Storyboard based UI all you need to do is to add a view element to the Xib\/Storyboard document and set its custom class to JoynedButton. Make sure to also set the module value in the inspector to JoynedMobileSDK  Code Integration To integrate a JoynedButton in to a UIKit code based UI, use the following code:  Also see: generateJoynedButton(frame:with:) Make sure that you implement the button’s delegate protocol and set it’s delegate like so:  For more information see: JoynedButton JoynedButtonDelegate",
+    "summary" : "Hosted Joyned UI Joyned mobile SDK provides a few views which are ment to be used within application that hosts the SDK",
+    "title" : "Hosted UI"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/libraryVersion"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Returns the SDK version in the following template x.y.z (buildNumber) ",
+    "summary" : "Returns the SDK version in the following template x.y.z (buildNumber)",
+    "title" : "libraryVersion"
+  },
+  {
+    "headings" : [
+      "Discussion"
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/remove(BlackList:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Use this method to remove a  screen name to the system black list On screens which appear in the blacklist the Joyned mobile SDK will not present it’s floating content,  screen name to remove fro the invalid screens list Discussion Note: If no screens are in the black list the system will ignore its limitations",
+    "summary" : "Use this method to remove a  screen name to the system black list On screens which appear in the blacklist the Joyned mobile SDK will not present it’s floating content,",
+    "title" : "remove(BlackList:)"
+  },
+  {
+    "headings" : [
+      "Overview",
+      "Featured"
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "We help people book together. With a better booking experience, better business results Overview Friends who travel together make decisions together. Why not let them book together? Joyned allows people to invite friends to your website or app, book together and interact LIVE, on-site. Featured Getting Started with Joyned mobile SDK Sample code - Voyage App",
+    "summary" : "We help people book together. With a better booking experience, better business results",
+    "title" : "JoynedMobileSDK"
+  },
+  {
+    "headings" : [
+      "Return Value",
+      "Discussion"
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/scene(_:willConnectTo:options:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Call this method from the UISceneDelegate.scene(_:willConnectTo:options:) method of your application scene delegate. It should be invoked for the proper processing of Joyned related content.  The scene object being connected to your app. The session object containing details about the scene’s configuration. Additional options for configuring the scene. Use the information in this object to handle actions that caused the creation of the scene, for example, to respond to a quick action selected by the user. Return Value true if the connectionOptions payload contains Joyned related code, otherwise false Discussion ",
+    "summary" : "Call this method from the UISceneDelegate.scene(_:willConnectTo:options:) method of your application scene delegate. It should be invoked for the proper processing of Joyned related content.",
+    "title" : "scene(_:willConnectTo:options:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/isBorderEnabled"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Determins if the card content should have a border drawn or not, defaults to false ",
+    "summary" : "Determins if the card content should have a border drawn or not, defaults to false",
+    "title" : "isBorderEnabled"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedTransactionRequest\/init(transaction:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Returns a Transaction Request object with imutable payload  transaction data to be processed by the system, in [String: Any] format",
+    "summary" : "Returns a Transaction Request object with imutable payload",
+    "title" : "init(transaction:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/clearScreensBlackList()"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Use this method to clear the invalid screen names from the system black list ",
+    "summary" : "Use this method to clear the invalid screen names from the system black list",
+    "title" : "clearScreensBlackList()"
+  },
+  {
+    "headings" : [
+      "Overview"
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The main public access class to ther Joyned mobile SDK, use it to interact with the system  Overview The main public access class to ther Joyned mobile SDK, use it to interact with the system",
+    "summary" : "The main public access class to ther Joyned mobile SDK, use it to interact with the system",
+    "title" : "JoynedSDK"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDKDelegate\/mobileSDKDidFailToActivate()"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Called when the SDK failed to activate ",
+    "summary" : "Called when the SDK failed to activate",
+    "title" : "mobileSDKDidFailToActivate()"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/j_throw_objc(_:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "j_throw_objc(_:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "article",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSample"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Integrate JoynedMobileSDK into an iOS app for booking and ordering togather.",
+    "summary" : "Integrate JoynedMobileSDK into an iOS app for booking and ordering togather.",
+    "title" : "Sample code - Voyage App"
+  },
+  {
+    "headings" : [
+      "Discussion"
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/addSubview(_:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Adds a view to the end of the receiver’s list of subviews.  The view to be added. After being added, this view appears on top of any other subviews. Discussion Note, this view has an internal container that holds the subview, this allows adding shadow & clip the corners as well",
+    "summary" : "Adds a view to the end of the receiver’s list of subviews.",
+    "title" : "addSubview(_:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/showDisplay()"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Use this method to make the system show the floating SDK UI elements, if they have been hidden before ",
+    "summary" : "Use this method to make the system show the floating SDK UI elements, if they have been hidden before",
+    "title" : "showDisplay()"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shouldClipBottomLeft"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Indicates if the bottom left corner should be cliped or not, used for card UI clipping system. Only takes effect if the isShapeEnabled is set to true. ",
+    "summary" : "Indicates if the bottom left corner should be cliped or not, used for card UI clipping system. Only takes effect if the isShapeEnabled is set to true.",
+    "title" : "shouldClipBottomLeft"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shadowOffset"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The offset  of the shadow used by the card UI, only takes effect if the isShadowEnabled is set to true. Zero by default. ",
+    "summary" : "The offset  of the shadow used by the card UI, only takes effect if the isShadowEnabled is set to true. Zero by default.",
+    "title" : "shadowOffset"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shouldClipTopRight"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Indicates if the top right corner should be cliped or not, used for card UI clipping system. Only takes effect if the isShapeEnabled is set to true. ",
+    "summary" : "Indicates if the top right corner should be cliped or not, used for card UI clipping system. Only takes effect if the isShapeEnabled is set to true.",
+    "title" : "shouldClipTopRight"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingRequest\/originalOffering"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A dictionary containing the original offering data ",
+    "summary" : "A dictionary containing the original offering data",
+    "title" : "originalOffering"
+  },
+  {
+    "headings" : [
+      "Discussion"
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/append(WhiteList:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Use this method to add a new screen name to the system white list On screens which appear in the whitelist the Joyned mobile SDK will present it’s floating content,  new screen name to add to the valid screens list Discussion Note: If no screens are in the white list the system will ignore its limitations",
+    "summary" : "Use this method to add a new screen name to the system white list On screens which appear in the whitelist the Joyned mobile SDK will present it’s floating content,",
+    "title" : "append(WhiteList:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedTransactionRequest\/init(transactionDictionary:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Returns a Transaction Request object with imutable payload  transaction data to be processed by the system, in NSDictionary format",
+    "summary" : "Returns a Transaction Request object with imutable payload",
+    "title" : "init(transactionDictionary:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shouldClipBottomRight"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Indicates if the bottom right corner should be cliped or not, used for card UI clipping system. Only takes effect if the isShapeEnabled is set to true. ",
+    "summary" : "Indicates if the bottom right corner should be cliped or not, used for card UI clipping system. Only takes effect if the isShapeEnabled is set to true.",
+    "title" : "shouldClipBottomRight"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingResponse\/directUrl"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The offering direct URL as contained in the originalOffering dictionary ",
+    "summary" : "The offering direct URL as contained in the originalOffering dictionary",
+    "title" : "directUrl"
+  },
+  {
+    "headings" : [
+      "Overview"
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDKDelegate"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The Joyned mobile SDK main delegation protocol, implement this to recive notifications on major actions taken by the SDK and affect its behavior  Overview Implement this to recive notifications on major actions taken by the SDK and affect its behavior See also: Global Delegate",
+    "summary" : "The Joyned mobile SDK main delegation protocol, implement this to recive notifications on major actions taken by the SDK and affect its behavior",
+    "title" : "JoynedSDKDelegate"
+  },
+  {
+    "headings" : [
+      "Overview",
+      "Screen List Validation Controls",
+      "Manual screen controls"
+    ],
+    "kind" : "article",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_01_screen-llst"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Joyned Mobile SDK screen change monitor Overview Joyned Mobile SDK monitors the host application for screen changes and adjusts its display accordingly. The system has several ways to effect when Joyend content is showing or not. Screen List Auto - plist based black \/ white list Manual - black \/ white list update in code Manual screen controls Hide \/ Show display Minimize display Screen List Validation Controls Add JoynedMobileSDKScreenlists as a Dictionary to the Joyned-Info plist file to configure automatic screenlist. To the resulting Dictionary add the following keys with the relevant string arrays: JoynedMobileSDKScreenWhitelist JoynedMobileSDKScreenBlacklist Note: Entries in the blacklist take president over the ones in whitelist Example:  You can add or remove additional screen from the system black\/white list with the following API via the public access point (JoynedSDK) append(WhiteList:) remove(WhiteList:) append(BlackList:) remove(BlackList:) clearScreensBlackList() Manual screen controls You can use the JoynedMobileSDK via its public access point (JoynedSDK) to effect how the Joyned UI acts. hideDisplay() showDisplay() minimizeDisplay()",
+    "summary" : "Joyned Mobile SDK screen change monitor",
+    "title" : "Screen Validation Controls"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shadowRadius"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The radius of the shadow used by the card UI, only takes effect if the isShadowEnabled is set to true. Zero by default. ",
+    "summary" : "The radius of the shadow used by the card UI, only takes effect if the isShadowEnabled is set to true. Zero by default.",
+    "title" : "shadowRadius"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButtonDelegate\/willPresentMobileSDKContent()"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Called when the User clicks the button, before presenting any SDK content , after validations ",
+    "summary" : "Called when the User clicks the button, before presenting any SDK content , after validations",
+    "title" : "willPresentMobileSDKContent()"
+  },
+  {
+    "headings" : [
+      "Discussion"
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButtonDelegate\/joynedButton(_:productOfferingForRaw:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Called when the User clicks the button, if the button is contained within a UITableView and is visiable on screen Asks for the relevent product offering, provides the index path associated with the button  Discussion Note: Only one method will be called out of the TableView\/CollectionView\/Location related methods",
+    "summary" : "Called when the User clicks the button, if the button is contained within a UITableView and is visiable on screen Asks for the relevent product offering, provides the index path associated with the button",
+    "title" : "joynedButton(_:productOfferingForRaw:)"
+  },
+  {
+    "headings" : [
+      "Discussion"
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/minimizeDisplay()"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Use this method to trigger a minimize action on the floating SDK UI elements,  Discussion Works the same as if thw user taped on the appropriate button in the display",
+    "summary" : "Use this method to trigger a minimize action on the floating SDK UI elements,",
+    "title" : "minimizeDisplay()"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/j_try_objc(_:_:_:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "j_try_objc(_:_:_:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedTransactionRequest\/transaction"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A dictionary of transaction data stores the information extracted by the system when the request was initialized ",
+    "summary" : "A dictionary of transaction data stores the information extracted by the system when the request was initialized",
+    "title" : "transaction"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedTransactionRequest"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A data object containing the transaction information to be reported to the Joyned servers ",
+    "summary" : "A data object containing the transaction information to be reported to the Joyned servers",
+    "title" : "JoynedTransactionRequest"
+  },
+  {
+    "headings" : [
+      "Overview",
+      "For more information see:"
+    ],
+    "kind" : "article",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_03_invitation-links"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Handle supported deeplinks for Joyned content Overview Joyned invitation links allow a user to invite his friends into his Joyned session. The simplest way of doing so is by opening a Joyned session and using its UI to share an invitation via one of the supported share options, this can be done from both the Web UI or the mobile app.      Share payload: The share payload contains a “short” link which will redirect the system to a “long” link. The “long” link needs to be of a format supported by the host mobile appliaction for the system integration to fully work. Example of a share message:  To integrate the invitation links element into the application you first need to implement Universal links Implement Universal links by following the instruction as shown on apple developer website universal-links -  general universal-links - allowing apps to link to your content Once implemented, you need to add the relevent Joyned methods from within the applications scene delegate:  For more information see: scene(_:continue:) scene(_:openURLContexts:) scene(_:willConnectTo:options:) JoynedSDK",
+    "summary" : "Handle supported deeplinks for Joyned content",
+    "title" : "Joyned Session invitation links"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/encode(with:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Encodes the receiver using a given archiver.  An archiver object.",
+    "summary" : "Encodes the receiver using a given archiver.",
+    "title" : "encode(with:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shouldClipTopLeft"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Indicates if the top left corner should be cliped or not, used for card UI clipping system. Only takes effect if the isShapeEnabled is set to true. ",
+    "summary" : "Indicates if the top left corner should be cliped or not, used for card UI clipping system. Only takes effect if the isShapeEnabled is set to true.",
+    "title" : "shouldClipTopLeft"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/isShadowEnabled"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Determins if the card content should have a shadow outline or not, defaults to false ",
+    "summary" : "Determins if the card content should have a shadow outline or not, defaults to false",
+    "title" : "isShadowEnabled"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shapeRadius"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The corner clipping radius, used for card UI clipping system. Only takes effect if the isShapeEnabled is set to true. ",
+    "summary" : "The corner clipping radius, used for card UI clipping system. Only takes effect if the isShapeEnabled is set to true.",
+    "title" : "shapeRadius"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/borderWidth"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Controls the border’s width paramater, only takes effect if the isBorderEnabled is set to true. ",
+    "summary" : "Controls the border’s width paramater, only takes effect if the isBorderEnabled is set to true.",
+    "title" : "borderWidth"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shadowColor"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The color to be used for card UI shadow color, only takes effect if the isShadowEnabled is set to true. Transperent by default. ",
+    "summary" : "The color to be used for card UI shadow color, only takes effect if the isShadowEnabled is set to true. Transperent by default.",
+    "title" : "shadowColor"
+  },
+  {
+    "headings" : [
+      "Return Value"
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/generateJoynedButton(frame:with:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Use this method to generate a new instance of JoynedButton  The frame of the new view in it’s parent coorinate space Return Value New intance of JoynedButton",
+    "summary" : "Use this method to generate a new instance of JoynedButton",
+    "title" : "generateJoynedButton(frame:with:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A Joyned UI element meant for usage in the host application, acts as a card like display element, supports border, shadow, corner cliping & more ",
+    "summary" : "A Joyned UI element meant for usage in the host application, acts as a card like display element, supports border, shadow, corner cliping & more",
+    "title" : "JoynedButton"
+  },
+  {
+    "headings" : [
+      "Return Value",
+      "Discussion"
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/scene(_:continue:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Call this method from the UISceneDelegate.scene(_:continue:) method of your application scene delegate. It should be invoked for the proper processing of Joyned related content.  The scene object being connected to your app. The object containing the activity-related data. Use the information in this object to continue the user’s activity in your scene. Return Value true if the connectionOptions payload contains Joyned related code, otherwise false Discussion ",
+    "summary" : "Call this method from the UISceneDelegate.scene(_:continue:) method of your application scene delegate. It should be invoked for the proper processing of Joyned related content.",
+    "title" : "scene(_:continue:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/hideDisplay()"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Use this method to make the system hide the floating SDK UI elements ",
+    "summary" : "Use this method to make the system hide the floating SDK UI elements",
+    "title" : "hideDisplay()"
+  },
+  {
+    "headings" : [
+      "Discussion"
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButtonDelegate\/joynedButton(_:productOfferingFor:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Called when the User clicks the button, Asks for the relevent product offering, provides the touch location associated with the button, in the window coordinatespace  Discussion Note: Only one method will be called out of the TableView\/CollectionView\/Location related methods",
+    "summary" : "Called when the User clicks the button, Asks for the relevent product offering, provides the touch location associated with the button, in the window coordinatespace",
+    "title" : "joynedButton(_:productOfferingFor:)"
+  },
+  {
+    "headings" : [
+      "Discussion"
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/remove(WhiteList:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Use this method to remove a screen name to the system white list On screens which appear in the whitelist the Joyned mobile SDK will present it’s floating content,  screen name to remove from the valid screens list Discussion Note: If no screens are in the white list the system will ignore its limitations",
+    "summary" : "Use this method to remove a screen name to the system white list On screens which appear in the whitelist the Joyned mobile SDK will present it’s floating content,",
+    "title" : "remove(WhiteList:)"
+  },
+  {
+    "headings" : [
+      "Return Value",
+      "Discussion"
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/scene(_:openURLContexts:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Call this method from the UISceneDelegate.scene(_:openURLContexts:) method of your application scene delegate. It should be invoked for the proper processing of Joyned related content.  The scene object being connected to your app. One or more UIOpenURLContext objects. Each object contains one URL to open and any additional information needed to open that URL. Return Value true if the connectionOptions payload contains Joyned related code, otherwise false Discussion ",
+    "summary" : "Call this method from the UISceneDelegate.scene(_:openURLContexts:) method of your application scene delegate. It should be invoked for the proper processing of Joyned related content.",
+    "title" : "scene(_:openURLContexts:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingRequest\/init(offering:extra:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Returns an Offering Request object with imutable payload  offering data to be processed by the system, in [String: Any] format extra application  data to be processed by the system, in [String: Any] format",
+    "summary" : "Returns an Offering Request object with imutable payload",
+    "title" : "init(offering:extra:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingRequest\/init(offeringDictionary:extraDictionary:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Returns an Offering Request object with imutable payload  offering data to be processed by the system, in NSDictionary format extra application  data to be processed by the system, in NSDictionary format",
+    "summary" : "Returns an Offering Request object with imutable payload",
+    "title" : "init(offeringDictionary:extraDictionary:)"
+  },
+  {
+    "headings" : [
+      "Discussion"
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/append(BlackList:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Use this method to add a new screen name to the system black list On screens which appear in the blacklist the Joyned mobile SDK will not present it’s floating content,  new screen name to add to the invalid screens list Discussion Note: If no screens are in the black list the system will ignore its limitations",
+    "summary" : "Use this method to add a new screen name to the system black list On screens which appear in the blacklist the Joyned mobile SDK will not present it’s floating content,",
+    "title" : "append(BlackList:)"
+  },
+  {
+    "headings" : [
+      "Overview"
+    ],
+    "kind" : "article",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " Overview",
+    "summary" : "",
+    "title" : "Getting Started with Joyned mobile SDK"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingResponse"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A data object containing the offering response as reported by the Joyned servers ",
+    "summary" : "A data object containing the offering response as reported by the Joyned servers",
+    "title" : "JoynedOfferingResponse"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDKDelegate\/mobileSDKLocaleForPresentingContent(given:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "An intervention location allowing to override the locale to be used when presenting SDK content on screen ",
+    "summary" : "An intervention location allowing to override the locale to be used when presenting SDK content on screen",
+    "title" : "mobileSDKLocaleForPresentingContent(given:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedTransactionRequest\/transactionJSON"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A JSON string representation of the transaction request payload ",
+    "summary" : "A JSON string representation of the transaction request payload",
+    "title" : "transactionJSON"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButtonDelegate"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Methods for managing JoynedButton behavior, allows the system a way to pass navigation requests & more ",
+    "summary" : "Methods for managing JoynedButton behavior, allows the system a way to pass navigation requests & more",
+    "title" : "JoynedButtonDelegate"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingRequest\/extraAppContentJSON"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A JSON string representation of the offering extra application content payload ",
+    "summary" : "A JSON string representation of the offering extra application content payload",
+    "title" : "extraAppContentJSON"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/isShapeEnabled"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Determins if the card content should its corners cliped or not, defaults to false ",
+    "summary" : "Determins if the card content should its corners cliped or not, defaults to false",
+    "title" : "isShapeEnabled"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/init(coder:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Creates a control from data in an unarchiver.  An archiver object.",
+    "summary" : "Creates a control from data in an unarchiver.",
+    "title" : "init(coder:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDKDelegate\/mobileSDKDidTriggerNavigation(for:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Called when a user clicks on an offering within the Joyned UI, use this as a trigger for in-app navigation, for navigation details lokk into the payload object ",
+    "summary" : "Called when a user clicks on an offering within the Joyned UI, use this as a trigger for in-app navigation, for navigation details lokk into the payload object",
+    "title" : "mobileSDKDidTriggerNavigation(for:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/init(frame:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Creates a control with the specified frame.  the size of the view",
+    "summary" : "Creates a control with the specified frame.",
+    "title" : "init(frame:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDKDelegate\/mobileSDKDidActivateSuccessfully()"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Called when the SDK was activated successfully ",
+    "summary" : "Called when the SDK was activated successfully",
+    "title" : "mobileSDKDidActivateSuccessfully()"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingResponse\/originalOfferingJSON"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A JSON string representation of the offering original content payload ",
+    "summary" : "A JSON string representation of the offering original content payload",
+    "title" : "originalOfferingJSON"
+  },
+  {
+    "headings" : [
+      "Overview"
+    ],
+    "kind" : "article",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_06_advance"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Extra options to configure SDK sub-elements Overview Support custom behavior by setting the joynedAreaComputation property of each UIViewController in it’s viewDidLoad    Code Example:  Joyned Mobile SDK allows advance usage of its build-in logger via plist based flags Add JoynedMobileSDKAutoLogs as a Dictionary to the Joyned-Info plist file to configure automatic logs. To the resulting Dictionary add any of the following keys with the relevant boolean value: JoynedMobileSDKAutoLogsGeneral JoynedMobileSDKAutoLogsInternalDealloc JoynedMobileSDKAutoLogsInternalPersistence JoynedMobileSDKAutoLogsInternalPresentationLogic JoynedMobileSDKAutoLogsInternalUIPresentation JoynedMobileSDKAutoLogsInternalUIFloating JoynedMobileSDKAutoLogsInternalUIJoyned JoynedMobileSDKAutoLogsInternalNetwork JoynedMobileSDKAutoLogsWebConsole JoynedMobileSDKAutoLogsInternalEvents JoynedMobileSDKAutoLogsInternalScreenChange Any key with a true value will effect the resulting Console logs Note: You can as many key as you like to the system. Plist integration Example: ",
+    "summary" : "Extra options to configure SDK sub-elements",
+    "title" : "Advance SDK configuration"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedAreaComputation"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A helper type used for dynamic drag area computations ",
+    "summary" : "A helper type used for dynamic drag area computations",
+    "title" : "JoynedAreaComputation"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/contentColorEnabled"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Determins if the card content should have a background color, defaults to false ",
+    "summary" : "Determins if the card content should have a background color, defaults to false",
+    "title" : "contentColorEnabled"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingResponse\/extraAppContent"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A dictionary containing the extra appliction data, may be used for in-app navigation logic ",
+    "summary" : "A dictionary containing the extra appliction data, may be used for in-app navigation logic",
+    "title" : "extraAppContent"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/activate(with:and:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Use this method for manual activation of the SDK  The key used for activation process, contact Customer success for details The base url used for remote validation",
+    "summary" : "Use this method for manual activation of the SDK",
+    "title" : "activate(with:and:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/shadowOpacity"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The opacity level of the shadow used by the card UI, only takes effect if the isShadowEnabled is set to true. Zero by default. ",
+    "summary" : "The opacity level of the shadow used by the card UI, only takes effect if the isShadowEnabled is set to true. Zero by default.",
+    "title" : "shadowOpacity"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/report(Transaction:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Call this method to report purchase transactions to the Joyned SDK  a transaction object",
+    "summary" : "Call this method to report purchase transactions to the Joyned SDK",
+    "title" : "report(Transaction:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/contentColor"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The color to be used for card UI background color, only takes effect if the contentColorEnabled is set to true. Transperent by default. ",
+    "summary" : "The color to be used for card UI background color, only takes effect if the contentColorEnabled is set to true. Transperent by default.",
+    "title" : "contentColor"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingRequest\/init(offeringString:extraString:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Returns an Offering Request object with imutable payload  offering data to be processed by the system, in JSON format, parsed as part of the creation process extra application  data to be processed by the system, in JSON format, parsed as part of the creation process",
+    "summary" : "Returns an Offering Request object with imutable payload",
+    "title" : "init(offeringString:extraString:)"
+  },
+  {
+    "headings" : [
+      "Overview",
+      "For more information see:"
+    ],
+    "kind" : "article",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_05_transaction"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "API to make joyned is aware of all purchase transactions processed by your application. Overview The Joyned transaction is an “analytics” fire & forget like API Simply create a JoynedTransactionRequest object and pass it to the JoynedSDK. Code Example:  For more information see: JoynedTransactionRequest report(Transaction:)",
+    "summary" : "API to make joyned is aware of all purchase transactions processed by your application.",
+    "title" : "Report transaction"
+  },
+  {
+    "headings" : [
+      "Overview"
+    ],
+    "kind" : "article",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_01_activation"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "There are several different ways to activate of the Joyned mobile SDK Overview In general there are two diffrent ways to initiate the activation of the Joyned mobile SDK automatic manual Both ways are based on pramaters passsed in the Joyned-Info.plist file in the host application bundle. Make sure you have a file with this name in the main application target. Add the JoynedMobileSDKManualActivation key to the Joyned-Info plist file. Set the value to YES as a Boolean paramater to tell the system that we want to activate the Joyned system manually. Once you have the flag in place you can manually call the relevent method to trigger the SDK activation. A good activation location is the application:didFinishLaunchingWithOptions: method:  See also: activate(with:and:) Add JoynedMobileSDKCredentials as a Dictionary to the Joyned-Info plist file to configure automatic activation. To the resulting Dictionary add the following keys with the relevant string values: JoynedMobileSDKActivationKey JoynedMobileSDKOriginKey Example:  Optional: Add the JoynedMobileSDKManualActivation key to the Joyned-Info plist file. Set the value to NO as a Boolean paramater to tell the system that we want to activate the Joyned system automaticlly.",
+    "summary" : "There are several different ways to activate of the Joyned mobile SDK",
+    "title" : "Activation Methods"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/delegate"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "The delegate of the SDK used for general control hooks into the system. ",
+    "summary" : "The delegate of the SDK used for general control hooks into the system.",
+    "title" : "delegate"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/borderColor"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Controls the border’s color paramater, only takes effect if the isBorderEnabled is set to true. Transperent by default. ",
+    "summary" : "Controls the border’s color paramater, only takes effect if the isBorderEnabled is set to true. Transperent by default.",
+    "title" : "borderColor"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingResponse\/originalOffering"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A dictionary containing the original offering data ",
+    "summary" : "A dictionary containing the original offering data",
+    "title" : "originalOffering"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/delegate"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "delegate"
+  },
+  {
+    "headings" : [
+      "Overview"
+    ],
+    "kind" : "article",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_00_installation"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "How to install this library Overview The Swift Package Manager is a tool for automating the distribution of Swift code and is integrated into the swift compiler. Once you have your Swift package set up, adding JoynedMobileSDK as a dependency is as easy as adding it to the dependencies value of your Package.swift or the Package list in Xcode.  Normally you’ll want to depend on the Joyned target:  CocoaPods is a dependency manager for Cocoa projects. To install cocoapods via gem if needed Open terminal Type $ [sudo] gem install cocoapods Press enter For more usage and installation instructions, visit their website. To integrate Joyned into your Xcode project using CocoaPods, specify it in your Podfile:  In the terminal run pod install Note for Mac M1 users: Mac M1 architecture is not directly compatible with Cocoapods. If you encounter issues when installing pods, you can solve it by running: sudo arch -x86_64 gem install ffi arch -x86_64 pod install These commands install the ffi package, to load dynamically-linked libraries and let you run the pod install properly, and runs pod install with the proper architecture. If you prefer not to use any of the other dependency managers, you can integrate Joyned into your project manually by adding the XCFramework to the project.",
+    "summary" : "How to install this library",
+    "title" : "Library installation"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingRequest\/originalOfferingJSON"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A JSON string representation of the offering original content payload ",
+    "summary" : "A JSON string representation of the offering original content payload",
+    "title" : "originalOfferingJSON"
+  },
+  {
+    "headings" : [
+      "Return Value",
+      "Discussion"
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/hasSubview(_:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Returns true if the passed view is a subview of the reciver  The view to be tested Return Value True if the passed view is a subview of the reciver Discussion Note, this view has an internal container that holds the subview, this allows adding shadow & clip the corners as well",
+    "summary" : "Returns true if the passed view is a subview of the reciver",
+    "title" : "hasSubview(_:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingRequest"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A data object containing the offering information to be reported to the Joyned servers ",
+    "summary" : "A data object containing the offering information to be reported to the Joyned servers",
+    "title" : "JoynedOfferingRequest"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedTransactionRequest\/init(transactionString:)"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Returns a Transaction Request object with imutable payload  transaction data to be processed by the system, in JSON format, parsed as part of the creation process",
+    "summary" : "Returns a Transaction Request object with imutable payload",
+    "title" : "init(transactionString:)"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingResponse\/extraAppContentJSON"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A JSON string representation of the offering extra application content payload ",
+    "summary" : "A JSON string representation of the offering extra application content payload",
+    "title" : "extraAppContentJSON"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/awakeFromNib()"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Prepares the receiver for service after it has been loaded from an Interface Builder archive, or nib file. ",
+    "summary" : "Prepares the receiver for service after it has been loaded from an Interface Builder archive, or nib file.",
+    "title" : "awakeFromNib()"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/intrinsicContentSize"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : " ",
+    "summary" : "",
+    "title" : "intrinsicContentSize"
+  },
+  {
+    "headings" : [
+
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedOfferingRequest\/extraAppContent"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "A dictionary containing the extra appliction data, may be used for in-app navigation logic ",
+    "summary" : "A dictionary containing the extra appliction data, may be used for in-app navigation logic",
+    "title" : "extraAppContent"
+  },
+  {
+    "headings" : [
+      "Overview"
+    ],
+    "kind" : "article",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_01_global-delegate"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Joyned mobile SDK provides several intervention hooks via the JoynedSDKDelegate protocol Overview The JoynedSDKDelegate is responsible for global interactions with the SDK, things like what locale the system should use, or simple notification on some system events Notifications: mobileSDKDidActivateSuccessfully() mobileSDKDidFailToActivate() Locale mobileSDKLocaleForPresentingContent(given:) Navigation actions mobileSDKDidTriggerNavigation(for:) Please note: You will not be able to interact with JoynedMobileSDK without implementing this protocol.  Usage Example: ",
+    "summary" : "Joyned mobile SDK provides several intervention hooks via the JoynedSDKDelegate protocol",
+    "title" : "Global Delegate"
+  },
+  {
+    "headings" : [
+      "Overview"
+    ],
+    "kind" : "article",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_04_offering"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "API for interacting with JoynedMobileSDK offerings Overview Joyned supports displaying diffrent offerings based on the application’s category it can be anything from an e-comerce product, to a hotel booking (this is why we use the term Offering) Joyned mobile sdk allows its integrator to interact with offerings in two seperate ways: adding offerings to the system responding to user click on existing offerings in the Joyned UI Adding a new Offering  Joyned supports adding a new Offering only via the hosted UI. Once a user taps on the relevent button the mobile SDK asks its host application for the offering information via a delegation protocol and processes it accordingly. The delegation protocol in question is the JoynedButtonDelegate you will need to The button delegate protocol covers three diffrent situations : Standalone Table \/ Collection view Standalone example:  Table \/ Collection example:  In-App navigation in response to user action To support in-app navigation Joyned mobile sdk  exposes a delegation method via its public accessd class. When user taps on an offering within the floating container the system extracts it’s data , wrapps it into a rsponse object and calls on its delegate object with the mobileSDKDidTriggerNavigation(for:). Note: This is the only required method in the JoynedSDKDelegate protocol. In-app navigation example: ",
+    "summary" : "API for interacting with JoynedMobileSDK offerings",
+    "title" : "Offering handling API"
+  },
+  {
+    "headings" : [
+      "Discussion"
+    ],
+    "kind" : "symbol",
+    "location" : {
+      "reference" : {
+        "interfaceLanguage" : "swift",
+        "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/layoutSubviews()"
+      },
+      "type" : "topLevelPage"
+    },
+    "rawIndexableTextContent" : "Lays out subviews.  Discussion The default implementation of this method does nothing on iOS 5.1 and earlier. Otherwise, the default implementation uses any constraints you have set to determine the size and position of any subviews. Subclasses can override this method as needed to perform more precise layout of their subviews. You should override this method only if the autoresizing and constraint-based behaviors of the subviews do not offer the behavior you want. You can use your implementation to set the frame rectangles of your subviews directly. You should not call this method directly. If you want to force a layout update, call the setNeedsLayout() method instead to do so prior to the next drawing update. If you want to update the layout of your views immediately, call the layoutIfNeeded() method.",
+    "summary" : "Lays out subviews.",
+    "title" : "layoutSubviews()"
+  }
+]

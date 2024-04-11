@@ -1,1 +1,522 @@
-{"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/clearScreensBlackList()"},"schemaVersion":{"minor":3,"patch":0,"major":0},"hierarchy":{"paths":[["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK"],["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK"]]},"seeAlsoSections":[{"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/append(WhiteList:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/remove(WhiteList:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/append(BlackList:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/remove(BlackList:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_01_screen-llst"],"generated":true,"title":"SDK Screen Validation"}],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/joynedmobilesdk\/joynedsdk\/clearscreensblacklist()"]},{"paths":["\/documentation\/joynedmobilesdk\/joynedsdk\/clearscreensblacklist()"],"traits":[{"interfaceLanguage":"occ"}]}],"sections":[],"abstract":[{"type":"text","text":"Use this method to clear the invalid screen names from the system black list"}],"metadata":{"fragments":[{"kind":"keyword","text":"class"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"clearScreensBlackList","kind":"identifier"},{"kind":"text","text":"()"}],"navigatorTitle":[{"text":"clearScreensBlackList","kind":"identifier"}],"modules":[{"name":"JoynedMobileSDK"}],"role":"symbol","title":"clearScreensBlackList()","roleHeading":"Type Method","externalID":"c:@M@JoynedMobileSDK@objc(cs)JoynedSDK(cm)clearScreensBlackList","symbolKind":"method"},"kind":"symbol","primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"attribute","text":"@objc"},{"kind":"text","text":" "},{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"text":"clearScreensBlackList","kind":"identifier"},{"text":"()","kind":"text"}],"platforms":["iOS"],"languages":["swift"]}]}],"references":{"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/_01_screen-llst":{"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_01_screen-llst","title":"Screen Validation Controls","url":"\/documentation\/joynedmobilesdk\/_01_screen-llst","kind":"article","abstract":[{"type":"text","text":"Joyned Mobile SDK screen change monitor"}],"type":"topic","role":"article"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/append(BlackList:)":{"title":"append(BlackList:)","type":"topic","kind":"symbol","role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedsdk\/append(blacklist:)","abstract":[{"type":"text","text":"Use this method to add a new screen name to the system black list"},{"text":" ","type":"text"},{"text":"On screens which appear in the blacklist the Joyned mobile SDK will not present it’s floating content,","type":"text"}],"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/append(BlackList:)","fragments":[{"kind":"keyword","text":"class"},{"text":" ","kind":"text"},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"append"},{"text":"(","kind":"text"},{"text":"BlackList","kind":"externalParam"},{"kind":"text","text":": "},{"preciseIdentifier":"s:SS","kind":"typeIdentifier","text":"String"},{"kind":"text","text":")"}],"navigatorTitle":[{"kind":"identifier","text":"appendWithBlackList:"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/append(WhiteList:)":{"title":"append(WhiteList:)","type":"topic","kind":"symbol","role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedsdk\/append(whitelist:)","abstract":[{"type":"text","text":"Use this method to add a new screen name to the system white list"},{"text":" ","type":"text"},{"text":"On screens which appear in the whitelist the Joyned mobile SDK will present it’s floating content,","type":"text"}],"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/append(WhiteList:)","fragments":[{"kind":"keyword","text":"class"},{"text":" ","kind":"text"},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"append"},{"text":"(","kind":"text"},{"text":"WhiteList","kind":"externalParam"},{"kind":"text","text":": "},{"preciseIdentifier":"s:SS","kind":"typeIdentifier","text":"String"},{"kind":"text","text":")"}],"navigatorTitle":[{"kind":"identifier","text":"appendWithWhiteList:"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK":{"title":"JoynedSDK","type":"topic","kind":"symbol","role":"symbol","abstract":[{"type":"text","text":"The main public access class to ther Joyned mobile SDK, use it to interact with the system"}],"url":"\/documentation\/joynedmobilesdk\/joynedsdk","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"JoynedSDK"}],"navigatorTitle":[{"text":"JoynedSDK","kind":"identifier"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/remove(WhiteList:)":{"title":"remove(WhiteList:)","type":"topic","kind":"symbol","role":"symbol","abstract":[{"type":"text","text":"Use this method to remove a screen name to the system white list"},{"text":" ","type":"text"},{"text":"On screens which appear in the whitelist the Joyned mobile SDK will present it’s floating content,","type":"text"}],"url":"\/documentation\/joynedmobilesdk\/joynedsdk\/remove(whitelist:)","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/remove(WhiteList:)","fragments":[{"kind":"keyword","text":"class"},{"text":" ","kind":"text"},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"remove"},{"text":"(","kind":"text"},{"text":"WhiteList","kind":"externalParam"},{"kind":"text","text":": "},{"preciseIdentifier":"s:SS","kind":"typeIdentifier","text":"String"},{"kind":"text","text":")"}],"navigatorTitle":[{"kind":"identifier","text":"removeWithWhiteList:"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK":{"title":"JoynedMobileSDK","abstract":[{"text":"We help people book together. With a better booking experience, better business results","type":"text"}],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","role":"collection","url":"\/documentation\/joynedmobilesdk","kind":"symbol"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/remove(BlackList:)":{"title":"remove(BlackList:)","type":"topic","kind":"symbol","role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedsdk\/remove(blacklist:)","abstract":[{"type":"text","text":"Use this method to remove a  screen name to the system black list"},{"text":" ","type":"text"},{"text":"On screens which appear in the blacklist the Joyned mobile SDK will not present it’s floating content,","type":"text"}],"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/remove(BlackList:)","fragments":[{"kind":"keyword","text":"class"},{"text":" ","kind":"text"},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"remove"},{"text":"(","kind":"text"},{"text":"BlackList","kind":"externalParam"},{"kind":"text","text":": "},{"preciseIdentifier":"s:SS","kind":"typeIdentifier","text":"String"},{"kind":"text","text":")"}],"navigatorTitle":[{"kind":"identifier","text":"removeWithBlackList:"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/clearScreensBlackList()":{"title":"clearScreensBlackList()","type":"topic","kind":"symbol","role":"symbol","abstract":[{"type":"text","text":"Use this method to clear the invalid screen names from the system black list"}],"url":"\/documentation\/joynedmobilesdk\/joynedsdk\/clearscreensblacklist()","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/clearScreensBlackList()","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"kind":"identifier","text":"clearScreensBlackList"},{"kind":"text","text":"()"}],"navigatorTitle":[{"kind":"identifier","text":"clearScreensBlackList"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/GettingStarted":{"title":"Getting Started with Joyned mobile SDK","abstract":[],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","role":"collectionGroup","url":"\/documentation\/joynedmobilesdk\/gettingstarted","kind":"article"}},"variantOverrides":[{"traits":[{"interfaceLanguage":"occ"}],"patch":[{"op":"replace","value":"occ","path":"\/identifier\/interfaceLanguage"},{"value":"Type Method","op":"replace","path":"\/metadata\/roleHeading"},{"value":"clearScreensBlackList","op":"replace","path":"\/metadata\/title"},{"value":"method","path":"\/metadata\/symbolKind","op":"replace"},{"path":"\/metadata\/fragments","op":"replace","value":[{"kind":"text","text":"+ "},{"text":"clearScreensBlackList","kind":"identifier"}]},{"path":"\/topicSections","value":null,"op":"add"},{"op":"add","path":"\/relationshipsSections","value":null},{"value":[{"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/append(WhiteList:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/remove(WhiteList:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/append(BlackList:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/remove(BlackList:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_01_screen-llst"],"title":"SDK Screen Validation","generated":true}],"op":"replace","path":"\/seeAlsoSections"},{"path":"\/primaryContentSections\/0","value":{"kind":"declarations","declarations":[{"platforms":["iOS"],"languages":["occ"],"tokens":[{"text":"+ (","kind":"text"},{"text":"void","preciseIdentifier":"c:v","kind":"typeIdentifier"},{"text":") ","kind":"text"},{"text":"clearScreensBlackList","kind":"identifier"},{"kind":"text","text":";"}]}]},"op":"replace"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1append(BlackList:)\/title","value":"appendWithBlackList:","op":"replace"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1append(BlackList:)\/fragments","value":[{"kind":"text","text":"+ "},{"kind":"identifier","text":"appendWithBlackList:"}]},{"value":"appendWithWhiteList:","op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1append(WhiteList:)\/title"},{"value":[{"text":"+ ","kind":"text"},{"text":"appendWithWhiteList:","kind":"identifier"}],"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1append(WhiteList:)\/fragments"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK\/title","value":"JoynedSDK","op":"replace"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK\/fragments","value":[{"text":"JoynedSDK","kind":"identifier"}]},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1remove(WhiteList:)\/title","op":"replace","value":"removeWithWhiteList:"},{"value":[{"text":"+ ","kind":"text"},{"text":"removeWithWhiteList:","kind":"identifier"}],"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1remove(WhiteList:)\/fragments"},{"value":"removeWithBlackList:","op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1remove(BlackList:)\/title"},{"value":[{"text":"+ ","kind":"text"},{"kind":"identifier","text":"removeWithBlackList:"}],"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1remove(BlackList:)\/fragments"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1clearScreensBlackList()\/title","value":"clearScreensBlackList"},{"value":[{"text":"+ ","kind":"text"},{"kind":"identifier","text":"clearScreensBlackList"}],"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1clearScreensBlackList()\/fragments"}]}]}
+{
+  "abstract" : [
+    {
+      "text" : "Use this method to clear the invalid screen names from the system black list",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK"
+      ],
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/clearScreensBlackList()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@JoynedMobileSDK@objc(cs)JoynedSDK(cm)clearScreensBlackList",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "clearScreensBlackList"
+      },
+      {
+        "kind" : "text",
+        "text" : "()"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JoynedMobileSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Method",
+    "symbolKind" : "method",
+    "title" : "clearScreensBlackList()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@objc"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "clearScreensBlackList"
+            },
+            {
+              "kind" : "text",
+              "text" : "()"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/append(WhiteList:)",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/remove(WhiteList:)",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/append(BlackList:)",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/remove(BlackList:)",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_01_screen-llst"
+      ],
+      "title" : "SDK Screen Validation"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/joynedmobilesdk\/joynedsdk\/clearscreensblacklist()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK": {
+  "abstract" : [
+    {
+      "text" : "We help people book together. With a better booking experience, better business results",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JoynedMobileSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/GettingStarted": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Getting Started with Joyned mobile SDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/gettingstarted"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK": {
+  "abstract" : [
+    {
+      "text" : "The main public access class to ther Joyned mobile SDK, use it to interact with the system",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JoynedSDK"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JoynedSDK"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JoynedSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/append(BlackList:)": {
+  "abstract" : [
+    {
+      "text" : "Use this method to add a new screen name to the system black list",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "On screens which appear in the blacklist the Joyned mobile SDK will not present it’s floating content,",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "append"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "BlackList"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/append(BlackList:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "append(BlackList:)",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/append(blacklist:)"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/append(WhiteList:)": {
+  "abstract" : [
+    {
+      "text" : "Use this method to add a new screen name to the system white list",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "On screens which appear in the whitelist the Joyned mobile SDK will present it’s floating content,",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "append"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "WhiteList"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/append(WhiteList:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "append(WhiteList:)",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/append(whitelist:)"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/clearScreensBlackList()": {
+  "abstract" : [
+    {
+      "text" : "Use this method to clear the invalid screen names from the system black list",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clearScreensBlackList"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/clearScreensBlackList()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "clearScreensBlackList()",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/clearscreensblacklist()"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/remove(BlackList:)": {
+  "abstract" : [
+    {
+      "text" : "Use this method to remove a  screen name to the system black list",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "On screens which appear in the blacklist the Joyned mobile SDK will not present it’s floating content,",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "remove"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "BlackList"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/remove(BlackList:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "remove(BlackList:)",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/remove(blacklist:)"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/remove(WhiteList:)": {
+  "abstract" : [
+    {
+      "text" : "Use this method to remove a screen name to the system white list",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "On screens which appear in the whitelist the Joyned mobile SDK will present it’s floating content,",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "remove"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "WhiteList"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/remove(WhiteList:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "remove(WhiteList:)",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/remove(whitelist:)"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/_01_screen-llst": {
+  "abstract" : [
+    {
+      "text" : "Joyned Mobile SDK screen change monitor",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_01_screen-llst",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Screen Validation Controls",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/_01_screen-llst"
+}
+}
+}

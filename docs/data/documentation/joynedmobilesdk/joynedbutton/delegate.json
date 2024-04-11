@@ -1,1 +1,297 @@
-{"identifier":{"url":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/delegate","interfaceLanguage":"swift"},"metadata":{"navigatorTitle":[{"text":"delegate","kind":"identifier"}],"fragments":[{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"text":"delegate","kind":"identifier"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"c:@M@JoynedMobileSDK@objc(pl)JoynedButtonDelegate","text":"JoynedButtonDelegate"},{"text":"?","kind":"text"}],"role":"symbol","title":"delegate","symbolKind":"property","roleHeading":"Instance Property","modules":[{"name":"JoynedMobileSDK"}],"externalID":"c:@M@JoynedMobileSDK@objc(cs)JoynedButton(py)delegate"},"variants":[{"paths":["\/documentation\/joynedmobilesdk\/joynedbutton\/delegate"],"traits":[{"interfaceLanguage":"swift"}]},{"paths":["\/documentation\/joynedmobilesdk\/joynedbutton\/delegate"],"traits":[{"interfaceLanguage":"occ"}]}],"hierarchy":{"paths":[["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton"],["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton"]]},"schemaVersion":{"major":0,"patch":0,"minor":3},"kind":"symbol","seeAlsoSections":[{"generated":true,"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButtonDelegate"],"title":"Delegations"}],"sections":[],"primaryContentSections":[{"declarations":[{"languages":["swift"],"tokens":[{"text":"@IBOutlet","kind":"attribute"},{"text":" ","kind":"text"},{"kind":"keyword","text":"weak"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"text":"delegate","kind":"identifier"},{"text":": ","kind":"text"},{"text":"JoynedButtonDelegate","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButtonDelegate","preciseIdentifier":"c:@M@JoynedMobileSDK@objc(pl)JoynedButtonDelegate","kind":"typeIdentifier"},{"text":"? { ","kind":"text"},{"text":"get","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"keyword","text":"set"},{"text":" }","kind":"text"}],"platforms":["iOS"]}],"kind":"declarations"}],"references":{"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedButton":{"title":"JoynedButton","abstract":[{"type":"text","text":"A Joyned UI element meant for usage in the host application, acts as a card like display element, supports border, shadow, corner cliping & more"}],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton","role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedbutton","kind":"symbol","fragments":[{"text":"class","kind":"keyword"},{"kind":"text","text":" "},{"text":"JoynedButton","kind":"identifier"}],"navigatorTitle":[{"text":"JoynedButton","kind":"identifier"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK":{"title":"JoynedMobileSDK","abstract":[{"text":"We help people book together. With a better booking experience, better business results","type":"text"}],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","role":"collection","url":"\/documentation\/joynedmobilesdk","kind":"symbol"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedButtonDelegate":{"kind":"symbol","role":"symbol","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButtonDelegate","navigatorTitle":[{"kind":"identifier","text":"JoynedButtonDelegate"}],"title":"JoynedButtonDelegate","url":"\/documentation\/joynedmobilesdk\/joynedbuttondelegate","abstract":[{"type":"text","text":"Methods for managing JoynedButton behavior, allows the system a way to pass navigation requests & more"}],"fragments":[{"kind":"keyword","text":"protocol"},{"kind":"text","text":" "},{"kind":"identifier","text":"JoynedButtonDelegate"}],"type":"topic"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedButton/delegate":{"url":"\/documentation\/joynedmobilesdk\/joynedbutton\/delegate","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton\/delegate","type":"topic","fragments":[{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"text":"delegate","kind":"identifier"},{"kind":"text","text":": "},{"text":"JoynedButtonDelegate","kind":"typeIdentifier","preciseIdentifier":"c:@M@JoynedMobileSDK@objc(pl)JoynedButtonDelegate"},{"text":"?","kind":"text"}],"kind":"symbol","abstract":[],"role":"symbol","title":"delegate","navigatorTitle":[{"text":"delegate","kind":"identifier"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/GettingStarted":{"title":"Getting Started with Joyned mobile SDK","abstract":[],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","role":"collectionGroup","url":"\/documentation\/joynedmobilesdk\/gettingstarted","kind":"article"}},"variantOverrides":[{"patch":[{"path":"\/identifier\/interfaceLanguage","value":"occ","op":"replace"},{"op":"replace","value":"Instance Property","path":"\/metadata\/roleHeading"},{"path":"\/metadata\/title","op":"replace","value":"delegate"},{"value":"property","op":"replace","path":"\/metadata\/symbolKind"},{"path":"\/metadata\/fragments","op":"replace","value":[{"kind":"identifier","text":"delegate"}]},{"op":"add","path":"\/topicSections","value":null},{"path":"\/relationshipsSections","value":null,"op":"add"},{"value":[{"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButtonDelegate"],"generated":true,"title":"Delegations"}],"op":"replace","path":"\/seeAlsoSections"},{"path":"\/primaryContentSections\/0","op":"replace","value":{"kind":"declarations","declarations":[{"tokens":[{"text":"@property","kind":"keyword"},{"kind":"text","text":" ("},{"kind":"keyword","text":"nonatomic"},{"text":", ","kind":"text"},{"kind":"keyword","text":"weak"},{"text":") ","kind":"text"},{"kind":"typeIdentifier","text":"id<JoynedButtonDelegate>","preciseIdentifier":"c:Qo@M@JoynedMobileSDK@objc(pl)JoynedButtonDelegate"},{"kind":"text","text":" "},{"text":"delegate","kind":"identifier"},{"text":";","kind":"text"}],"platforms":["iOS"],"languages":["occ"]}]}},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton\/title","value":"JoynedButton","op":"replace"},{"op":"replace","value":[{"kind":"identifier","text":"JoynedButton"}],"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton\/fragments"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButtonDelegate\/title","value":"JoynedButtonDelegate"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButtonDelegate\/fragments","value":[{"text":"JoynedButtonDelegate","kind":"identifier"}]},{"op":"replace","value":"delegate","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1delegate\/title"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton~1delegate\/fragments","value":[{"text":"delegate","kind":"identifier"}]}],"traits":[{"interfaceLanguage":"occ"}]}]}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton"
+      ],
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/delegate"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@JoynedMobileSDK@objc(cs)JoynedButton(py)delegate",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "delegate"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:@M@JoynedMobileSDK@objc(pl)JoynedButtonDelegate",
+        "text" : "JoynedButtonDelegate"
+      },
+      {
+        "kind" : "text",
+        "text" : "?"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JoynedMobileSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "delegate"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@IBOutlet"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "weak"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "delegate"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButtonDelegate",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@M@JoynedMobileSDK@objc(pl)JoynedButtonDelegate",
+              "text" : "JoynedButtonDelegate"
+            },
+            {
+              "kind" : "text",
+              "text" : "? { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "set"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButtonDelegate"
+      ],
+      "title" : "Delegations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/joynedmobilesdk\/joynedbutton\/delegate"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK": {
+  "abstract" : [
+    {
+      "text" : "We help people book together. With a better booking experience, better business results",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JoynedMobileSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/GettingStarted": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Getting Started with Joyned mobile SDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/gettingstarted"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedButton": {
+  "abstract" : [
+    {
+      "text" : "A Joyned UI element meant for usage in the host application, acts as a card like display element, supports border, shadow, corner cliping & more",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JoynedButton"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JoynedButton"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JoynedButton",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedbutton"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedButton/delegate": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "delegate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@JoynedMobileSDK@objc(pl)JoynedButtonDelegate",
+      "text" : "JoynedButtonDelegate"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton\/delegate",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "delegate",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedbutton\/delegate"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedButtonDelegate": {
+  "abstract" : [
+    {
+      "text" : "Methods for managing JoynedButton behavior, allows the system a way to pass navigation requests & more",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JoynedButtonDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButtonDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JoynedButtonDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JoynedButtonDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedbuttondelegate"
+}
+}
+}

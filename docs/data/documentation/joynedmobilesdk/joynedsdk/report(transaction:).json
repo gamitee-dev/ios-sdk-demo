@@ -1,1 +1,371 @@
-{"sections":[],"metadata":{"externalID":"c:@M@JoynedMobileSDK@objc(cs)JoynedSDK(cm)reportWithTransaction:","fragments":[{"text":"class","kind":"keyword"},{"kind":"text","text":" "},{"text":"func","kind":"keyword"},{"kind":"text","text":" "},{"text":"report","kind":"identifier"},{"kind":"text","text":"("},{"text":"Transaction","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"JoynedTransactionRequest","preciseIdentifier":"c:@M@JoynedMobileSDK@objc(cs)JoynedTransactionRequest","kind":"typeIdentifier"},{"text":"?)","kind":"text"}],"role":"symbol","symbolKind":"method","modules":[{"name":"JoynedMobileSDK"}],"roleHeading":"Type Method","title":"report(Transaction:)","navigatorTitle":[{"text":"reportWithTransaction:","kind":"identifier"}]},"variants":[{"paths":["\/documentation\/joynedmobilesdk\/joynedsdk\/report(transaction:)"],"traits":[{"interfaceLanguage":"swift"}]},{"paths":["\/documentation\/joynedmobilesdk\/joynedsdk\/report(transaction:)"],"traits":[{"interfaceLanguage":"occ"}]}],"hierarchy":{"paths":[["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK"],["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK"]]},"kind":"symbol","seeAlsoSections":[{"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_05_transaction"],"generated":true,"title":"SDK Report transaction API"}],"primaryContentSections":[{"kind":"declarations","declarations":[{"platforms":["iOS"],"languages":["swift"],"tokens":[{"text":"@objc","kind":"attribute"},{"text":" ","kind":"text"},{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"report"},{"kind":"text","text":"("},{"text":"Transaction","kind":"externalParam"},{"kind":"text","text":" "},{"text":"request","kind":"internalParam"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"JoynedTransactionRequest","preciseIdentifier":"c:@M@JoynedMobileSDK@objc(cs)JoynedTransactionRequest","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedTransactionRequest"},{"kind":"text","text":"?)"}]}]},{"kind":"parameters","parameters":[{"name":"request","content":[{"type":"paragraph","inlineContent":[{"type":"text","text":"a transaction object"}]}]}]}],"identifier":{"url":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/report(Transaction:)","interfaceLanguage":"swift"},"abstract":[{"type":"text","text":"Call this method to report purchase transactions to the Joyned SDK"}],"schemaVersion":{"major":0,"minor":3,"patch":0},"references":{"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/report(Transaction:)":{"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/report(Transaction:)","fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"report"},{"text":"(","kind":"text"},{"kind":"externalParam","text":"Transaction"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"c:@M@JoynedMobileSDK@objc(cs)JoynedTransactionRequest","text":"JoynedTransactionRequest"},{"text":"?)","kind":"text"}],"navigatorTitle":[{"text":"reportWithTransaction:","kind":"identifier"}],"kind":"symbol","type":"topic","title":"report(Transaction:)","abstract":[{"type":"text","text":"Call this method to report purchase transactions to the Joyned SDK"}],"url":"\/documentation\/joynedmobilesdk\/joynedsdk\/report(transaction:)","role":"symbol"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedTransactionRequest":{"type":"topic","kind":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedtransactionrequest","title":"JoynedTransactionRequest","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedTransactionRequest","abstract":[{"type":"text","text":"A data object containing the transaction information to be reported to the Joyned servers"}],"role":"symbol","navigatorTitle":[{"text":"JoynedTransactionRequest","kind":"identifier"}],"fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"JoynedTransactionRequest","kind":"identifier"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/_05_transaction":{"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_05_transaction","url":"\/documentation\/joynedmobilesdk\/_05_transaction","title":"Report transaction","abstract":[{"type":"text","text":"API to make joyned is aware of all purchase transactions processed by your application."}],"type":"topic","role":"article","kind":"article"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/GettingStarted":{"title":"Getting Started with Joyned mobile SDK","abstract":[],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","role":"collectionGroup","url":"\/documentation\/joynedmobilesdk\/gettingstarted","kind":"article"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK":{"title":"JoynedMobileSDK","abstract":[{"text":"We help people book together. With a better booking experience, better business results","type":"text"}],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","role":"collection","url":"\/documentation\/joynedmobilesdk","kind":"symbol"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK":{"title":"JoynedSDK","type":"topic","kind":"symbol","role":"symbol","abstract":[{"type":"text","text":"The main public access class to ther Joyned mobile SDK, use it to interact with the system"}],"url":"\/documentation\/joynedmobilesdk\/joynedsdk","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"JoynedSDK"}],"navigatorTitle":[{"text":"JoynedSDK","kind":"identifier"}]}},"variantOverrides":[{"patch":[{"path":"\/identifier\/interfaceLanguage","op":"replace","value":"occ"},{"op":"replace","value":"Type Method","path":"\/metadata\/roleHeading"},{"path":"\/metadata\/title","op":"replace","value":"reportWithTransaction:"},{"path":"\/metadata\/symbolKind","op":"replace","value":"method"},{"path":"\/metadata\/fragments","value":[{"kind":"text","text":"+ "},{"kind":"identifier","text":"reportWithTransaction:"}],"op":"replace"},{"op":"add","path":"\/topicSections","value":null},{"path":"\/relationshipsSections","value":null,"op":"add"},{"value":[{"title":"SDK Report transaction API","generated":true,"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_05_transaction"]}],"op":"replace","path":"\/seeAlsoSections"},{"path":"\/primaryContentSections\/0","value":{"declarations":[{"tokens":[{"kind":"text","text":"+ ("},{"kind":"typeIdentifier","text":"void","preciseIdentifier":"c:v"},{"kind":"text","text":") "},{"kind":"identifier","text":"reportWithTransaction:"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"JoynedTransactionRequest","preciseIdentifier":"c:@M@JoynedMobileSDK@objc(cs)JoynedTransactionRequest","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedTransactionRequest"},{"text":" *) ","kind":"text"},{"text":"request","kind":"internalParam"},{"text":";","kind":"text"}],"platforms":["iOS"],"languages":["occ"]}],"kind":"declarations"},"op":"replace"},{"value":"reportWithTransaction:","op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1report(Transaction:)\/title"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1report(Transaction:)\/fragments","op":"replace","value":[{"text":"+ ","kind":"text"},{"text":"reportWithTransaction:","kind":"identifier"}]},{"value":"JoynedTransactionRequest","op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedTransactionRequest\/title"},{"value":[{"kind":"identifier","text":"JoynedTransactionRequest"}],"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedTransactionRequest\/fragments","op":"replace"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK\/title","value":"JoynedSDK"},{"value":[{"kind":"identifier","text":"JoynedSDK"}],"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK\/fragments"}],"traits":[{"interfaceLanguage":"occ"}]}]}
+{
+  "abstract" : [
+    {
+      "text" : "Call this method to report purchase transactions to the Joyned SDK",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK"
+      ],
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/report(Transaction:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@JoynedMobileSDK@objc(cs)JoynedSDK(cm)reportWithTransaction:",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "report"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "Transaction"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:@M@JoynedMobileSDK@objc(cs)JoynedTransactionRequest",
+        "text" : "JoynedTransactionRequest"
+      },
+      {
+        "kind" : "text",
+        "text" : "?)"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JoynedMobileSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Method",
+    "symbolKind" : "method",
+    "title" : "report(Transaction:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@objc"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "report"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "Transaction"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "request"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedTransactionRequest",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@M@JoynedMobileSDK@objc(cs)JoynedTransactionRequest",
+              "text" : "JoynedTransactionRequest"
+            },
+            {
+              "kind" : "text",
+              "text" : "?)"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "a transaction object",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "request"
+        }
+      ]
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_05_transaction"
+      ],
+      "title" : "SDK Report transaction API"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/joynedmobilesdk\/joynedsdk\/report(transaction:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK": {
+  "abstract" : [
+    {
+      "text" : "We help people book together. With a better booking experience, better business results",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JoynedMobileSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/GettingStarted": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Getting Started with Joyned mobile SDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/gettingstarted"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK": {
+  "abstract" : [
+    {
+      "text" : "The main public access class to ther Joyned mobile SDK, use it to interact with the system",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JoynedSDK"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JoynedSDK"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JoynedSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/report(Transaction:)": {
+  "abstract" : [
+    {
+      "text" : "Call this method to report purchase transactions to the Joyned SDK",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "report"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "Transaction"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@JoynedMobileSDK@objc(cs)JoynedTransactionRequest",
+      "text" : "JoynedTransactionRequest"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/report(Transaction:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "report(Transaction:)",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/report(transaction:)"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedTransactionRequest": {
+  "abstract" : [
+    {
+      "text" : "A data object containing the transaction information to be reported to the Joyned servers",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JoynedTransactionRequest"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedTransactionRequest",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JoynedTransactionRequest"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JoynedTransactionRequest",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedtransactionrequest"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/_05_transaction": {
+  "abstract" : [
+    {
+      "text" : "API to make joyned is aware of all purchase transactions processed by your application.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_05_transaction",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Report transaction",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/_05_transaction"
+}
+}
+}

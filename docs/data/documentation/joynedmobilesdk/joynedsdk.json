@@ -1,1 +1,1593 @@
-{"kind":"symbol","identifier":{"url":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK","interfaceLanguage":"swift"},"schemaVersion":{"patch":0,"major":0,"minor":3},"seeAlsoSections":[{"title":"Essentials","generated":true,"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSample","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_00_installation","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDKDelegate"]}],"sections":[],"hierarchy":{"paths":[["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK"],["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted"]]},"metadata":{"title":"JoynedSDK","navigatorTitle":[{"kind":"identifier","text":"JoynedSDK"}],"modules":[{"name":"JoynedMobileSDK"}],"role":"symbol","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"JoynedSDK","kind":"identifier"}],"roleHeading":"Class","symbolKind":"class","externalID":"c:@M@JoynedMobileSDK@objc(cs)JoynedSDK"},"abstract":[{"type":"text","text":"The main public access class to ther Joyned mobile SDK, use it to interact with the system"}],"topicSections":[{"title":"Properties","identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/libraryVersion","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/delegate","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_01_global-delegate"]},{"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/activate(with:and:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_01_activation"],"title":"SDK Activation"},{"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/hideDisplay()","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/showDisplay()","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/minimizeDisplay()"],"title":"SDK UI Controls"},{"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/append(WhiteList:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/remove(WhiteList:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/append(BlackList:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/remove(BlackList:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/clearScreensBlackList()","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_01_screen-llst"],"title":"SDK Screen Validation"},{"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/generateJoynedButton(frame:with:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_02_hosted-ui"],"title":"SDK Hosted UI"},{"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/report(Transaction:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_05_transaction"],"title":"SDK Report transaction API"},{"title":"SDK - invitation links","identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/scene(_:continue:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/scene(_:openURLContexts:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/scene(_:willConnectTo:options:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_03_invitation-links"]}],"relationshipsSections":[{"type":"inheritsFrom","kind":"relationships","identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/objc(cs)NSObject"],"title":"Inherits From"},{"kind":"relationships","type":"conformsTo","title":"Conforms To","identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/objc(pl)NSObject","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/s7CVarArgP","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/s28CustomDebugStringConvertibleP","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/s23CustomStringConvertibleP","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/SQ","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/SH"]}],"primaryContentSections":[{"declarations":[{"languages":["swift"],"tokens":[{"text":"@objc","kind":"attribute"},{"text":"(JoynedSDK) ","kind":"text"},{"text":"@objcMembers","kind":"attribute"},{"text":" ","kind":"text"},{"text":"final","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"keyword","text":"class"},{"text":" ","kind":"text"},{"kind":"identifier","text":"JoynedSDK"}],"platforms":["iOS"]}],"kind":"declarations"},{"kind":"content","content":[{"text":"Overview","type":"heading","level":2,"anchor":"overview"},{"type":"paragraph","inlineContent":[{"type":"text","text":"The main public access class to ther Joyned mobile SDK, use it to interact with the system"}]}]}],"variants":[{"paths":["\/documentation\/joynedmobilesdk\/joynedsdk"],"traits":[{"interfaceLanguage":"swift"}]},{"paths":["\/documentation\/joynedmobilesdk\/joynedsdk"],"traits":[{"interfaceLanguage":"occ"}]}],"references":{"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/minimizeDisplay()":{"title":"minimizeDisplay()","type":"topic","kind":"symbol","role":"symbol","abstract":[{"type":"text","text":"Use this method to trigger a minimize action on the floating SDK UI elements,"}],"url":"\/documentation\/joynedmobilesdk\/joynedsdk\/minimizedisplay()","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/minimizeDisplay()","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"kind":"identifier","text":"minimizeDisplay"},{"kind":"text","text":"()"}],"navigatorTitle":[{"kind":"identifier","text":"minimizeDisplay"}]},"https://developer.apple.com/documentation/uikit/uiscenedelegate/3197914-scene/":{"title":"UISceneDelegate.scene(_:willConnectTo:options:)","titleInlineContent":[{"code":"UISceneDelegate.scene(_:willConnectTo:options:)","type":"codeVoice"}],"url":"https:\/\/developer.apple.com\/documentation\/uikit\/uiscenedelegate\/3197914-scene\/","identifier":"https:\/\/developer.apple.com\/documentation\/uikit\/uiscenedelegate\/3197914-scene\/","type":"link"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/report(Transaction:)":{"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/report(Transaction:)","fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"report"},{"text":"(","kind":"text"},{"kind":"externalParam","text":"Transaction"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"c:@M@JoynedMobileSDK@objc(cs)JoynedTransactionRequest","text":"JoynedTransactionRequest"},{"text":"?)","kind":"text"}],"navigatorTitle":[{"text":"reportWithTransaction:","kind":"identifier"}],"kind":"symbol","type":"topic","title":"report(Transaction:)","abstract":[{"type":"text","text":"Call this method to report purchase transactions to the Joyned SDK"}],"url":"\/documentation\/joynedmobilesdk\/joynedsdk\/report(transaction:)","role":"symbol"},"doc://co.joyned.mobile.JoynedMobileSDK/SH":{"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/SH","type":"unresolvable","title":"Swift.Hashable"},"doc://co.joyned.mobile.JoynedMobileSDK/s7CVarArgP":{"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/s7CVarArgP","type":"unresolvable","title":"Swift.CVarArg"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/hideDisplay()":{"title":"hideDisplay()","type":"topic","kind":"symbol","role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedsdk\/hidedisplay()","abstract":[{"type":"text","text":"Use this method to make the system hide the floating SDK UI elements"}],"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/hideDisplay()","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"kind":"identifier","text":"hideDisplay"},{"kind":"text","text":"()"}],"navigatorTitle":[{"kind":"identifier","text":"hideDisplay"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK":{"title":"JoynedSDK","type":"topic","kind":"symbol","role":"symbol","abstract":[{"type":"text","text":"The main public access class to ther Joyned mobile SDK, use it to interact with the system"}],"url":"\/documentation\/joynedmobilesdk\/joynedsdk","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"JoynedSDK"}],"navigatorTitle":[{"text":"JoynedSDK","kind":"identifier"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDKDelegate":{"role":"symbol","navigatorTitle":[{"kind":"identifier","text":"JoynedSDKDelegate"}],"type":"topic","kind":"symbol","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDKDelegate","abstract":[{"type":"text","text":"The Joyned mobile SDK main delegation protocol, implement this to recive notifications on major actions taken by the SDK and affect its behavior"}],"title":"JoynedSDKDelegate","url":"\/documentation\/joynedmobilesdk\/joynedsdkdelegate","fragments":[{"kind":"keyword","text":"protocol"},{"text":" ","kind":"text"},{"text":"JoynedSDKDelegate","kind":"identifier"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/append(BlackList:)":{"title":"append(BlackList:)","type":"topic","kind":"symbol","role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedsdk\/append(blacklist:)","abstract":[{"type":"text","text":"Use this method to add a new screen name to the system black list"},{"text":" ","type":"text"},{"text":"On screens which appear in the blacklist the Joyned mobile SDK will not present it’s floating content,","type":"text"}],"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/append(BlackList:)","fragments":[{"kind":"keyword","text":"class"},{"text":" ","kind":"text"},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"append"},{"text":"(","kind":"text"},{"text":"BlackList","kind":"externalParam"},{"kind":"text","text":": "},{"preciseIdentifier":"s:SS","kind":"typeIdentifier","text":"String"},{"kind":"text","text":")"}],"navigatorTitle":[{"kind":"identifier","text":"appendWithBlackList:"}]},"https://developer.apple.com/documentation/uikit/uiscenedelegate/3238059-scene/":{"identifier":"https:\/\/developer.apple.com\/documentation\/uikit\/uiscenedelegate\/3238059-scene\/","title":"UISceneDelegate.scene(_:openURLContexts:)","url":"https:\/\/developer.apple.com\/documentation\/uikit\/uiscenedelegate\/3238059-scene\/","type":"link","titleInlineContent":[{"code":"UISceneDelegate.scene(_:openURLContexts:)","type":"codeVoice"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/scene(_:openURLContexts:)":{"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/scene(_:openURLContexts:)","navigatorTitle":[{"text":"scene:openURLContexts:","kind":"identifier"}],"url":"\/documentation\/joynedmobilesdk\/joynedsdk\/scene(_:openurlcontexts:)","role":"symbol","fragments":[{"text":"class","kind":"keyword"},{"kind":"text","text":" "},{"text":"func","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"scene"},{"text":"(","kind":"text"},{"preciseIdentifier":"c:objc(cs)UIScene","text":"UIScene","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"openURLContexts","kind":"externalParam"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Set","preciseIdentifier":"s:Sh"},{"kind":"text","text":"<"},{"text":"UIOpenURLContext","kind":"typeIdentifier","preciseIdentifier":"c:objc(cs)UIOpenURLContext"},{"text":">) -> ","kind":"text"},{"text":"Bool","kind":"typeIdentifier","preciseIdentifier":"s:Sb"}],"type":"topic","abstract":[{"type":"text","text":"Call this method from the "},{"isActive":true,"type":"reference","identifier":"https:\/\/developer.apple.com\/documentation\/uikit\/uiscenedelegate\/3238059-scene\/"},{"type":"text","text":" "},{"type":"text","text":"method of your application scene delegate. It should be invoked for the proper processing of Joyned related content."}],"title":"scene(_:openURLContexts:)","kind":"symbol"},"https://developer.apple.com/documentation/uikit/uiscenedelegate/3238056-scene/":{"titleInlineContent":[{"code":"UISceneDelegate.scene(_:continue:)","type":"codeVoice"}],"url":"https:\/\/developer.apple.com\/documentation\/uikit\/uiscenedelegate\/3238056-scene\/","type":"link","identifier":"https:\/\/developer.apple.com\/documentation\/uikit\/uiscenedelegate\/3238056-scene\/","title":"UISceneDelegate.scene(_:continue:)"},"doc://co.joyned.mobile.JoynedMobileSDK/s28CustomDebugStringConvertibleP":{"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/s28CustomDebugStringConvertibleP","type":"unresolvable","title":"Swift.CustomDebugStringConvertible"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/_00_installation":{"title":"Library installation","type":"topic","kind":"article","role":"article","abstract":[{"type":"text","text":"How to install this library"}],"url":"\/documentation\/joynedmobilesdk\/_00_installation","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_00_installation"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/_03_invitation-links":{"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_03_invitation-links","url":"\/documentation\/joynedmobilesdk\/_03_invitation-links","role":"article","type":"topic","abstract":[{"type":"text","text":"Handle supported deeplinks for Joyned content"}],"title":"Joyned Session invitation links","kind":"article"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/scene(_:continue:)":{"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/scene(_:continue:)","navigatorTitle":[{"text":"scene:continue:","kind":"identifier"}],"url":"\/documentation\/joynedmobilesdk\/joynedsdk\/scene(_:continue:)","role":"symbol","fragments":[{"text":"class","kind":"keyword"},{"kind":"text","text":" "},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"text":"scene","kind":"identifier"},{"text":"(","kind":"text"},{"preciseIdentifier":"c:objc(cs)UIScene","text":"UIScene","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"kind":"externalParam","text":"continue"},{"kind":"text","text":": "},{"preciseIdentifier":"c:objc(cs)NSUserActivity","text":"NSUserActivity","kind":"typeIdentifier"},{"kind":"text","text":") -> "},{"text":"Bool","kind":"typeIdentifier","preciseIdentifier":"s:Sb"}],"type":"topic","abstract":[{"type":"text","text":"Call this method from the "},{"type":"reference","isActive":true,"identifier":"https:\/\/developer.apple.com\/documentation\/uikit\/uiscenedelegate\/3238056-scene\/"},{"text":" ","type":"text"},{"type":"text","text":"method of your application scene delegate. It should be invoked for the proper processing of Joyned related content."}],"title":"scene(_:continue:)","kind":"symbol"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/remove(WhiteList:)":{"title":"remove(WhiteList:)","type":"topic","kind":"symbol","role":"symbol","abstract":[{"type":"text","text":"Use this method to remove a screen name to the system white list"},{"text":" ","type":"text"},{"text":"On screens which appear in the whitelist the Joyned mobile SDK will present it’s floating content,","type":"text"}],"url":"\/documentation\/joynedmobilesdk\/joynedsdk\/remove(whitelist:)","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/remove(WhiteList:)","fragments":[{"kind":"keyword","text":"class"},{"text":" ","kind":"text"},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"remove"},{"text":"(","kind":"text"},{"text":"WhiteList","kind":"externalParam"},{"kind":"text","text":": "},{"preciseIdentifier":"s:SS","kind":"typeIdentifier","text":"String"},{"kind":"text","text":")"}],"navigatorTitle":[{"kind":"identifier","text":"removeWithWhiteList:"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/libraryVersion":{"url":"\/documentation\/joynedmobilesdk\/joynedsdk\/libraryversion","navigatorTitle":[{"kind":"identifier","text":"libraryVersion"}],"title":"libraryVersion","role":"symbol","fragments":[{"text":"static","kind":"keyword"},{"text":" ","kind":"text"},{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"libraryVersion","kind":"identifier"},{"kind":"text","text":": "},{"text":"String","kind":"typeIdentifier","preciseIdentifier":"s:SS"}],"kind":"symbol","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/libraryVersion","abstract":[{"type":"text","text":"Returns the SDK version in the following template "},{"code":"x.y.z (buildNumber)","type":"codeVoice"}],"type":"topic"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/_01_global-delegate":{"title":"Global Delegate","type":"topic","kind":"article","role":"article","url":"\/documentation\/joynedmobilesdk\/_01_global-delegate","abstract":[{"type":"text","text":"Joyned mobile SDK provides several intervention hooks via the "},{"type":"reference","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDKDelegate","isActive":true},{"text":" protocol","type":"text"}],"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_01_global-delegate"},"doc://co.joyned.mobile.JoynedMobileSDK/objc(pl)NSObject":{"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/objc(pl)NSObject","type":"unresolvable","title":"ObjectiveC.NSObjectProtocol"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/activate(with:and:)":{"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/activate(with:and:)","url":"\/documentation\/joynedmobilesdk\/joynedsdk\/activate(with:and:)","title":"activate(with:and:)","abstract":[{"type":"text","text":"Use this method for manual activation of the SDK"}],"fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"kind":"identifier","text":"activate"},{"text":"(","kind":"text"},{"kind":"externalParam","text":"with"},{"kind":"text","text":": "},{"preciseIdentifier":"s:SS","kind":"typeIdentifier","text":"String"},{"kind":"text","text":", "},{"kind":"externalParam","text":"and"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:SS","text":"String","kind":"typeIdentifier"},{"text":")","kind":"text"}],"type":"topic","role":"symbol","kind":"symbol","navigatorTitle":[{"text":"activateWithActivationKey:and:","kind":"identifier"}]},"doc://co.joyned.mobile.JoynedMobileSDK/SQ":{"type":"unresolvable","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/SQ","title":"Swift.Equatable"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/_02_hosted-ui":{"kind":"article","role":"article","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_02_hosted-ui","title":"Hosted UI","url":"\/documentation\/joynedmobilesdk\/_02_hosted-ui","abstract":[{"type":"text","text":"Hosted Joyned UI"},{"type":"text","text":" "},{"type":"text","text":"Joyned mobile SDK provides a few views which are ment to be used within application that hosts the SDK"}],"type":"topic"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK":{"title":"JoynedMobileSDK","abstract":[{"text":"We help people book together. With a better booking experience, better business results","type":"text"}],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK","role":"collection","url":"\/documentation\/joynedmobilesdk","kind":"symbol"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/_05_transaction":{"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_05_transaction","url":"\/documentation\/joynedmobilesdk\/_05_transaction","title":"Report transaction","abstract":[{"type":"text","text":"API to make joyned is aware of all purchase transactions processed by your application."}],"type":"topic","role":"article","kind":"article"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/showDisplay()":{"title":"showDisplay()","type":"topic","kind":"symbol","role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedsdk\/showdisplay()","abstract":[{"type":"text","text":"Use this method to make the system show the floating SDK UI elements, if they have been hidden before"}],"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/showDisplay()","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"kind":"identifier","text":"showDisplay"},{"kind":"text","text":"()"}],"navigatorTitle":[{"kind":"identifier","text":"showDisplay"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/_01_activation":{"title":"Activation Methods","type":"topic","kind":"article","role":"article","abstract":[{"type":"text","text":"There are several different ways to activate of the Joyned mobile SDK"}],"url":"\/documentation\/joynedmobilesdk\/_01_activation","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_01_activation"},"doc://co.joyned.mobile.JoynedMobileSDK/objc(cs)NSObject":{"type":"unresolvable","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/objc(cs)NSObject","title":"NSObject"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/generateJoynedButton(frame:with:)":{"kind":"symbol","role":"symbol","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/generateJoynedButton(frame:with:)","navigatorTitle":[{"text":"generateJoynedButtonWithFrame:with:","kind":"identifier"}],"title":"generateJoynedButton(frame:with:)","url":"\/documentation\/joynedmobilesdk\/joynedsdk\/generatejoynedbutton(frame:with:)","abstract":[{"type":"text","text":"Use this method to generate a new instance of "},{"type":"reference","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton","isActive":true}],"fragments":[{"kind":"keyword","text":"class"},{"text":" ","kind":"text"},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"text":"generateJoynedButton","kind":"identifier"},{"text":"(","kind":"text"},{"text":"frame","kind":"externalParam"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"c:@S@CGRect","text":"CGRect"},{"text":", ","kind":"text"},{"kind":"externalParam","text":"with"},{"text":": ","kind":"text"},{"text":"JoynedButtonDelegate","kind":"typeIdentifier","preciseIdentifier":"c:@M@JoynedMobileSDK@objc(pl)JoynedButtonDelegate"},{"text":"?) -> ","kind":"text"},{"preciseIdentifier":"c:@M@JoynedMobileSDK@objc(cs)JoynedButton","text":"JoynedButton","kind":"typeIdentifier"}],"type":"topic"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/remove(BlackList:)":{"title":"remove(BlackList:)","type":"topic","kind":"symbol","role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedsdk\/remove(blacklist:)","abstract":[{"type":"text","text":"Use this method to remove a  screen name to the system black list"},{"text":" ","type":"text"},{"text":"On screens which appear in the blacklist the Joyned mobile SDK will not present it’s floating content,","type":"text"}],"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/remove(BlackList:)","fragments":[{"kind":"keyword","text":"class"},{"text":" ","kind":"text"},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"remove"},{"text":"(","kind":"text"},{"text":"BlackList","kind":"externalParam"},{"kind":"text","text":": "},{"preciseIdentifier":"s:SS","kind":"typeIdentifier","text":"String"},{"kind":"text","text":")"}],"navigatorTitle":[{"kind":"identifier","text":"removeWithBlackList:"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/_01_screen-llst":{"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_01_screen-llst","title":"Screen Validation Controls","url":"\/documentation\/joynedmobilesdk\/_01_screen-llst","kind":"article","abstract":[{"type":"text","text":"Joyned Mobile SDK screen change monitor"}],"type":"topic","role":"article"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/append(WhiteList:)":{"title":"append(WhiteList:)","type":"topic","kind":"symbol","role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedsdk\/append(whitelist:)","abstract":[{"type":"text","text":"Use this method to add a new screen name to the system white list"},{"text":" ","type":"text"},{"text":"On screens which appear in the whitelist the Joyned mobile SDK will present it’s floating content,","type":"text"}],"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/append(WhiteList:)","fragments":[{"kind":"keyword","text":"class"},{"text":" ","kind":"text"},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"append"},{"text":"(","kind":"text"},{"text":"WhiteList","kind":"externalParam"},{"kind":"text","text":": "},{"preciseIdentifier":"s:SS","kind":"typeIdentifier","text":"String"},{"kind":"text","text":")"}],"navigatorTitle":[{"kind":"identifier","text":"appendWithWhiteList:"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedButton":{"title":"JoynedButton","abstract":[{"type":"text","text":"A Joyned UI element meant for usage in the host application, acts as a card like display element, supports border, shadow, corner cliping & more"}],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedButton","role":"symbol","url":"\/documentation\/joynedmobilesdk\/joynedbutton","kind":"symbol","fragments":[{"text":"class","kind":"keyword"},{"kind":"text","text":" "},{"text":"JoynedButton","kind":"identifier"}],"navigatorTitle":[{"text":"JoynedButton","kind":"identifier"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/delegate":{"role":"symbol","navigatorTitle":[{"text":"delegate","kind":"identifier"}],"type":"topic","kind":"symbol","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/delegate","abstract":[{"type":"text","text":"The delegate of the SDK used for general control hooks into the system."}],"title":"delegate","url":"\/documentation\/joynedmobilesdk\/joynedsdk\/delegate","fragments":[{"text":"static","kind":"keyword"},{"kind":"text","text":" "},{"text":"var","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"delegate"},{"kind":"text","text":": "},{"text":"JoynedSDKDelegate","preciseIdentifier":"c:@M@JoynedMobileSDK@objc(pl)JoynedSDKDelegate","kind":"typeIdentifier"},{"text":"?","kind":"text"}]},"doc://co.joyned.mobile.JoynedMobileSDK/s23CustomStringConvertibleP":{"type":"unresolvable","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/s23CustomStringConvertibleP","title":"Swift.CustomStringConvertible"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/GettingStarted":{"title":"Getting Started with Joyned mobile SDK","abstract":[],"type":"topic","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","role":"collectionGroup","url":"\/documentation\/joynedmobilesdk\/gettingstarted","kind":"article"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSample":{"role":"sampleCode","url":"\/documentation\/joynedmobilesdk\/joynedsample","title":"Sample code - Voyage App","kind":"article","abstract":[{"type":"text","text":"Integrate JoynedMobileSDK into an iOS app for booking and ordering togather."}],"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSample","type":"topic"},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/clearScreensBlackList()":{"title":"clearScreensBlackList()","type":"topic","kind":"symbol","role":"symbol","abstract":[{"type":"text","text":"Use this method to clear the invalid screen names from the system black list"}],"url":"\/documentation\/joynedmobilesdk\/joynedsdk\/clearscreensblacklist()","identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/clearScreensBlackList()","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"kind":"identifier","text":"clearScreensBlackList"},{"kind":"text","text":"()"}],"navigatorTitle":[{"kind":"identifier","text":"clearScreensBlackList"}]},"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSDK/scene(_:willConnectTo:options:)":{"identifier":"doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/scene(_:willConnectTo:options:)","navigatorTitle":[{"text":"scene:willConnectTo:options:","kind":"identifier"}],"url":"\/documentation\/joynedmobilesdk\/joynedsdk\/scene(_:willconnectto:options:)","role":"symbol","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"scene"},{"kind":"text","text":"("},{"text":"UIScene","preciseIdentifier":"c:objc(cs)UIScene","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"willConnectTo","kind":"externalParam"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","text":"UISceneSession","preciseIdentifier":"c:objc(cs)UISceneSession"},{"kind":"text","text":", "},{"text":"options","kind":"externalParam"},{"kind":"text","text":": "},{"text":"UIScene","kind":"typeIdentifier","preciseIdentifier":"c:objc(cs)UIScene"},{"text":".","kind":"text"},{"preciseIdentifier":"c:objc(cs)UISceneConnectionOptions","text":"ConnectionOptions","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"Bool","kind":"typeIdentifier","preciseIdentifier":"s:Sb"}],"type":"topic","abstract":[{"type":"text","text":"Call this method from the "},{"isActive":true,"identifier":"https:\/\/developer.apple.com\/documentation\/uikit\/uiscenedelegate\/3197914-scene\/","type":"reference"},{"text":" ","type":"text"},{"type":"text","text":"method of your application scene delegate. It should be invoked for the proper processing of Joyned related content."}],"title":"scene(_:willConnectTo:options:)","kind":"symbol"}},"variantOverrides":[{"traits":[{"interfaceLanguage":"occ"}],"patch":[{"op":"replace","value":"occ","path":"\/identifier\/interfaceLanguage"},{"op":"replace","value":"Class","path":"\/metadata\/roleHeading"},{"path":"\/metadata\/title","value":"JoynedSDK","op":"replace"},{"op":"replace","path":"\/metadata\/symbolKind","value":"class"},{"value":[{"kind":"identifier","text":"JoynedSDK"}],"path":"\/metadata\/fragments","op":"replace"},{"value":[{"kind":"identifier","text":"JoynedSDK"}],"op":"replace","path":"\/metadata\/navigatorTitle"},{"op":"replace","path":"\/topicSections","value":[{"title":"Properties","identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/libraryVersion","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/delegate","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_01_global-delegate"]},{"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/activate(with:and:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_01_activation"],"title":"SDK Activation"},{"title":"SDK UI Controls","identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/hideDisplay()","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/showDisplay()","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/minimizeDisplay()"]},{"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/append(WhiteList:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/remove(WhiteList:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/append(BlackList:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/remove(BlackList:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/clearScreensBlackList()","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_01_screen-llst"],"title":"SDK Screen Validation"},{"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/generateJoynedButton(frame:with:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_02_hosted-ui"],"title":"SDK Hosted UI"},{"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/report(Transaction:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_05_transaction"],"title":"SDK Report transaction API"},{"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/scene(_:continue:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/scene(_:openURLContexts:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDK\/scene(_:willConnectTo:options:)","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_03_invitation-links"],"title":"SDK - invitation links"}]},{"value":[{"kind":"relationships","type":"inheritsFrom","title":"Inherits From","identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/objc(cs)NSObject"]}],"op":"replace","path":"\/relationshipsSections"},{"op":"replace","path":"\/seeAlsoSections","value":[{"identifiers":["doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/GettingStarted","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSample","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/_00_installation","doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSDKDelegate"],"title":"Essentials","generated":true}]},{"path":"\/primaryContentSections\/0","op":"replace","value":{"declarations":[{"platforms":["iOS"],"languages":["occ"],"tokens":[{"kind":"keyword","text":"@interface"},{"kind":"text","text":" "},{"kind":"identifier","text":"JoynedSDK"},{"text":" : ","kind":"text"},{"preciseIdentifier":"c:objc(cs)NSObject","text":"NSObject","kind":"typeIdentifier"}]}],"kind":"declarations"}},{"value":"minimizeDisplay","op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1minimizeDisplay()\/title"},{"value":[{"kind":"text","text":"+ "},{"text":"minimizeDisplay","kind":"identifier"}],"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1minimizeDisplay()\/fragments"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1report(Transaction:)\/title","value":"reportWithTransaction:","op":"replace"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1report(Transaction:)\/fragments","value":[{"text":"+ ","kind":"text"},{"kind":"identifier","text":"reportWithTransaction:"}]},{"value":"hideDisplay","op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1hideDisplay()\/title"},{"value":[{"text":"+ ","kind":"text"},{"text":"hideDisplay","kind":"identifier"}],"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1hideDisplay()\/fragments"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK\/title","value":"JoynedSDK"},{"value":[{"kind":"identifier","text":"JoynedSDK"}],"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK\/fragments"},{"value":"JoynedSDKDelegate","op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDKDelegate\/title"},{"op":"replace","value":[{"text":"JoynedSDKDelegate","kind":"identifier"}],"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDKDelegate\/fragments"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1append(BlackList:)\/title","value":"appendWithBlackList:"},{"value":[{"text":"+ ","kind":"text"},{"text":"appendWithBlackList:","kind":"identifier"}],"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1append(BlackList:)\/fragments"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1scene(_:openURLContexts:)\/title","value":"scene:openURLContexts:","op":"replace"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1scene(_:openURLContexts:)\/fragments","value":[{"text":"+ ","kind":"text"},{"text":"scene:openURLContexts:","kind":"identifier"}]},{"op":"replace","value":"scene:continue:","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1scene(_:continue:)\/title"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1scene(_:continue:)\/fragments","value":[{"kind":"text","text":"+ "},{"text":"scene:continue:","kind":"identifier"}],"op":"replace"},{"value":"removeWithWhiteList:","op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1remove(WhiteList:)\/title"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1remove(WhiteList:)\/fragments","value":[{"text":"+ ","kind":"text"},{"kind":"identifier","text":"removeWithWhiteList:"}]},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1libraryVersion\/title","value":"libraryVersion","op":"replace"},{"op":"replace","value":[{"kind":"identifier","text":"libraryVersion"}],"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1libraryVersion\/fragments"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1activate(with:and:)\/title","value":"activateWithActivationKey:and:","op":"replace"},{"value":[{"text":"+ ","kind":"text"},{"kind":"identifier","text":"activateWithActivationKey:and:"}],"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1activate(with:and:)\/fragments","op":"replace"},{"value":"showDisplay","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1showDisplay()\/title","op":"replace"},{"value":[{"kind":"text","text":"+ "},{"text":"showDisplay","kind":"identifier"}],"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1showDisplay()\/fragments"},{"op":"replace","value":"generateJoynedButtonWithFrame:with:","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1generateJoynedButton(frame:with:)\/title"},{"value":[{"kind":"text","text":"+ "},{"text":"generateJoynedButtonWithFrame:with:","kind":"identifier"}],"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1generateJoynedButton(frame:with:)\/fragments"},{"value":"removeWithBlackList:","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1remove(BlackList:)\/title","op":"replace"},{"value":[{"kind":"text","text":"+ "},{"text":"removeWithBlackList:","kind":"identifier"}],"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1remove(BlackList:)\/fragments","op":"replace"},{"value":"appendWithWhiteList:","op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1append(WhiteList:)\/title"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1append(WhiteList:)\/fragments","value":[{"text":"+ ","kind":"text"},{"text":"appendWithWhiteList:","kind":"identifier"}],"op":"replace"},{"op":"replace","value":"JoynedButton","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton\/title"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedButton\/fragments","value":[{"text":"JoynedButton","kind":"identifier"}]},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1delegate\/title","op":"replace","value":"delegate"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1delegate\/fragments","value":[{"text":"delegate","kind":"identifier"}],"op":"replace"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1clearScreensBlackList()\/title","value":"clearScreensBlackList"},{"value":[{"text":"+ ","kind":"text"},{"text":"clearScreensBlackList","kind":"identifier"}],"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1clearScreensBlackList()\/fragments"},{"op":"replace","path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1scene(_:willConnectTo:options:)\/title","value":"scene:willConnectTo:options:"},{"path":"\/references\/doc:~1~1co.joyned.mobile.JoynedMobileSDK~1documentation~1JoynedMobileSDK~1JoynedSDK~1scene(_:willConnectTo:options:)\/fragments","value":[{"text":"+ ","kind":"text"},{"text":"scene:willConnectTo:options:","kind":"identifier"}],"op":"replace"}]}]}
+{
+  "abstract" : [
+    {
+      "text" : "The main public access class to ther Joyned mobile SDK, use it to interact with the system",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK"
+      ],
+      [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@JoynedMobileSDK@objc(cs)JoynedSDK",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "JoynedSDK"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JoynedMobileSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "JoynedSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "JoynedSDK"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@objc"
+            },
+            {
+              "kind" : "text",
+              "text" : "(JoynedSDK) "
+            },
+            {
+              "kind" : "attribute",
+              "text" : "@objcMembers"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "JoynedSDK"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The main public access class to ther Joyned mobile SDK, use it to interact with the system",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/docs_bundle_identifier\/objc(cs)NSObject"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherits From",
+      "type" : "inheritsFrom"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/docs_bundle_identifier\/objc(pl)NSObject",
+        "doc:\/\/docs_bundle_identifier\/s7CVarArgP",
+        "doc:\/\/docs_bundle_identifier\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/docs_bundle_identifier\/s23CustomStringConvertibleP",
+        "doc:\/\/docs_bundle_identifier\/SQ",
+        "doc:\/\/docs_bundle_identifier\/SH"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSample",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_00_installation",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDKDelegate"
+      ],
+      "title" : "Essentials"
+    }
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/libraryVersion",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/delegate",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_01_global-delegate"
+      ],
+      "title" : "Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/activate(with:and:)",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_01_activation"
+      ],
+      "title" : "SDK Activation"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/hideDisplay()",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/showDisplay()",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/minimizeDisplay()"
+      ],
+      "title" : "SDK UI Controls"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/append(WhiteList:)",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/remove(WhiteList:)",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/append(BlackList:)",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/remove(BlackList:)",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/clearScreensBlackList()",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_01_screen-llst"
+      ],
+      "title" : "SDK Screen Validation"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/generateJoynedButton(frame:with:)",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_02_hosted-ui"
+      ],
+      "title" : "SDK Hosted UI"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/report(Transaction:)",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_05_transaction"
+      ],
+      "title" : "SDK Report transaction API"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/scene(_:continue:)",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/scene(_:openURLContexts:)",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/scene(_:willConnectTo:options:)",
+        "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_03_invitation-links"
+      ],
+      "title" : "SDK - invitation links"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/joynedmobilesdk\/joynedsdk"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://docs_bundle_identifier/SH": {
+  "identifier" : "doc:\/\/docs_bundle_identifier\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://docs_bundle_identifier/SQ": {
+  "identifier" : "doc:\/\/docs_bundle_identifier\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK": {
+  "abstract" : [
+    {
+      "text" : "We help people book together. With a better booking experience, better business results",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JoynedMobileSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/GettingStarted": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/GettingStarted",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Getting Started with Joyned mobile SDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/gettingstarted"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedButton": {
+  "abstract" : [
+    {
+      "text" : "A Joyned UI element meant for usage in the host application, acts as a card like display element, supports border, shadow, corner cliping & more",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JoynedButton"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JoynedButton"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JoynedButton",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedbutton"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK": {
+  "abstract" : [
+    {
+      "text" : "The main public access class to ther Joyned mobile SDK, use it to interact with the system",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JoynedSDK"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JoynedSDK"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JoynedSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/activate(with:and:)": {
+  "abstract" : [
+    {
+      "text" : "Use this method for manual activation of the SDK",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "activate"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "with"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "and"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/activate(with:and:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "activate(with:and:)",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/activate(with:and:)"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/append(BlackList:)": {
+  "abstract" : [
+    {
+      "text" : "Use this method to add a new screen name to the system black list",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "On screens which appear in the blacklist the Joyned mobile SDK will not present it’s floating content,",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "append"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "BlackList"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/append(BlackList:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "append(BlackList:)",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/append(blacklist:)"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/append(WhiteList:)": {
+  "abstract" : [
+    {
+      "text" : "Use this method to add a new screen name to the system white list",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "On screens which appear in the whitelist the Joyned mobile SDK will present it’s floating content,",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "append"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "WhiteList"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/append(WhiteList:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "append(WhiteList:)",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/append(whitelist:)"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/clearScreensBlackList()": {
+  "abstract" : [
+    {
+      "text" : "Use this method to clear the invalid screen names from the system black list",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clearScreensBlackList"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/clearScreensBlackList()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "clearScreensBlackList()",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/clearscreensblacklist()"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/delegate": {
+  "abstract" : [
+    {
+      "text" : "The delegate of the SDK used for general control hooks into the system.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "delegate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@JoynedMobileSDK@objc(pl)JoynedSDKDelegate",
+      "text" : "JoynedSDKDelegate"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/delegate",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "delegate",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/delegate"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/generateJoynedButton(frame:with:)": {
+  "abstract" : [
+    {
+      "text" : "Use this method to generate a new instance of ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedButton",
+      "isActive" : true,
+      "type" : "reference"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "generateJoynedButton"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "frame"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@S@CGRect",
+      "text" : "CGRect"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "with"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@JoynedMobileSDK@objc(pl)JoynedButtonDelegate",
+      "text" : "JoynedButtonDelegate"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@JoynedMobileSDK@objc(cs)JoynedButton",
+      "text" : "JoynedButton"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/generateJoynedButton(frame:with:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "generateJoynedButton(frame:with:)",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/generatejoynedbutton(frame:with:)"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/hideDisplay()": {
+  "abstract" : [
+    {
+      "text" : "Use this method to make the system hide the floating SDK UI elements",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hideDisplay"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/hideDisplay()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hideDisplay()",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/hidedisplay()"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/libraryVersion": {
+  "abstract" : [
+    {
+      "text" : "Returns the SDK version in the following template ",
+      "type" : "text"
+    },
+    {
+      "code" : "x.y.z (buildNumber)",
+      "type" : "codeVoice"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "libraryVersion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/libraryVersion",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "libraryVersion",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/libraryversion"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/minimizeDisplay()": {
+  "abstract" : [
+    {
+      "text" : "Use this method to trigger a minimize action on the floating SDK UI elements,",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "minimizeDisplay"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/minimizeDisplay()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "minimizeDisplay()",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/minimizedisplay()"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/remove(BlackList:)": {
+  "abstract" : [
+    {
+      "text" : "Use this method to remove a  screen name to the system black list",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "On screens which appear in the blacklist the Joyned mobile SDK will not present it’s floating content,",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "remove"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "BlackList"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/remove(BlackList:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "remove(BlackList:)",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/remove(blacklist:)"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/remove(WhiteList:)": {
+  "abstract" : [
+    {
+      "text" : "Use this method to remove a screen name to the system white list",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "On screens which appear in the whitelist the Joyned mobile SDK will present it’s floating content,",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "remove"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "WhiteList"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/remove(WhiteList:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "remove(WhiteList:)",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/remove(whitelist:)"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/report(Transaction:)": {
+  "abstract" : [
+    {
+      "text" : "Call this method to report purchase transactions to the Joyned SDK",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "report"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "Transaction"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@JoynedMobileSDK@objc(cs)JoynedTransactionRequest",
+      "text" : "JoynedTransactionRequest"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/report(Transaction:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "report(Transaction:)",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/report(transaction:)"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/scene(_:continue:)": {
+  "abstract" : [
+    {
+      "text" : "Call this method from the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "https:\/\/developer.apple.com\/documentation\/uikit\/uiscenedelegate\/3238056-scene\/",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "method of your application scene delegate. It should be invoked for the proper processing of Joyned related content.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "scene"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIScene",
+      "text" : "UIScene"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "continue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSUserActivity",
+      "text" : "NSUserActivity"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/scene(_:continue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "scene(_:continue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/scene(_:continue:)"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/scene(_:openURLContexts:)": {
+  "abstract" : [
+    {
+      "text" : "Call this method from the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "https:\/\/developer.apple.com\/documentation\/uikit\/uiscenedelegate\/3238059-scene\/",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "method of your application scene delegate. It should be invoked for the proper processing of Joyned related content.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "scene"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIScene",
+      "text" : "UIScene"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "openURLContexts"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sh",
+      "text" : "Set"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIOpenURLContext",
+      "text" : "UIOpenURLContext"
+    },
+    {
+      "kind" : "text",
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/scene(_:openURLContexts:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "scene(_:openURLContexts:)",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/scene(_:openurlcontexts:)"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/scene(_:willConnectTo:options:)": {
+  "abstract" : [
+    {
+      "text" : "Call this method from the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "https:\/\/developer.apple.com\/documentation\/uikit\/uiscenedelegate\/3197914-scene\/",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "method of your application scene delegate. It should be invoked for the proper processing of Joyned related content.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "scene"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIScene",
+      "text" : "UIScene"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "willConnectTo"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UISceneSession",
+      "text" : "UISceneSession"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "options"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIScene",
+      "text" : "UIScene"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UISceneConnectionOptions",
+      "text" : "ConnectionOptions"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/scene(_:willConnectTo:options:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "scene(_:willConnectTo:options:)",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/scene(_:willconnectto:options:)"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDK/showDisplay()": {
+  "abstract" : [
+    {
+      "text" : "Use this method to make the system show the floating SDK UI elements, if they have been hidden before",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "showDisplay"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDK\/showDisplay()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "showDisplay()",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdk\/showdisplay()"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSDKDelegate": {
+  "abstract" : [
+    {
+      "text" : "The Joyned mobile SDK main delegation protocol, implement this to recive notifications on major actions taken by the SDK and affect its behavior",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JoynedSDKDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDKDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JoynedSDKDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JoynedSDKDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsdkdelegate"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/JoynedSample": {
+  "abstract" : [
+    {
+      "text" : "Integrate JoynedMobileSDK into an iOS app for booking and ordering togather.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSample",
+  "kind" : "article",
+  "role" : "sampleCode",
+  "title" : "Sample code - Voyage App",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsample"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/_00_installation": {
+  "abstract" : [
+    {
+      "text" : "How to install this library",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_00_installation",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Library installation",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/_00_installation"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/_01_activation": {
+  "abstract" : [
+    {
+      "text" : "There are several different ways to activate of the Joyned mobile SDK",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_01_activation",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Activation Methods",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/_01_activation"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/_01_global-delegate": {
+  "abstract" : [
+    {
+      "text" : "Joyned mobile SDK provides several intervention hooks via the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/JoynedSDKDelegate",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " protocol",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_01_global-delegate",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Global Delegate",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/_01_global-delegate"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/_01_screen-llst": {
+  "abstract" : [
+    {
+      "text" : "Joyned Mobile SDK screen change monitor",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_01_screen-llst",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Screen Validation Controls",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/_01_screen-llst"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/_02_hosted-ui": {
+  "abstract" : [
+    {
+      "text" : "Hosted Joyned UI",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Joyned mobile SDK provides a few views which are ment to be used within application that hosts the SDK",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_02_hosted-ui",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Hosted UI",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/_02_hosted-ui"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/_03_invitation-links": {
+  "abstract" : [
+    {
+      "text" : "Handle supported deeplinks for Joyned content",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_03_invitation-links",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Joyned Session invitation links",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/_03_invitation-links"
+},
+"doc://docs_bundle_identifier/documentation/JoynedMobileSDK/_05_transaction": {
+  "abstract" : [
+    {
+      "text" : "API to make joyned is aware of all purchase transactions processed by your application.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/docs_bundle_identifier\/documentation\/JoynedMobileSDK\/_05_transaction",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Report transaction",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/_05_transaction"
+},
+"doc://docs_bundle_identifier/objc(cs)NSObject": {
+  "identifier" : "doc:\/\/docs_bundle_identifier\/objc(cs)NSObject",
+  "title" : "ObjectiveC.NSObject",
+  "type" : "unresolvable"
+},
+"doc://docs_bundle_identifier/objc(pl)NSObject": {
+  "identifier" : "doc:\/\/docs_bundle_identifier\/objc(pl)NSObject",
+  "title" : "ObjectiveC.NSObjectProtocol",
+  "type" : "unresolvable"
+},
+"doc://docs_bundle_identifier/s23CustomStringConvertibleP": {
+  "identifier" : "doc:\/\/docs_bundle_identifier\/s23CustomStringConvertibleP",
+  "title" : "Swift.CustomStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://docs_bundle_identifier/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/docs_bundle_identifier\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://docs_bundle_identifier/s7CVarArgP": {
+  "identifier" : "doc:\/\/docs_bundle_identifier\/s7CVarArgP",
+  "title" : "Swift.CVarArg",
+  "type" : "unresolvable"
+},
+"https://developer.apple.com/documentation/uikit/uiscenedelegate/3197914-scene/": {
+  "identifier" : "https:\/\/developer.apple.com\/documentation\/uikit\/uiscenedelegate\/3197914-scene\/",
+  "title" : "UISceneDelegate.scene(_:willConnectTo:options:)",
+  "titleInlineContent" : [
+    {
+      "code" : "UISceneDelegate.scene(_:willConnectTo:options:)",
+      "type" : "codeVoice"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/developer.apple.com\/documentation\/uikit\/uiscenedelegate\/3197914-scene\/"
+},
+"https://developer.apple.com/documentation/uikit/uiscenedelegate/3238056-scene/": {
+  "identifier" : "https:\/\/developer.apple.com\/documentation\/uikit\/uiscenedelegate\/3238056-scene\/",
+  "title" : "UISceneDelegate.scene(_:continue:)",
+  "titleInlineContent" : [
+    {
+      "code" : "UISceneDelegate.scene(_:continue:)",
+      "type" : "codeVoice"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/developer.apple.com\/documentation\/uikit\/uiscenedelegate\/3238056-scene\/"
+},
+"https://developer.apple.com/documentation/uikit/uiscenedelegate/3238059-scene/": {
+  "identifier" : "https:\/\/developer.apple.com\/documentation\/uikit\/uiscenedelegate\/3238059-scene\/",
+  "title" : "UISceneDelegate.scene(_:openURLContexts:)",
+  "titleInlineContent" : [
+    {
+      "code" : "UISceneDelegate.scene(_:openURLContexts:)",
+      "type" : "codeVoice"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/developer.apple.com\/documentation\/uikit\/uiscenedelegate\/3238059-scene\/"
+}
+}
+}
