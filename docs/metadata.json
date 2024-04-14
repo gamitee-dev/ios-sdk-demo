@@ -1,9 +1,1 @@
-{
-  "bundleDisplayName" : "JoynedMobileSDK",
-  "bundleIdentifier" : "co.joyned.mobile.JoynedMobileSDK",
-  "schemaVersion" : {
-    "major" : 0,
-    "minor" : 1,
-    "patch" : 0
-  }
-}
+{"bundleIdentifier":"co.joyned.mobile.JoynedMobileSDK","schemaVersion":{"major":0,"minor":1,"patch":0},"bundleDisplayName":"JoynedMobileSDK"}
