@@ -1,0 +1,246 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/GettingStarted"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "role" : "collection",
+    "title" : "Getting Started with Joyned mobile SDK"
+  },
+  "primaryContentSections" : [
+    {
+      "content" : [
+        {
+          "anchor" : "Overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/installation",
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/activation",
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/global_delegate",
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/screen_llst"
+      ],
+      "title" : "Essentials"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/hosted_ui"
+      ],
+      "title" : "Hosted Joyned UI"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/invitation_links"
+      ],
+      "title" : "Invetation link API"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/offering"
+      ],
+      "title" : "Offering Related API"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/transaction"
+      ],
+      "title" : "Transaction report API"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/advance"
+      ],
+      "title" : "Advance usage API"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSample"
+      ],
+      "title" : "Articles"
+    }
+  ]
+, 
+"references": {
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/JoynedSample": {
+  "abstract" : [
+    {
+      "text" : "Integrate JoynedMobileSDK into an iOS app for booking and ordering togather.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/JoynedSample",
+  "kind" : "article",
+  "role" : "sampleCode",
+  "title" : "Sample code - Voyage App",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/joynedsample"
+},
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/activation": {
+  "abstract" : [
+    {
+      "text" : "There are several different ways to activate of the Joyned mobile SDK",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/activation",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Activation Methods",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/activation"
+},
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/advance": {
+  "abstract" : [
+    {
+      "text" : "Extra options to configure SDK sub-elements",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/advance",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Advance SDK configuration",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/advance"
+},
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/global_delegate": {
+  "abstract" : [
+    {
+      "text" : "Joyned mobile SDK provides several intervention hooks via the ",
+      "type" : "text"
+    },
+    {
+      "code" : "JoynedSDKDelegate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " protocol",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/global_delegate",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Global Delegate",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/global_delegate"
+},
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/hosted_ui": {
+  "abstract" : [
+    {
+      "text" : "Hosted Joyned UI",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Joyned mobile SDK provides a few views which are ment to be used within application that hosts the SDK",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/hosted_ui",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Hosted UI",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/hosted_ui"
+},
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/installation": {
+  "abstract" : [
+    {
+      "text" : "How to install this library",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/installation",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Library installation",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/installation"
+},
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/invitation_links": {
+  "abstract" : [
+    {
+      "text" : "Handle supported deeplinks for Joyned content",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/invitation_links",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Joyned Session invitation links",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/invitation_links"
+},
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/offering": {
+  "abstract" : [
+    {
+      "text" : "API for interacting with JoynedMobileSDK offerings",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/offering",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Offering handling API",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/offering"
+},
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/screen_llst": {
+  "abstract" : [
+    {
+      "text" : "Joyned Mobile SDK screen change monitor",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/screen_llst",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Screen Validation Controls",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/screen_llst"
+},
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/transaction": {
+  "abstract" : [
+    {
+      "text" : "API to make joyned is aware of all purchase transactions processed by your application.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/transaction",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Report transaction",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/transaction"
+}
+}
+}

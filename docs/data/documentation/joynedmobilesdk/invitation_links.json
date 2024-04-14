@@ -1,0 +1,421 @@
+{
+  "abstract" : [
+    {
+      "text" : "Handle supported deeplinks for Joyned content",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/GettingStarted"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/invitation_links"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "role" : "article",
+    "roleHeading" : "Article",
+    "title" : "Joyned Session invitation links"
+  },
+  "primaryContentSections" : [
+    {
+      "content" : [
+        {
+          "anchor" : "Overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Joyned invitation links allow a user to invite his friends into his Joyned session.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The simplest way of doing so is by opening a Joyned session and using its UI to share an invitation via one of the supported share options, this can be done from both the Web UI or the mobile app.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "tabs" : [
+            {
+              "content" : [
+                {
+                  "columns" : [
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "identifier" : "screenshot_web_invitation_01.png",
+                              "type" : "image"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ],
+                      "size" : 1
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "identifier" : "screenshot_web_invitation_02.png",
+                              "type" : "image"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ],
+                      "size" : 1
+                    }
+                  ],
+                  "numberOfColumns" : 2,
+                  "type" : "row"
+                }
+              ],
+              "title" : "Web"
+            },
+            {
+              "content" : [
+                {
+                  "columns" : [
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "identifier" : "screenshot_mobile_invitation_01.png",
+                              "type" : "image"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ],
+                      "size" : 1
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "identifier" : "screenshot_mobile_invitation_02.png",
+                              "type" : "image"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ],
+                      "size" : 1
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "identifier" : "screenshot_mobile_invitation_03.png",
+                              "type" : "image"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ],
+                      "size" : 1
+                    }
+                  ],
+                  "numberOfColumns" : 3,
+                  "type" : "row"
+                }
+              ],
+              "title" : "Mobile"
+            }
+          ],
+          "type" : "tabNavigator"
+        },
+        {
+          "inlineContent" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Share payload:",
+                  "type" : "text"
+                }
+              ],
+              "type" : "strong"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The share payload contains a “short” link which will redirect the system to a “long” link.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The “long” link needs to be of a format supported by the host mobile appliaction for the system integration to fully work.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Example of a share message:",
+                  "type" : "text"
+                }
+              ],
+              "type" : "strong"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "I found a good option on JOYNED ",
+            "More details in my favorites list",
+            "https:\/\/gamitee-demo.joyned.chat\/v3ngpua?sn=clipboard"
+          ],
+          "syntax" : null,
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "To integrate the invitation links element into the application you first need to implement Universal links",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Implement Universal links by following the instruction as shown on apple developer website",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "identifier" : "https:\/\/developer.apple.com\/ios\/universal-links\/",
+                      "isActive" : true,
+                      "type" : "reference"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "identifier" : "https:\/\/developer.apple.com\/documentation\/xcode\/allowing-apps-and-websites-to-link-to-your-content",
+                      "isActive" : true,
+                      "type" : "reference"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Once implemented, you need to add the relevent Joyned methods from within the applications scene delegate:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "extension SceneDelegate : UISceneDelegate",
+            "{",
+            "    \/\/ Deeplink or Universial Link Open when app is start.",
+            "    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions)",
+            "    {   ",
+            "        ...",
+            "        JoynedSDK.scene(scene, willConnectTo: session, options: connectionOptions)",
+            "        ...",
+            "    }",
+            "",
+            "    \/\/ Deeplink link Open when app is onPause",
+            "    func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) ",
+            "    {   ",
+            "        ...",
+            "        JoynedSDK.scene(scene, openURLContexts: URLContexts)",
+            "        ...",
+            "    }",
+            "    \/\/ Universial link Open when app is onPause",
+            "    func scene(_ scene: UIScene, continue userActivity: NSUserActivity)",
+            "    {",
+            "        ...",
+            "        JoynedSDK.scene(scene, continue: userActivity)",
+            "        ...",
+            "    }",
+            "}"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "anchor" : "For-more-information-see",
+          "level" : 4,
+          "text" : "For more information see:",
+          "type" : "heading"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ]
+, 
+"references": {
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/GettingStarted": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/GettingStarted",
+  "kind" : "article",
+  "role" : "collection",
+  "title" : "Getting Started with Joyned mobile SDK",
+  "type" : "topic",
+  "url" : "\/documentation\/gettingstarted"
+},
+"https://developer.apple.com/documentation/xcode/allowing-apps-and-websites-to-link-to-your-content": {
+  "identifier" : "https:\/\/developer.apple.com\/documentation\/xcode\/allowing-apps-and-websites-to-link-to-your-content",
+  "title" : "universal-links - allowing apps to link to your content",
+  "titleInlineContent" : [
+    {
+      "text" : "universal-links - allowing apps to link to your content",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/developer.apple.com\/documentation\/xcode\/allowing-apps-and-websites-to-link-to-your-content"
+},
+"https://developer.apple.com/ios/universal-links/": {
+  "identifier" : "https:\/\/developer.apple.com\/ios\/universal-links\/",
+  "title" : "universal-links -  general",
+  "titleInlineContent" : [
+    {
+      "text" : "universal-links -  general",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/developer.apple.com\/ios\/universal-links\/"
+},
+"screenshot_mobile_invitation_01.png": {
+  "alt" : "Joyned invitation mobile example 01",
+  "identifier" : "screenshot_mobile_invitation_01.png",
+  "type" : "image",
+  "variants" : [
+    {
+      "traits" : [
+        "1x",
+        "light"
+      ],
+      "url" : "\/images\/screenshot_mobile_invitation_01.png"
+    }
+  ]
+},
+"screenshot_mobile_invitation_02.png": {
+  "alt" : "Joyned invitation mobile example 02",
+  "identifier" : "screenshot_mobile_invitation_02.png",
+  "type" : "image",
+  "variants" : [
+    {
+      "traits" : [
+        "1x",
+        "light"
+      ],
+      "url" : "\/images\/screenshot_mobile_invitation_02.png"
+    }
+  ]
+},
+"screenshot_mobile_invitation_03.png": {
+  "alt" : "Joyned invitation mobile example 03",
+  "identifier" : "screenshot_mobile_invitation_03.png",
+  "type" : "image",
+  "variants" : [
+    {
+      "traits" : [
+        "1x",
+        "light"
+      ],
+      "url" : "\/images\/screenshot_mobile_invitation_03.png"
+    }
+  ]
+},
+"screenshot_web_invitation_01.png": {
+  "alt" : "Joyned invitation web example 01",
+  "identifier" : "screenshot_web_invitation_01.png",
+  "type" : "image",
+  "variants" : [
+    {
+      "traits" : [
+        "1x",
+        "light"
+      ],
+      "url" : "\/images\/screenshot_web_invitation_01.png"
+    }
+  ]
+},
+"screenshot_web_invitation_02.png": {
+  "alt" : "Joyned invitation web example 02",
+  "identifier" : "screenshot_web_invitation_02.png",
+  "type" : "image",
+  "variants" : [
+    {
+      "traits" : [
+        "1x",
+        "light"
+      ],
+      "url" : "\/images\/screenshot_web_invitation_02.png"
+    }
+  ]
+}
+}
+}

@@ -4,24 +4,84 @@
 
     ],
     "severity" : 2,
-    "source" : "GettingStarted.md",
+    "source" : "Extensions\/Button\/JoynedButton.md",
     "start" : {
-      "column" : 5,
-      "line" : 51
+      "column" : 3,
+      "line" : 1
     },
-    "summary" : "'UIKit' doesn't exist at '\/JoynedMobileSDK\/GettingStarted'"
+    "summary" : "No symbol matched 'JoynedMobileSDK\/JoynedButton'. 'JoynedMobileSDK' doesn't exist at '\/GettingStarted'."
   },
   {
     "notes" : [
 
     ],
     "severity" : 2,
-    "source" : "GettingStarted.md",
+    "source" : "Extensions\/Button\/JoynedButtonDelegate.md",
     "start" : {
-      "column" : 5,
-      "line" : 52
+      "column" : 3,
+      "line" : 1
     },
-    "summary" : "'UIKit' doesn't exist at '\/JoynedMobileSDK\/GettingStarted'"
+    "summary" : "No symbol matched 'JoynedMobileSDK\/JoynedButtonDelegate'. 'JoynedMobileSDK' doesn't exist at '\/GettingStarted'."
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "Extensions\/Offering\/JoynedOfferingRequest.md",
+    "start" : {
+      "column" : 3,
+      "line" : 1
+    },
+    "summary" : "No symbol matched 'JoynedMobileSDK\/JoynedOfferingRequest'. 'JoynedMobileSDK' doesn't exist at '\/GettingStarted'."
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "Extensions\/Offering\/JoynedOfferingResponse.md",
+    "start" : {
+      "column" : 3,
+      "line" : 1
+    },
+    "summary" : "No symbol matched 'JoynedMobileSDK\/JoynedOfferingResponse'. 'JoynedMobileSDK' doesn't exist at '\/GettingStarted'."
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "Extensions\/SDK\/JoynedSDK.md",
+    "start" : {
+      "column" : 3,
+      "line" : 1
+    },
+    "summary" : "No symbol matched 'JoynedMobileSDK\/JoynedSDK'. 'JoynedMobileSDK' doesn't exist at '\/GettingStarted'."
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "Extensions\/SDK\/JoynedSDKDelegate.md",
+    "start" : {
+      "column" : 3,
+      "line" : 1
+    },
+    "summary" : "No symbol matched 'JoynedMobileSDK\/JoynedSDKDelegate'. 'JoynedMobileSDK' doesn't exist at '\/GettingStarted'."
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "Extensions\/Transaction\/JoynedTransactionRequest.md",
+    "start" : {
+      "column" : 3,
+      "line" : 1
+    },
+    "summary" : "No symbol matched 'JoynedMobileSDK\/JoynedTransactionRequest'. 'JoynedMobileSDK' doesn't exist at '\/GettingStarted'."
   },
   {
     "notes" : [
@@ -30,21 +90,537 @@
     "severity" : 2,
     "source" : "JoynedMobileSDK.md",
     "start" : {
-      "column" : 5,
-      "line" : 64
+      "column" : 3,
+      "line" : 1
     },
-    "summary" : "'UIKit' doesn't exist at '\/JoynedMobileSDK'"
+    "summary" : "No symbol matched 'JoynedMobileSDK'. 'JoynedMobileSDK' doesn't exist at '\/GettingStarted'."
   },
   {
     "notes" : [
 
     ],
     "severity" : 2,
-    "source" : "JoynedMobileSDK.md",
+    "source" : "offering.md",
+    "start" : {
+      "column" : 62,
+      "line" : 26
+    },
+    "summary" : "'JoynedButtonDelegate' doesn't exist at '\/JoynedMobileSDK\/offering'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "offering.md",
+    "start" : {
+      "column" : 177,
+      "line" : 209
+    },
+    "summary" : "'JoynedSDKDelegate' doesn't exist at '\/JoynedMobileSDK\/offering'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "offering.md",
+    "start" : {
+      "column" : 51,
+      "line" : 212
+    },
+    "summary" : "'JoynedSDKDelegate' doesn't exist at '\/JoynedMobileSDK\/offering'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "activation.md",
+    "start" : {
+      "column" : 41,
+      "line" : 34
+    },
+    "summary" : "'JoynedSDK' doesn't exist at '\/JoynedMobileSDK'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "global_delegate.md",
+    "start" : {
+      "column" : 65,
+      "line" : 3
+    },
+    "summary" : "'JoynedSDKDelegate' doesn't exist at '\/JoynedMobileSDK\/global_delegate'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "global_delegate.md",
+    "start" : {
+      "column" : 9,
+      "line" : 12
+    },
+    "summary" : "'JoynedSDKDelegate' doesn't exist at '\/JoynedMobileSDK\/global_delegate'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "global_delegate.md",
+    "start" : {
+      "column" : 9,
+      "line" : 13
+    },
+    "summary" : "'JoynedSDKDelegate' doesn't exist at '\/JoynedMobileSDK\/global_delegate'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "global_delegate.md",
+    "start" : {
+      "column" : 9,
+      "line" : 18
+    },
+    "summary" : "'JoynedSDKDelegate' doesn't exist at '\/JoynedMobileSDK\/global_delegate'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "global_delegate.md",
+    "start" : {
+      "column" : 9,
+      "line" : 23
+    },
+    "summary" : "'JoynedSDKDelegate' doesn't exist at '\/JoynedMobileSDK\/global_delegate'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "transaction.md",
+    "start" : {
+      "column" : 19,
+      "line" : 8
+    },
+    "summary" : "'JoynedTransactionRequest' doesn't exist at '\/JoynedMobileSDK\/transaction'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "transaction.md",
+    "start" : {
+      "column" : 9,
+      "line" : 33
+    },
+    "summary" : "'JoynedTransactionRequest' doesn't exist at '\/JoynedMobileSDK\/transaction'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "transaction.md",
+    "start" : {
+      "column" : 9,
+      "line" : 34
+    },
+    "summary" : "'JoynedSDK' doesn't exist at '\/JoynedMobileSDK\/transaction'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "GettingStarted.md",
     "start" : {
       "column" : 5,
+      "line" : 16
+    },
+    "summary" : "'JoynedMobileSDK' doesn't exist at '\/GettingStarted'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "GettingStarted.md",
+    "start" : {
+      "column" : 5,
+      "line" : 17
+    },
+    "summary" : "'JoynedMobileSDK' doesn't exist at '\/GettingStarted'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "GettingStarted.md",
+    "start" : {
+      "column" : 5,
+      "line" : 22
+    },
+    "summary" : "'JoynedMobileSDK' doesn't exist at '\/GettingStarted'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "GettingStarted.md",
+    "start" : {
+      "column" : 5,
+      "line" : 23
+    },
+    "summary" : "'JoynedMobileSDK' doesn't exist at '\/GettingStarted'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "GettingStarted.md",
+    "start" : {
+      "column" : 5,
+      "line" : 32
+    },
+    "summary" : "'JoynedMobileSDK' doesn't exist at '\/GettingStarted'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "GettingStarted.md",
+    "start" : {
+      "column" : 5,
+      "line" : 33
+    },
+    "summary" : "'JoynedMobileSDK' doesn't exist at '\/GettingStarted'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "GettingStarted.md",
+    "start" : {
+      "column" : 5,
+      "line" : 38
+    },
+    "summary" : "'JoynedMobileSDK' doesn't exist at '\/GettingStarted'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "GettingStarted.md",
+    "start" : {
+      "column" : 5,
+      "line" : 49
+    },
+    "summary" : "'JoynedMobileSDK' doesn't exist at '\/GettingStarted'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "GettingStarted.md",
+    "start" : {
+      "column" : 5,
+      "line" : 50
+    },
+    "summary" : "'JoynedMobileSDK' doesn't exist at '\/GettingStarted'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "GettingStarted.md",
+    "start" : {
+      "column" : 5,
+      "line" : 54
+    },
+    "summary" : "'JoynedMobileSDK' doesn't exist at '\/GettingStarted'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "GettingStarted.md",
+    "start" : {
+      "column" : 5,
+      "line" : 55
+    },
+    "summary" : "'JoynedMobileSDK' doesn't exist at '\/GettingStarted'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "GettingStarted.md",
+    "start" : {
+      "column" : 5,
+      "line" : 59
+    },
+    "summary" : "'JoynedMobileSDK' doesn't exist at '\/GettingStarted'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "invitation_links.md",
+    "start" : {
+      "column" : 9,
+      "line" : 95
+    },
+    "summary" : "'JoynedSDK' doesn't exist at '\/JoynedMobileSDK\/invitation_links'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "invitation_links.md",
+    "start" : {
+      "column" : 9,
+      "line" : 96
+    },
+    "summary" : "'JoynedSDK' doesn't exist at '\/JoynedMobileSDK\/invitation_links'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "invitation_links.md",
+    "start" : {
+      "column" : 9,
+      "line" : 97
+    },
+    "summary" : "'JoynedSDK' doesn't exist at '\/JoynedMobileSDK\/invitation_links'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "invitation_links.md",
+    "start" : {
+      "column" : 9,
+      "line" : 99
+    },
+    "summary" : "'JoynedSDK' doesn't exist at '\/JoynedMobileSDK\/invitation_links'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "hosted_ui.md",
+    "start" : {
+      "column" : 18,
+      "line" : 15
+    },
+    "summary" : "'JoynedButton' doesn't exist at '\/JoynedMobileSDK\/hosted_ui'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "hosted_ui.md",
+    "start" : {
+      "column" : 171,
+      "line" : 15
+    },
+    "summary" : "'JoynedButton' doesn't exist at '\/JoynedMobileSDK\/hosted_ui'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "hosted_ui.md",
+    "start" : {
+      "column" : 18,
+      "line" : 23
+    },
+    "summary" : "'JoynedButton' doesn't exist at '\/JoynedMobileSDK\/hosted_ui'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "hosted_ui.md",
+    "start" : {
+      "column" : 9,
+      "line" : 47
+    },
+    "summary" : "'JoynedSDK' doesn't exist at '\/JoynedMobileSDK\/hosted_ui'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "hosted_ui.md",
+    "start" : {
+      "column" : 9,
+      "line" : 80
+    },
+    "summary" : "'JoynedButton' doesn't exist at '\/JoynedMobileSDK\/hosted_ui'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "hosted_ui.md",
+    "start" : {
+      "column" : 9,
+      "line" : 81
+    },
+    "summary" : "'JoynedButtonDelegate' doesn't exist at '\/JoynedMobileSDK\/hosted_ui'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "screen_llst.md",
+    "start" : {
+      "column" : 136,
+      "line" : 57
+    },
+    "summary" : "'JoynedSDK' doesn't exist at '\/JoynedMobileSDK\/screen_llst'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "screen_llst.md",
+    "start" : {
+      "column" : 13,
+      "line" : 59
+    },
+    "summary" : "'JoynedSDK' doesn't exist at '\/JoynedMobileSDK\/screen_llst'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "screen_llst.md",
+    "start" : {
+      "column" : 13,
+      "line" : 60
+    },
+    "summary" : "'JoynedSDK' doesn't exist at '\/JoynedMobileSDK\/screen_llst'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "screen_llst.md",
+    "start" : {
+      "column" : 13,
+      "line" : 62
+    },
+    "summary" : "'JoynedSDK' doesn't exist at '\/JoynedMobileSDK\/screen_llst'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "screen_llst.md",
+    "start" : {
+      "column" : 13,
+      "line" : 63
+    },
+    "summary" : "'JoynedSDK' doesn't exist at '\/JoynedMobileSDK\/screen_llst'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "screen_llst.md",
+    "start" : {
+      "column" : 13,
       "line" : 65
     },
-    "summary" : "'UIKit' doesn't exist at '\/JoynedMobileSDK'"
+    "summary" : "'JoynedSDK' doesn't exist at '\/JoynedMobileSDK\/screen_llst'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "screen_llst.md",
+    "start" : {
+      "column" : 64,
+      "line" : 71
+    },
+    "summary" : "'JoynedSDK' doesn't exist at '\/JoynedMobileSDK\/screen_llst'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "screen_llst.md",
+    "start" : {
+      "column" : 5,
+      "line" : 73
+    },
+    "summary" : "'JoynedSDK' doesn't exist at '\/JoynedMobileSDK\/screen_llst'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "screen_llst.md",
+    "start" : {
+      "column" : 5,
+      "line" : 74
+    },
+    "summary" : "'JoynedSDK' doesn't exist at '\/JoynedMobileSDK\/screen_llst'"
+  },
+  {
+    "notes" : [
+
+    ],
+    "severity" : 2,
+    "source" : "screen_llst.md",
+    "start" : {
+      "column" : 5,
+      "line" : 75
+    },
+    "summary" : "'JoynedSDK' doesn't exist at '\/JoynedMobileSDK\/screen_llst'"
   }
 ]

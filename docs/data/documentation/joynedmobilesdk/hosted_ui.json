@@ -1,0 +1,290 @@
+{
+  "abstract" : [
+    {
+      "text" : "Hosted Joyned UI",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Joyned mobile SDK provides a few views which are ment to be used within application that hosts the SDK",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/GettingStarted"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/hosted_ui"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "role" : "article",
+    "roleHeading" : "Article",
+    "title" : "Hosted UI"
+  },
+  "primaryContentSections" : [
+    {
+      "content" : [
+        {
+          "anchor" : "Overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "There are two ways to integrated Joyned mobile SDK views into the host application:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "via Xib\/Storyboard",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "via Code",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        },
+        {
+          "anchor" : "XibStoryboard",
+          "level" : 3,
+          "text" : "Xib\/Storyboard",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "To integrate a ",
+              "type" : "text"
+            },
+            {
+              "code" : "JoynedButton",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " in to Xib or Storyboard based UI all you need to do is to add a view element to the Xib\/Storyboard document and set its custom class to ",
+              "type" : "text"
+            },
+            {
+              "code" : "JoynedButton",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ".",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Make sure to also set the ",
+              "type" : "text"
+            },
+            {
+              "code" : "module",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " value in the inspector to ",
+              "type" : "text"
+            },
+            {
+              "code" : "JoynedMobileSDK",
+              "type" : "codeVoice"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "identifier" : "screenshot_joyned_button.png",
+              "type" : "image"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "anchor" : "Code-Integration",
+          "level" : 3,
+          "text" : "Code Integration",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "To integrate a ",
+              "type" : "text"
+            },
+            {
+              "code" : "JoynedButton",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " in to a UIKit code based UI, use the following code:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "lass ExampleViewController : UIViewController",
+            "{",
+            "    \/\/ MARK: - type - enum",
+            "    ",
+            "    \/\/ MARK: - Properties",
+            "    internal var venue : Venue!",
+            "",
+            "    \/\/ MARK: - View LifeCycle",
+            "    override func viewDidLoad()",
+            "    {",
+            "        super.viewDidLoad()",
+            "",
+            "",
+            "        let button = JoynedSDK.generateJoynedButton(frame: CGRect(x: 100, y: 500, width: 70, height: 34), with: self)",
+            "        view.addSubview(button)",
+            "    }",
+            "}"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Also see",
+                  "type" : "text"
+                }
+              ],
+              "type" : "strong"
+            },
+            {
+              "text" : ":",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Make sure that you implement the button’s delegate protocol and set it’s delegate like so:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "extension ExampleViewController : JoynedButtonDelegate",
+            "{",
+            "    func willPresentMobileSDKContent()",
+            "    {",
+            "        logger.debug()",
+            "    }",
+            "    ",
+            "    func joynedButton(_ button: JoynedButton, productOfferingFor location: CGPoint) -> JoynedNavigationRequestProtocol?",
+            "    {",
+            "        logger.debug()",
+            "        ",
+            "        return encode(product: venue)",
+            "    }",
+            "    ",
+            "    private func encode(product item: Venue?) -> JoynedNavigationRequestProtocol?",
+            "    {",
+            "        guard let venue   = item              else { return nil }",
+            "        guard let product = venue.toPayload() else { return nil }",
+            "        guard let extra   = venue.toJSON()    else { return nil }",
+            "        return JoynedNavigationRequest(offeringString: product, extraString: extra)",
+            "    }",
+            "}"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "anchor" : "For-more-information-see",
+          "level" : 4,
+          "text" : "For more information see:",
+          "type" : "heading"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ]
+, 
+"references": {
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/GettingStarted": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/GettingStarted",
+  "kind" : "article",
+  "role" : "collection",
+  "title" : "Getting Started with Joyned mobile SDK",
+  "type" : "topic",
+  "url" : "\/documentation\/gettingstarted"
+},
+"screenshot_joyned_button.png": {
+  "alt" : "Joyned button example",
+  "identifier" : "screenshot_joyned_button.png",
+  "type" : "image",
+  "variants" : [
+    {
+      "traits" : [
+        "1x",
+        "light"
+      ],
+      "url" : "\/images\/screenshot_joyned_button.png"
+    }
+  ]
+}
+}
+}

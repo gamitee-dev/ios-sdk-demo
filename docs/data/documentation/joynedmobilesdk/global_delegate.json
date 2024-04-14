@@ -1,0 +1,271 @@
+{
+  "abstract" : [
+    {
+      "text" : "Joyned mobile SDK provides several intervention hooks via the ",
+      "type" : "text"
+    },
+    {
+      "code" : "JoynedSDKDelegate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " protocol",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/GettingStarted"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/global_delegate"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "role" : "article",
+    "roleHeading" : "Article",
+    "title" : "Global Delegate"
+  },
+  "primaryContentSections" : [
+    {
+      "content" : [
+        {
+          "anchor" : "Overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The ",
+              "type" : "text"
+            },
+            {
+              "code" : "JoynedSDKDelegate",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " is responsible for global interactions with the SDK, things like what locale the system should use, or simple notification on some system events",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Notifications:",
+                  "type" : "text"
+                }
+              ],
+              "type" : "strong"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Locale",
+                  "type" : "text"
+                }
+              ],
+              "type" : "strong"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Navigation actions",
+                  "type" : "text"
+                }
+              ],
+              "type" : "strong"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Please note:",
+                  "type" : "text"
+                }
+              ],
+              "type" : "strong"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "You will not be able to interact with JoynedMobileSDK without implementing this protocol.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "emphasis"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "@objc(JoynedSDKDelegate)",
+            "public protocol JoynedSDKDelegate : NSObjectProtocol",
+            "{",
+            "    \/\/\/ Called when the SDK was activated successfully",
+            "    @objc optional func mobileSDKDidActivateSuccessfully()",
+            "    ",
+            "    \/\/\/ Called when the SDK failed to activate",
+            "    @objc optional func mobileSDKDidFailToActivate()",
+            "    ",
+            "    \/\/\/ An intervention location allowing to override the locale to be used when presenting SDK content on screen",
+            "    @objc optional func mobileSDKLocaleWhenPresentingContent(given computedLocale: String) -> String",
+            "    ",
+            "    \/\/\/ Called when a user clicks on an offering within the Joyned UI",
+            "    @objc func mobileSDKDidTriggerNavigation(for navigationPayload: JoynedNavigationProtocol)",
+            "}"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Usage Example:",
+                  "type" : "text"
+                }
+              ],
+              "type" : "strong"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "import JoynedMobileSDK",
+            "extension AppDelegate : JoynedSDKDelegate",
+            "{",
+            "    func mobileSDKDidActivateSuccessfully()",
+            "    {",
+            "        print(\"Called mobileSDKDidActivateSuccessfullyl\")",
+            "    }",
+            "    func mobileSDKDidFailToActivate()",
+            "    {",
+            "        print(\"Called mobileSDKDidFailToActivate\")",
+            "    }",
+            "    func mobileSDKLocaleWhenPresentingContent(given computedLocale: String) -> String ",
+            "    {",
+            "        print(\"Called mobileSDKLocaleWhenPresentingContent(given:)\")",
+            "        return computedLocale.replacingOccurrences(of: \"_\", with: \"-\")",
+            "    }",
+            "    func mobileSDKDidTriggerNavigation(for navigationPayload: JoynedNavigationProtocol)",
+            "    {",
+            "        print(\"Called mobileSDKDidTriggerNavigation(for:)\")",
+            "        \/\/ Dd in-app navigation",
+            "    }",
+            "}"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/installation",
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/activation",
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/screen_llst"
+      ],
+      "title" : "Essentials"
+    }
+  ]
+, 
+"references": {
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/GettingStarted": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/GettingStarted",
+  "kind" : "article",
+  "role" : "collection",
+  "title" : "Getting Started with Joyned mobile SDK",
+  "type" : "topic",
+  "url" : "\/documentation\/gettingstarted"
+},
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/activation": {
+  "abstract" : [
+    {
+      "text" : "There are several different ways to activate of the Joyned mobile SDK",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/activation",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Activation Methods",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/activation"
+},
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/installation": {
+  "abstract" : [
+    {
+      "text" : "How to install this library",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/installation",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Library installation",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/installation"
+},
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/screen_llst": {
+  "abstract" : [
+    {
+      "text" : "Joyned Mobile SDK screen change monitor",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/screen_llst",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Screen Validation Controls",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/screen_llst"
+}
+}
+}

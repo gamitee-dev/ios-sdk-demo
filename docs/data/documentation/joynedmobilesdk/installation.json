@@ -1,0 +1,459 @@
+{
+  "abstract" : [
+    {
+      "text" : "How to install this library",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/GettingStarted"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/installation"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "role" : "article",
+    "roleHeading" : "Article",
+    "title" : "Library installation"
+  },
+  "primaryContentSections" : [
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "tabs" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "The ",
+                      "type" : "text"
+                    },
+                    {
+                      "identifier" : "https:\/\/swift.org\/package-manager\/",
+                      "isActive" : true,
+                      "type" : "reference"
+                    },
+                    {
+                      "text" : " is a tool for automating the distribution of Swift code and is integrated into the ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "swift",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " compiler.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Once you have your Swift package set up, adding JoynedMobileSDK as a dependency is as easy as adding it to the ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "dependencies",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " value of your ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "Package.swift",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " or the Package list in Xcode.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "code" : [
+                    "dependencies: [",
+                    "    .package(url: \"https:\/\/github.com\/gamitee-dev\/ios-sdk-storage.git\", .upToNextMajor(from: \"1.0.0\"))",
+                    "]"
+                  ],
+                  "syntax" : "swift",
+                  "type" : "codeListing"
+                },
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Normally you’ll want to depend on the ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "Joyned",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " target:",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "code" : [
+                    ".product(name: \"JoynedMobileSDK\", package: \"JoynedMobileSDK\")"
+                  ],
+                  "syntax" : "swift",
+                  "type" : "codeListing"
+                }
+              ],
+              "title" : "Swift package manager"
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "identifier" : "https:\/\/cocoapods.org",
+                      "isActive" : true,
+                      "type" : "reference"
+                    },
+                    {
+                      "text" : " is a dependency manager for Cocoa projects.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "items" : [
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "To install cocoapods via gem if needed",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        },
+                        {
+                          "items" : [
+                            {
+                              "content" : [
+                                {
+                                  "inlineContent" : [
+                                    {
+                                      "text" : "Open terminal",
+                                      "type" : "text"
+                                    }
+                                  ],
+                                  "type" : "paragraph"
+                                }
+                              ]
+                            },
+                            {
+                              "content" : [
+                                {
+                                  "inlineContent" : [
+                                    {
+                                      "text" : "Type ",
+                                      "type" : "text"
+                                    },
+                                    {
+                                      "code" : "$ [sudo] gem install cocoapods",
+                                      "type" : "codeVoice"
+                                    }
+                                  ],
+                                  "type" : "paragraph"
+                                }
+                              ]
+                            },
+                            {
+                              "content" : [
+                                {
+                                  "inlineContent" : [
+                                    {
+                                      "text" : "Press enter",
+                                      "type" : "text"
+                                    }
+                                  ],
+                                  "type" : "paragraph"
+                                }
+                              ]
+                            }
+                          ],
+                          "type" : "orderedList"
+                        }
+                      ]
+                    }
+                  ],
+                  "type" : "unorderedList"
+                },
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "For more usage and installation instructions, visit their website.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "items" : [
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "To integrate Joyned into your Xcode project using CocoaPods, specify it in your ",
+                              "type" : "text"
+                            },
+                            {
+                              "code" : "Podfile",
+                              "type" : "codeVoice"
+                            },
+                            {
+                              "text" : ":",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    }
+                  ],
+                  "type" : "unorderedList"
+                },
+                {
+                  "code" : [
+                    "target ‘YOUR_PROJECT’ do",
+                    "    …",
+                    "    pod 'JoynedMobileSDK' , '~> 1.0.0'",
+                    "end"
+                  ],
+                  "syntax" : "ruby",
+                  "type" : "codeListing"
+                },
+                {
+                  "items" : [
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "In the terminal run ",
+                              "type" : "text"
+                            },
+                            {
+                              "code" : "pod install",
+                              "type" : "codeVoice"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        },
+                        {
+                          "anchor" : "Note-for-Mac-M1-users",
+                          "level" : 4,
+                          "text" : "Note for Mac M1 users:",
+                          "type" : "heading"
+                        },
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "Mac M1 architecture is not directly compatible with Cocoapods. If you encounter issues when installing pods, you can solve it by running:",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        },
+                        {
+                          "items" : [
+                            {
+                              "content" : [
+                                {
+                                  "inlineContent" : [
+                                    {
+                                      "text" : "sudo arch -x86_64 gem install ffi",
+                                      "type" : "text"
+                                    }
+                                  ],
+                                  "type" : "paragraph"
+                                }
+                              ]
+                            },
+                            {
+                              "content" : [
+                                {
+                                  "inlineContent" : [
+                                    {
+                                      "text" : "arch -x86_64 pod install",
+                                      "type" : "text"
+                                    },
+                                    {
+                                      "text" : " ",
+                                      "type" : "text"
+                                    },
+                                    {
+                                      "text" : "These commands install the ffi package, to load dynamically-linked libraries and let you run the pod install properly, and runs pod install with the proper architecture.",
+                                      "type" : "text"
+                                    }
+                                  ],
+                                  "type" : "paragraph"
+                                }
+                              ]
+                            }
+                          ],
+                          "type" : "unorderedList"
+                        }
+                      ]
+                    }
+                  ],
+                  "type" : "unorderedList"
+                }
+              ],
+              "title" : "Cocoa-pods"
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "If you prefer not to use any of the other dependency managers, you can integrate Joyned into your project manually by adding the XCFramework to the project.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ],
+              "title" : "Manually"
+            }
+          ],
+          "type" : "tabNavigator"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/activation",
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/global_delegate",
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/screen_llst"
+      ],
+      "title" : "Essentials"
+    }
+  ]
+, 
+"references": {
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/GettingStarted": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/GettingStarted",
+  "kind" : "article",
+  "role" : "collection",
+  "title" : "Getting Started with Joyned mobile SDK",
+  "type" : "topic",
+  "url" : "\/documentation\/gettingstarted"
+},
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/activation": {
+  "abstract" : [
+    {
+      "text" : "There are several different ways to activate of the Joyned mobile SDK",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/activation",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Activation Methods",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/activation"
+},
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/global_delegate": {
+  "abstract" : [
+    {
+      "text" : "Joyned mobile SDK provides several intervention hooks via the ",
+      "type" : "text"
+    },
+    {
+      "code" : "JoynedSDKDelegate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " protocol",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/global_delegate",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Global Delegate",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/global_delegate"
+},
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/screen_llst": {
+  "abstract" : [
+    {
+      "text" : "Joyned Mobile SDK screen change monitor",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/screen_llst",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Screen Validation Controls",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/screen_llst"
+},
+"https://cocoapods.org": {
+  "identifier" : "https:\/\/cocoapods.org",
+  "title" : "CocoaPods",
+  "titleInlineContent" : [
+    {
+      "text" : "CocoaPods",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/cocoapods.org"
+},
+"https://swift.org/package-manager/": {
+  "identifier" : "https:\/\/swift.org\/package-manager\/",
+  "title" : "Swift Package Manager",
+  "titleInlineContent" : [
+    {
+      "text" : "Swift Package Manager",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/swift.org\/package-manager\/"
+}
+}
+}

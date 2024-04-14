@@ -9,8 +9,8 @@
   ],
   "images" : [
     {
-      "alt" : "Joyned button example",
-      "identifier" : "screenshot_joyned_button.png",
+      "alt" : "drag area example 01",
+      "identifier" : "drag_area_01.png",
       "type" : "image",
       "variants" : [
         {
@@ -18,77 +18,7 @@
             "1x",
             "light"
           ],
-          "url" : "\/images\/screenshot_joyned_button.png"
-        }
-      ]
-    },
-    {
-      "alt" : "Joyned invitation web example 02",
-      "identifier" : "screenshot_web_invitation_02.png",
-      "type" : "image",
-      "variants" : [
-        {
-          "traits" : [
-            "1x",
-            "light"
-          ],
-          "url" : "\/images\/screenshot_web_invitation_02.png"
-        }
-      ]
-    },
-    {
-      "alt" : "Joyned invitation web example 01",
-      "identifier" : "screenshot_web_invitation_01.png",
-      "type" : "image",
-      "variants" : [
-        {
-          "traits" : [
-            "1x",
-            "light"
-          ],
-          "url" : "\/images\/screenshot_web_invitation_01.png"
-        }
-      ]
-    },
-    {
-      "alt" : "Joyned invitation mobile example 03",
-      "identifier" : "screenshot_mobile_invitation_03.png",
-      "type" : "image",
-      "variants" : [
-        {
-          "traits" : [
-            "1x",
-            "light"
-          ],
-          "url" : "\/images\/screenshot_mobile_invitation_03.png"
-        }
-      ]
-    },
-    {
-      "alt" : "Joyned invitation mobile example 02",
-      "identifier" : "screenshot_mobile_invitation_02.png",
-      "type" : "image",
-      "variants" : [
-        {
-          "traits" : [
-            "1x",
-            "light"
-          ],
-          "url" : "\/images\/screenshot_mobile_invitation_02.png"
-        }
-      ]
-    },
-    {
-      "alt" : "Joyned invitation mobile example 01",
-      "identifier" : "screenshot_mobile_invitation_01.png",
-      "type" : "image",
-      "variants" : [
-        {
-          "traits" : [
-            "1x",
-            "light"
-          ],
-          "url" : "\/images\/screenshot_mobile_invitation_01.png"
+          "url" : "\/images\/drag_area_01.png"
         }
       ]
     },
@@ -121,8 +51,8 @@
       ]
     },
     {
-      "alt" : "drag area example 01",
-      "identifier" : "drag_area_01.png",
+      "alt" : "Joyned invitation mobile example 01",
+      "identifier" : "screenshot_mobile_invitation_01.png",
       "type" : "image",
       "variants" : [
         {
@@ -130,7 +60,77 @@
             "1x",
             "light"
           ],
-          "url" : "\/images\/drag_area_01.png"
+          "url" : "\/images\/screenshot_mobile_invitation_01.png"
+        }
+      ]
+    },
+    {
+      "alt" : "Joyned button example",
+      "identifier" : "screenshot_joyned_button.png",
+      "type" : "image",
+      "variants" : [
+        {
+          "traits" : [
+            "1x",
+            "light"
+          ],
+          "url" : "\/images\/screenshot_joyned_button.png"
+        }
+      ]
+    },
+    {
+      "alt" : "Joyned invitation mobile example 03",
+      "identifier" : "screenshot_mobile_invitation_03.png",
+      "type" : "image",
+      "variants" : [
+        {
+          "traits" : [
+            "1x",
+            "light"
+          ],
+          "url" : "\/images\/screenshot_mobile_invitation_03.png"
+        }
+      ]
+    },
+    {
+      "alt" : "Joyned invitation web example 01",
+      "identifier" : "screenshot_web_invitation_01.png",
+      "type" : "image",
+      "variants" : [
+        {
+          "traits" : [
+            "1x",
+            "light"
+          ],
+          "url" : "\/images\/screenshot_web_invitation_01.png"
+        }
+      ]
+    },
+    {
+      "alt" : "Joyned invitation web example 02",
+      "identifier" : "screenshot_web_invitation_02.png",
+      "type" : "image",
+      "variants" : [
+        {
+          "traits" : [
+            "1x",
+            "light"
+          ],
+          "url" : "\/images\/screenshot_web_invitation_02.png"
+        }
+      ]
+    },
+    {
+      "alt" : "Joyned invitation mobile example 02",
+      "identifier" : "screenshot_mobile_invitation_02.png",
+      "type" : "image",
+      "variants" : [
+        {
+          "traits" : [
+            "1x",
+            "light"
+          ],
+          "url" : "\/images\/screenshot_mobile_invitation_02.png"
         }
       ]
     }

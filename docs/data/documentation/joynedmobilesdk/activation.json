@@ -1,0 +1,530 @@
+{
+  "abstract" : [
+    {
+      "text" : "There are several different ways to activate of the Joyned mobile SDK",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/GettingStarted"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/activation"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "role" : "article",
+    "roleHeading" : "Article",
+    "title" : "Activation Methods"
+  },
+  "primaryContentSections" : [
+    {
+      "content" : [
+        {
+          "anchor" : "Overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "In general there are two diffrent ways to initiate the activation of the Joyned mobile SDK",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "automatic",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "manual",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Both ways are based on pramaters passsed in the ",
+              "type" : "text"
+            },
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Joyned-Info.plist",
+                  "type" : "text"
+                }
+              ],
+              "type" : "strong"
+            },
+            {
+              "text" : " file in the host application bundle.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "Make sure you have a file with this name in the main application target.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "tabs" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Add the ",
+                      "type" : "text"
+                    },
+                    {
+                      "inlineContent" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "JoynedMobileSDKManualActivation",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "strong"
+                        }
+                      ],
+                      "type" : "strong"
+                    },
+                    {
+                      "text" : " key to the ",
+                      "type" : "text"
+                    },
+                    {
+                      "inlineContent" : [
+                        {
+                          "text" : "Joyned-Info",
+                          "type" : "text"
+                        }
+                      ],
+                      "type" : "strong"
+                    },
+                    {
+                      "text" : " plist file.",
+                      "type" : "text"
+                    },
+                    {
+                      "text" : " ",
+                      "type" : "text"
+                    },
+                    {
+                      "text" : "Set the value to ",
+                      "type" : "text"
+                    },
+                    {
+                      "inlineContent" : [
+                        {
+                          "text" : "YES",
+                          "type" : "text"
+                        }
+                      ],
+                      "type" : "strong"
+                    },
+                    {
+                      "text" : " as a Boolean paramater to tell the system that we want to activate the Joyned system manually.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Once you have the flag in place you can manually call the relevent method to trigger the ",
+                      "type" : "text"
+                    },
+                    {
+                      "inlineContent" : [
+                        {
+                          "text" : "SDK",
+                          "type" : "text"
+                        }
+                      ],
+                      "type" : "strong"
+                    },
+                    {
+                      "text" : " activation.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "A good activation location is the ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "application:didFinishLaunchingWithOptions:",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " method:",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "code" : [
+                    "func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool",
+                    "{",
+                    "    ...",
+                    "    JoynedSDK.activate(with: \"JOYNED_API_KEY\", and: \"JOYNED_ORIGIN_URL\")",
+                    "    ...",
+                    "    return true",
+                    "}"
+                  ],
+                  "syntax" : "Swift",
+                  "type" : "codeListing"
+                },
+                {
+                  "inlineContent" : [
+                    {
+                      "inlineContent" : [
+                        {
+                          "text" : "See",
+                          "type" : "text"
+                        }
+                      ],
+                      "type" : "strong"
+                    },
+                    {
+                      "text" : " also: ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "JoynedMobileSDK\/JoynedSDK\/activate(with:and:)",
+                      "type" : "codeVoice"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ],
+              "title" : "Manual"
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Add ",
+                      "type" : "text"
+                    },
+                    {
+                      "inlineContent" : [
+                        {
+                          "text" : "JoynedMobileSDKCredentials",
+                          "type" : "text"
+                        }
+                      ],
+                      "type" : "strong"
+                    },
+                    {
+                      "text" : " as a Dictionary to the ",
+                      "type" : "text"
+                    },
+                    {
+                      "inlineContent" : [
+                        {
+                          "text" : "Joyned-Info",
+                          "type" : "text"
+                        }
+                      ],
+                      "type" : "strong"
+                    },
+                    {
+                      "text" : " plist file to configure automatic activation.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "To the resulting Dictionary add the following keys with the relevant string values:",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "items" : [
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "inlineContent" : [
+                                {
+                                  "text" : "JoynedMobileSDKActivationKey",
+                                  "type" : "text"
+                                }
+                              ],
+                              "type" : "emphasis"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "inlineContent" : [
+                                {
+                                  "text" : "JoynedMobileSDKOriginKey",
+                                  "type" : "text"
+                                }
+                              ],
+                              "type" : "emphasis"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    }
+                  ],
+                  "type" : "unorderedList"
+                },
+                {
+                  "inlineContent" : [
+                    {
+                      "inlineContent" : [
+                        {
+                          "text" : "Example:",
+                          "type" : "text"
+                        }
+                      ],
+                      "type" : "strong"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "code" : [
+                    "<key>JoynedMobileSDKManualActivation<\/key>",
+                    "<false\/>",
+                    "<key>JoynedMobileSDKCredentials<\/key>",
+                    "<dict>",
+                    "    <key>JoynedMobileSDKActivationKey<\/key>",
+                    "    <string>__\"JOYNED_API_KEY\"__<\/string>",
+                    "    <key>JoynedMobileSDKOriginKey<\/key>",
+                    "    <string>__\"JOYNED_ORIGIN_URL\"__<\/string>",
+                    "<\/dict>"
+                  ],
+                  "syntax" : "xml",
+                  "type" : "codeListing"
+                },
+                {
+                  "inlineContent" : [
+                    {
+                      "inlineContent" : [
+                        {
+                          "text" : "Optional:",
+                          "type" : "text"
+                        }
+                      ],
+                      "type" : "strong"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Add the ",
+                      "type" : "text"
+                    },
+                    {
+                      "inlineContent" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "JoynedMobileSDKManualActivation",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "strong"
+                        }
+                      ],
+                      "type" : "strong"
+                    },
+                    {
+                      "text" : " key to the ",
+                      "type" : "text"
+                    },
+                    {
+                      "inlineContent" : [
+                        {
+                          "text" : "Joyned-Info",
+                          "type" : "text"
+                        }
+                      ],
+                      "type" : "strong"
+                    },
+                    {
+                      "text" : " plist file.",
+                      "type" : "text"
+                    },
+                    {
+                      "text" : " ",
+                      "type" : "text"
+                    },
+                    {
+                      "text" : "Set the value to ",
+                      "type" : "text"
+                    },
+                    {
+                      "inlineContent" : [
+                        {
+                          "text" : "NO",
+                          "type" : "text"
+                        }
+                      ],
+                      "type" : "strong"
+                    },
+                    {
+                      "text" : " as a Boolean paramater to tell the system that we want to activate the Joyned system automaticlly.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ],
+              "title" : "Automatic"
+            }
+          ],
+          "type" : "tabNavigator"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/installation",
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/global_delegate",
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/screen_llst"
+      ],
+      "title" : "Essentials"
+    }
+  ]
+, 
+"references": {
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/GettingStarted": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/GettingStarted",
+  "kind" : "article",
+  "role" : "collection",
+  "title" : "Getting Started with Joyned mobile SDK",
+  "type" : "topic",
+  "url" : "\/documentation\/gettingstarted"
+},
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/global_delegate": {
+  "abstract" : [
+    {
+      "text" : "Joyned mobile SDK provides several intervention hooks via the ",
+      "type" : "text"
+    },
+    {
+      "code" : "JoynedSDKDelegate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " protocol",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/global_delegate",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Global Delegate",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/global_delegate"
+},
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/installation": {
+  "abstract" : [
+    {
+      "text" : "How to install this library",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/installation",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Library installation",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/installation"
+},
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/screen_llst": {
+  "abstract" : [
+    {
+      "text" : "Joyned Mobile SDK screen change monitor",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/screen_llst",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Screen Validation Controls",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/screen_llst"
+}
+}
+}

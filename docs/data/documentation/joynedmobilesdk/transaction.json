@@ -1,0 +1,128 @@
+{
+  "abstract" : [
+    {
+      "text" : "API to make joyned is aware of all purchase transactions processed by your application.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/GettingStarted"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/transaction"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "role" : "article",
+    "roleHeading" : "Article",
+    "title" : "Report transaction"
+  },
+  "primaryContentSections" : [
+    {
+      "content" : [
+        {
+          "anchor" : "Overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The Joyned transaction is an “analytics” fire & forget like API",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Simply create a ",
+              "type" : "text"
+            },
+            {
+              "code" : "JoynedTransactionRequest",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " object and pass it to the JoynedSDK.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Code Example:",
+                  "type" : "text"
+                }
+              ],
+              "type" : "strong"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "let transactionPayload: [String: Any] = [",
+            "    \"transactionId\": \"321\",",
+            "    \"price\": \"1.23\",",
+            "    \"currencyCode\": \"USD\",",
+            "    \"productIds\": [\"hotel-123\", \"hotel-456\"]",
+            "]",
+            "",
+            "\/\/ Convert the dictionary to Data",
+            "if let data = try? JSONSerialization.data(withJSONObject: transactionPayload, options: .prettyPrinted) {",
+            "    ",
+            "    \/\/ Convert the Data to a UTF-8 string",
+            "    if let json = String(data: data, encoding: .utf8) {",
+            "        \/\/ let transaction = \"{\\\"transactionId\\\":\\\"123\\\",\\\"price\\\":\\\"1.23\\\",\\\"currencyCode\\\":\\\"USD\\\",\\\"productIds\\\":[\\\"hotel-123\\\",\\\"hotel-456\\\"]}\"",
+            "        JoynedSDK.report(Transaction: JoynedTransactionRequest(transactionString: json))",
+            "    }",
+            "}"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "anchor" : "For-more-information-see",
+          "level" : 4,
+          "text" : "For more information see:",
+          "type" : "heading"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ]
+, 
+"references": {
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/GettingStarted": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/GettingStarted",
+  "kind" : "article",
+  "role" : "collection",
+  "title" : "Getting Started with Joyned mobile SDK",
+  "type" : "topic",
+  "url" : "\/documentation\/gettingstarted"
+}
+}
+}

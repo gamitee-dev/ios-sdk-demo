@@ -1,0 +1,521 @@
+{
+  "abstract" : [
+    {
+      "text" : "Joyned Mobile SDK screen change monitor",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/GettingStarted"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/screen_llst"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "role" : "article",
+    "roleHeading" : "Article",
+    "title" : "Screen Validation Controls"
+  },
+  "primaryContentSections" : [
+    {
+      "content" : [
+        {
+          "anchor" : "Overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Joyned Mobile SDK monitors the host application for screen changes and adjusts its display accordingly.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The system has several ways to effect when Joyend content is showing or not.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Screen List",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "items" : [
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "Auto - plist based black \/ white list",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "Manual - black \/ white list update in code",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    }
+                  ],
+                  "type" : "unorderedList"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Manual screen controls",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "items" : [
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "Hide \/ Show display",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "Minimize display",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    }
+                  ],
+                  "type" : "unorderedList"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        },
+        {
+          "anchor" : "Screen-List-Validation-Controls",
+          "level" : 3,
+          "text" : "Screen List Validation Controls",
+          "type" : "heading"
+        },
+        {
+          "tabs" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Add JoynedMobileSDKScreenlists as a Dictionary to the ",
+                      "type" : "text"
+                    },
+                    {
+                      "inlineContent" : [
+                        {
+                          "text" : "Joyned-Info",
+                          "type" : "text"
+                        }
+                      ],
+                      "type" : "strong"
+                    },
+                    {
+                      "text" : " plist file to configure automatic screenlist.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "To the resulting Dictionary add the following keys with the relevant string arrays:",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "items" : [
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "inlineContent" : [
+                                {
+                                  "text" : "JoynedMobileSDKScreenWhitelist",
+                                  "type" : "text"
+                                }
+                              ],
+                              "type" : "strong"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "inlineContent" : [
+                                {
+                                  "text" : "JoynedMobileSDKScreenBlacklist",
+                                  "type" : "text"
+                                }
+                              ],
+                              "type" : "strong"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    }
+                  ],
+                  "type" : "unorderedList"
+                },
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Note: Entries in the blacklist take president over the ones in whitelist",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Example:",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "code" : [
+                    "<key>JoynedMobileSDKScreenlists<\/key>",
+                    "<dict>",
+                    "    <key>JoynedMobileSDKScreenWhitelist<\/key>",
+                    "    <array>",
+                    "        <string>DealsFeedViewController<\/string>",
+                    "        <string>ProductViewController<\/string>",
+                    "        <string>StatusViewController<\/string>",
+                    "        <string>SavedViewController<\/string>",
+                    "        <string>ProfileViewController<\/string>",
+                    "    <\/array>",
+                    "    <key>JoynedMobileSDKScreenBlacklist<\/key>",
+                    "    <array>",
+                    "        <string>SplashViewController<\/string>",
+                    "        <string>PurchaseViewController<\/string>",
+                    "        <string>UIViewController<\/string>",
+                    "        <string>ProfileViewController<\/string>",
+                    "    <\/array>",
+                    "<\/dict>"
+                  ],
+                  "syntax" : "xml",
+                  "type" : "codeListing"
+                }
+              ],
+              "title" : "Automatic"
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "You can add or remove additional screen from the system black\/white list with the following API via the public access point (",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "JoynedSDK",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : ")",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "items" : [
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "code" : "JoynedSDK\/append(WhiteList:)",
+                              "type" : "codeVoice"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "code" : "JoynedSDK\/remove(WhiteList:)",
+                              "type" : "codeVoice"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "code" : "JoynedSDK\/append(BlackList:)",
+                              "type" : "codeVoice"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "code" : "JoynedSDK\/remove(BlackList:)",
+                              "type" : "codeVoice"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "code" : "JoynedSDK\/clearScreensBlackList()",
+                              "type" : "codeVoice"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    }
+                  ],
+                  "type" : "unorderedList"
+                }
+              ],
+              "title" : "Manual"
+            }
+          ],
+          "type" : "tabNavigator"
+        },
+        {
+          "anchor" : "Manual-screen-controls",
+          "level" : 3,
+          "text" : "Manual screen controls",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "You can use the JoynedMobileSDK via its public access point (",
+              "type" : "text"
+            },
+            {
+              "code" : "JoynedSDK",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ") to effect how the Joyned UI acts.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "JoynedSDK\/hideDisplay()",
+                      "type" : "codeVoice"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "JoynedSDK\/showDisplay()",
+                      "type" : "codeVoice"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "JoynedSDK\/minimizeDisplay()",
+                      "type" : "codeVoice"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/installation",
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/activation",
+        "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/global_delegate"
+      ],
+      "title" : "Essentials"
+    }
+  ]
+, 
+"references": {
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/GettingStarted": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/GettingStarted",
+  "kind" : "article",
+  "role" : "collection",
+  "title" : "Getting Started with Joyned mobile SDK",
+  "type" : "topic",
+  "url" : "\/documentation\/gettingstarted"
+},
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/activation": {
+  "abstract" : [
+    {
+      "text" : "There are several different ways to activate of the Joyned mobile SDK",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/activation",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Activation Methods",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/activation"
+},
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/global_delegate": {
+  "abstract" : [
+    {
+      "text" : "Joyned mobile SDK provides several intervention hooks via the ",
+      "type" : "text"
+    },
+    {
+      "code" : "JoynedSDKDelegate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " protocol",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/global_delegate",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Global Delegate",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/global_delegate"
+},
+"doc://co.joyned.mobile.JoynedMobileSDK/documentation/JoynedMobileSDK/installation": {
+  "abstract" : [
+    {
+      "text" : "How to install this library",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/co.joyned.mobile.JoynedMobileSDK\/documentation\/JoynedMobileSDK\/installation",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Library installation",
+  "type" : "topic",
+  "url" : "\/documentation\/joynedmobilesdk\/installation"
+}
+}
+}
