@@ -1,0 +1,107 @@
+{
+    "buttonTemplate": {
+        "titleText": "sdk_button_name",
+        "titleFont": {
+            "name": "Sora-ExtraBold",
+            "size": 12.0,
+        },
+        "titleColor": "#704ADBFF",
+        "iconImage": "sdk/plan_icon",
+        "iconColor": "#704ADBFF",
+        "contentBorder": null,
+        "contentShadow": null,
+        "contentCorners": null
+    },
+    "minimizedScreen": {
+        "titleText": "sdk_name_minimized",
+        "titleFont": {
+            "name": "Sora-ExtraBold",
+            "size": 11,
+        },
+        "titleColor": "#704ADBFF",
+        "iconImage": "minimized_state_icon",
+        "iconColor": "#704ADBFF",
+        "actionImage": "minimized_action_icon",
+        "actionColor": "",
+        "shouldAutoComputeSafeArea": true,
+        "contentProportions": {
+            "width": 0.176,
+            "height": 0.0812807881773399,
+        },
+        "contentPadding": {
+            "top": 25,
+            "left": 16,
+            "bottom": 25,
+            "right": 16,
+        },
+        "contentBorder": null,
+        "contentShadow": {
+            "opacity": 0.7,
+            "offset": {
+                "width": 0.0,
+                "height": 7.0,
+            },
+            "radius": 10.0,
+            "color": "#0000007F"
+        },
+        "contentCorners": {
+            "radius": 16.0,
+            "clipTopLeft": true,
+            "clipTopRight": false,
+            "clipBottomLeft": true,
+            "clipBottomRight": true
+        },
+        "shouldSnapToSource": true,
+        "shouldSnapToAnchor": false,
+        "supportedAnchors": [
+            "bottomLeft"
+        ]
+    },
+    "maximizedScreen": {
+        "titleText": "sdk_name_maximized",
+        "titleFont": {
+            "name": "Sora-ExtraBold",
+            "size": 11,
+        },
+        "titleColor": "#000000FF",
+        "iconImage": "",
+        "iconColor": "",
+        "actionImage": "maximized_action_icon",
+        "actionColor": "",
+        "shouldAutoComputeSafeArea": false,
+        "contentProportions": {
+            "width": 0.928,
+            "height": 0.8411330049261084
+        },
+        "contentPadding": null,
+        "contentBorder": null,
+        "contentShadow": null,
+        "contentCorners": {
+            "radius": 24.0,
+            "clipTopLeft": true,
+            "clipTopRight": true,
+            "clipBottomLeft": true,
+            "clipBottomRight": true
+        },
+        "shouldSnapToSource": false,
+        "shouldSnapToAnchor": false,
+        "supportedAnchors": [
+            "centerCenter",
+        ]
+    },
+    "snackbarView": {
+        "titleText": "sdk_offering_exists",
+        "titleFont": {
+            "name": "Sora-ExtraBold",
+            "size": 16,
+        },
+        "titleColor": "#FFFFFFFF",
+        "backgroundColor": "#FF3335FF",
+        "iconImage": "snackbar_alert",
+        "iconColor": "#FFFFFFFF",
+    },
+    "addItemAnimation": {
+        "iconImage": "shape_heart",
+        "iconColor": "#FF2600FF",
+    }
+}

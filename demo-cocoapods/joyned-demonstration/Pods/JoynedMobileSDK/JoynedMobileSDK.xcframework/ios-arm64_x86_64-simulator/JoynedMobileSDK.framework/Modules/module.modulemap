@@ -1,0 +1,11 @@
+framework module JoynedMobileSDK {
+  umbrella header "JoynedMobileSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module JoynedMobileSDK.Swift {
+  header "JoynedMobileSDK-Swift.h"
+  requires objc
+}

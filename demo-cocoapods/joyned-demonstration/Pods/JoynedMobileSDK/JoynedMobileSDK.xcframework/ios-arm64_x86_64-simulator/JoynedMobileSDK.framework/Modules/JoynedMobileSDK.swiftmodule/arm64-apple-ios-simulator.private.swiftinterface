@@ -1,0 +1,252 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name JoynedMobileSDK
+import DeveloperToolsSupport
+import Dispatch
+import Foundation
+@_exported import JoynedMobileSDK
+import MessageUI
+import SafariServices
+import Swift
+import SwiftUI
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os.log
+import os
+extension UIKit.UIWindow {
+  @_Concurrency.MainActor(unsafe) public var isJoynedSystem: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var isJoynedFrameworkWindow: Swift.Bool {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @IBDesignable @objc(_JCardControl) @objcMembers @_Concurrency.MainActor(unsafe) public class _JCardControl : JoynedMobileSDK._JControl {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var contentColorEnabled: Swift.Bool
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var contentColor: UIKit.UIColor
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var isBorderEnabled: Swift.Bool
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var borderWidth: CoreFoundation.CGFloat
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var borderColor: UIKit.UIColor
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var isShadowEnabled: Swift.Bool
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var shadowRadius: CoreFoundation.CGFloat
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var shadowOpacity: Swift.Float
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var shadowOffset: CoreFoundation.CGSize
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var shadowColor: UIKit.UIColor
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var isShapeEnabled: Swift.Bool
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var shapeRadius: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public init(frame: CoreFoundation.CGRect)
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func encode(with coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @objc @_Concurrency.MainActor(unsafe) public func hasSubview(_ view: UIKit.UIView) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func addSubview(_ view: UIKit.UIView)
+}
+extension JoynedMobileSDK._JCardControl {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic public var shouldClipTopLeft: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic public var shouldClipTopRight: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic public var shouldClipBottomLeft: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic public var shouldClipBottomRight: Swift.Bool {
+    @objc get
+    @objc set
+  }
+}
+public typealias JoynedAreaComputation = () -> CoreFoundation.CGRect?
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(JoynedTransactionRequest) @objcMembers final public class JoynedTransactionRequest : ObjectiveC.NSObject {
+  @objc final public var transaction: Foundation.NSDictionary
+  @objc final public var transactionJSON: Swift.String? {
+    @objc get
+  }
+  @objc public init(transactionDictionary data: Foundation.NSDictionary)
+  @objc convenience public init(transaction data: [Swift.String : Any])
+  @objc convenience public init?(transactionString transactionJSON: Swift.String)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(JoynedOfferingResponse) @objcMembers final public class JoynedOfferingResponse : JoynedMobileSDK._JoynedOfferingData {
+  @objc final public var originalOffering: Foundation.NSDictionary {
+    @objc get
+    @objc set
+  }
+  @objc final public var extraAppContent: Foundation.NSDictionary {
+    @objc get
+    @objc set
+  }
+  @objc final public var originalOfferingJSON: Swift.String? {
+    @objc get
+  }
+  @objc final public var extraAppContentJSON: Swift.String? {
+    @objc get
+  }
+  @objc final public var directUrl: Foundation.URL? {
+    @objc get
+  }
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(_JControl) @objcMembers @_Concurrency.MainActor(unsafe) public class _JControl : UIKit.UIControl {
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aCoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func encode(with coder: Foundation.NSCoder)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(JoynedSDK) @objcMembers final public class JoynedSDK : ObjectiveC.NSObject {
+  @objc deinit
+  @objc public static var libraryVersion: Swift.String {
+    @objc get
+  }
+  @objc weak public static var delegate: (any JoynedMobileSDK.JoynedSDKDelegate)? {
+    @objc get
+    @objc set
+  }
+  @objc(activateWithActivationKey:) final public class func activate(with activationKey: Swift.String)
+  @objc final public class func hideDisplay()
+  @objc final public class func showDisplay()
+  @objc final public class func minimizeDisplay()
+  @objc final public class func append(WhiteList screen: Swift.String)
+  @objc final public class func remove(WhiteList screen: Swift.String)
+  @objc final public class func append(BlackList screen: Swift.String)
+  @objc final public class func remove(BlackList screen: Swift.String)
+  @objc final public class func clearScreensBlackList()
+  @discardableResult
+  @objc final public class func generateJoynedButton(frame: CoreFoundation.CGRect = CGRect.zero, with delegate: (any JoynedMobileSDK.JoynedButtonDelegate)? = nil) -> JoynedMobileSDK.JoynedButton
+  @objc final public class func report(Transaction request: JoynedMobileSDK.JoynedTransactionRequest?)
+  @discardableResult
+  @objc final public class func scene(_ scene: UIKit.UIScene, willConnectTo session: UIKit.UISceneSession, options connectionOptions: UIKit.UIScene.ConnectionOptions) -> Swift.Bool
+  @discardableResult
+  @objc final public class func scene(_ scene: UIKit.UIScene, openURLContexts URLContexts: Swift.Set<UIKit.UIOpenURLContext>) -> Swift.Bool
+  @discardableResult
+  @objc final public class func scene(_ scene: UIKit.UIScene, continue userActivity: Foundation.NSUserActivity) -> Swift.Bool
+}
+@_inheritsConvenienceInitializers @IBDesignable @objc(JoynedButton) @objcMembers @_Concurrency.MainActor(unsafe) final public class JoynedButton : JoynedMobileSDK._JCardControl {
+  @IBInspectable @_Concurrency.MainActor(unsafe) @objc override final public var contentColorEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @IBInspectable @_Concurrency.MainActor(unsafe) @objc override final public var contentColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @IBInspectable @_Concurrency.MainActor(unsafe) @objc override final public var isBorderEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @IBInspectable @_Concurrency.MainActor(unsafe) @objc override final public var borderWidth: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @IBInspectable @_Concurrency.MainActor(unsafe) @objc override final public var borderColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @IBInspectable @_Concurrency.MainActor(unsafe) @objc override final public var isShadowEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @IBInspectable @_Concurrency.MainActor(unsafe) @objc override final public var shadowRadius: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @IBInspectable @_Concurrency.MainActor(unsafe) @objc override final public var shadowOpacity: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @IBInspectable @_Concurrency.MainActor(unsafe) @objc override final public var shadowOffset: CoreFoundation.CGSize {
+    @objc get
+    @objc set
+  }
+  @IBInspectable @_Concurrency.MainActor(unsafe) @objc override final public var shadowColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @IBInspectable @_Concurrency.MainActor(unsafe) @objc override final public var isShapeEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @IBInspectable @_Concurrency.MainActor(unsafe) @objc override final public var shapeRadius: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @IBInspectable @_Concurrency.MainActor(unsafe) @objc override final public var shouldClipTopLeft: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @IBInspectable @_Concurrency.MainActor(unsafe) @objc override final public var shouldClipTopRight: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @IBInspectable @_Concurrency.MainActor(unsafe) @objc override final public var shouldClipBottomLeft: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @IBInspectable @_Concurrency.MainActor(unsafe) @objc override final public var shouldClipBottomRight: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override final public var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak final public var delegate: (any JoynedMobileSDK.JoynedButtonDelegate)? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aCoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override final public func encode(with aCoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override final public func awakeFromNib()
+  @_Concurrency.MainActor(unsafe) @objc override final public func addSubview(_ view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) @objc override final public func hasSubview(_ view: UIKit.UIView) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override final public func layoutSubviews()
+}
+extension UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var joynedAreaComputation: JoynedMobileSDK.JoynedAreaComputation? {
+    get
+    set
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(JoynedOfferingRequest) @objcMembers final public class JoynedOfferingRequest : JoynedMobileSDK._JoynedOfferingData {
+  @objc final public var originalOffering: Foundation.NSDictionary {
+    @objc get
+    @objc set
+  }
+  @objc final public var extraAppContent: Foundation.NSDictionary {
+    @objc get
+    @objc set
+  }
+  @objc final public var originalOfferingJSON: Swift.String? {
+    @objc get
+  }
+  @objc final public var extraAppContentJSON: Swift.String? {
+    @objc get
+  }
+  @objc public init(offeringDictionary data: Foundation.NSDictionary, extraDictionary appdata: Foundation.NSDictionary)
+  @objc convenience public init(offering data: [Swift.String : Any], extra appdata: [Swift.String : Any])
+  @objc convenience public init?(offeringString offeringJSON: Swift.String, extraString appdataJSON: Swift.String)
+  @objc deinit
+}
+@objc(JoynedSDKDelegate) public protocol JoynedSDKDelegate : ObjectiveC.NSObjectProtocol {
+  @objc optional func mobileSDKDidActivateSuccessfully()
+  @objc optional func mobileSDKDidFailToActivate()
+  @objc optional func mobileSDKLocaleForPresentingContent(given computedLocale: Swift.String) -> Swift.String
+  @objc func mobileSDKDidTriggerNavigation(for navigationPayload: JoynedMobileSDK.JoynedOfferingResponse)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(_JoynedOfferingData) @objcMembers public class _JoynedOfferingData : ObjectiveC.NSObject {
+  @objc deinit
+}
+@objc(JoynedButtonDelegate) public protocol JoynedButtonDelegate : ObjectiveC.NSObjectProtocol {
+  @objc optional func willPresentMobileSDKContent()
+  @objc optional func joynedButton(_ button: JoynedMobileSDK.JoynedButton, productOfferingForRaw indexPath: Foundation.IndexPath) -> JoynedMobileSDK.JoynedOfferingRequest?
+  @objc optional func joynedButton(_ button: JoynedMobileSDK.JoynedButton, productOfferingForItem indexPath: Foundation.IndexPath) -> JoynedMobileSDK.JoynedOfferingRequest?
+  @objc optional func joynedButton(_ button: JoynedMobileSDK.JoynedButton, productOfferingFor location: CoreFoundation.CGPoint) -> JoynedMobileSDK.JoynedOfferingRequest?
+}
