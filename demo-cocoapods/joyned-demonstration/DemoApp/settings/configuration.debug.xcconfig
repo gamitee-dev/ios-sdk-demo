@@ -1,0 +1,14 @@
+//
+//  configuration.debug.xcconfig
+//  DemoApp
+//
+//  Created by Arkadi Yoskovitz on 11/27/20.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "configuration.xcconfig"
+// ======================================================================================================
+// Debug
+// ======================================================================================================

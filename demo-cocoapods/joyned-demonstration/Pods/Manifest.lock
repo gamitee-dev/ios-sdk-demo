@@ -1,0 +1,31 @@
+PODS:
+  - JoynedMobileSDK (1.0.0)
+  - ObjcExceptionBridging (7.1.3):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 7.1.3)
+  - ObjcExceptionBridging/ObjcExceptionBridging (7.1.3)
+  - XCGLogger (7.1.3):
+    - XCGLogger/Core (= 7.1.3)
+  - XCGLogger/Core (7.1.3):
+    - ObjcExceptionBridging
+
+DEPENDENCIES:
+  - JoynedMobileSDK (from `../../compiled_framework`)
+  - XCGLogger
+
+SPEC REPOS:
+  trunk:
+    - ObjcExceptionBridging
+    - XCGLogger
+
+EXTERNAL SOURCES:
+  JoynedMobileSDK:
+    :path: "../../compiled_framework"
+
+SPEC CHECKSUMS:
+  JoynedMobileSDK: caaffd2cf9e288a05920705e04f62197368db730
+  ObjcExceptionBridging: e93979cf8f71ac5eda79aafd995ebc6f6639d0ac
+  XCGLogger: 6ce1b6e90442a5ec34d6eac94d7357756137c406
+
+PODFILE CHECKSUM: 8d4f1c6de14b973a72ca578a423183bb9428f862
+
+COCOAPODS: 1.15.2

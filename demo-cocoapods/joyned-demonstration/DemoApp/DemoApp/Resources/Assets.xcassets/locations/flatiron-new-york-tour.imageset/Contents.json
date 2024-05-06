@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "flatiron-new-york-tour.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

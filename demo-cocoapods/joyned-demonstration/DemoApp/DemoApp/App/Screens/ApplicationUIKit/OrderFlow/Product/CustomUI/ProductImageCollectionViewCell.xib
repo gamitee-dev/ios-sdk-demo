@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="dJU-sJ-MdO" customClass="ProductImageCollectionViewCell" customModule="DemoApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Up9-iD-lou">
+                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lw3-fQ-KR7">
+                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location_landscape_01" translatesAutoresizingMaskIntoConstraints="NO" id="Tft-1Q-JXx">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Tft-1Q-JXx" secondAttribute="trailing" id="Oun-Aw-aUA"/>
+                            <constraint firstAttribute="bottom" secondItem="Tft-1Q-JXx" secondAttribute="bottom" id="Xwz-vC-C2j"/>
+                            <constraint firstItem="Tft-1Q-JXx" firstAttribute="top" secondItem="lw3-fQ-KR7" secondAttribute="top" id="gkh-QB-kL4"/>
+                            <constraint firstItem="Tft-1Q-JXx" firstAttribute="leading" secondItem="lw3-fQ-KR7" secondAttribute="leading" id="wlU-ah-qZN"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="lw3-fQ-KR7" firstAttribute="leading" secondItem="Up9-iD-lou" secondAttribute="leading" id="ThY-pt-G4f"/>
+                    <constraint firstItem="lw3-fQ-KR7" firstAttribute="top" secondItem="Up9-iD-lou" secondAttribute="top" id="aHR-8H-fV1"/>
+                    <constraint firstAttribute="trailing" secondItem="lw3-fQ-KR7" secondAttribute="trailing" id="hqF-9U-RKN"/>
+                    <constraint firstAttribute="bottom" secondItem="lw3-fQ-KR7" secondAttribute="bottom" id="ll3-o3-ilG"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <connections>
+                <outlet property="imageView" destination="Tft-1Q-JXx" id="NSf-FC-Qmu"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="-62"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="location_landscape_01" width="1938" height="1369"/>
+    </resources>
+</document>

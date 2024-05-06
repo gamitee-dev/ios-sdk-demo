@@ -1,0 +1,291 @@
+{
+    "products" : [
+        {
+            "title": "Acropolis Greece Guided Tour",
+            "description": "Acropolis Greece Guided Tour. Qui dolor anim non irure adipisicing mollit. Do incididunt enim in sunt duis aliquip. Ullamco officia sunt sint nisi nisi elit ad duis qui sit. ",
+            "images": ["https://demo.joyned.co/images/new_travel/acropolis-greece-guided-tour.jpg"],
+            "directURL": "https://demo.joyned.co/travel/item/1",
+            "offeringHash": "1",
+            "rating": 3,
+            "price": {
+                "amount": 53.20,
+                "currency": "USD",
+            },
+            
+            "offeringName": "hotel-offering",
+            "data": {
+            },
+        },
+        {
+            "title": "Bari Italy Boat Ride And Walking Tour",
+            "description": "Bari Italy Boat Ride And Walking Tour",
+            "images": ["https://demo.joyned.co/images/new_travel/bari-italy-boat-ride-and-walking-tour.jpg"],
+            "directURL": "https://demo.joyned.co/travel/item/2",
+            "offeringHash": "2",
+            "rating": 3,
+            "price": {
+                "amount": 61.40,
+                "currency": "USD",
+            },
+            "offeringName": "hotel-offering",
+            "data": {
+            },
+        },
+        {
+            "title": "Berlin Walking Tour",
+            "description": "Berlin Walking Tour",
+            "images": ["https://demo.joyned.co/images/new_travel/berlin-walking-tour.jpg"],
+            "directURL": "https://demo.joyned.co/travel/item/3",
+            "offeringHash": "3",
+            "rating": 5,
+            "price": {
+                "amount": 89.50,
+                "currency": "USD",
+            },
+            "offeringName": "hotel-offering",
+            "data": {
+            },
+        },
+        {
+            "title": "Colosseum Evening Tour",
+            "description": "Colosseum Evening Tour",
+            "images": ["https://demo.joyned.co/images/new_travel/colosseum-evening-tour.jpg"],
+            "directURL": "https://demo.joyned.co/travel/item/4",
+            "offeringHash": "4",
+            "rating": 5,
+            "price": {
+                "amount": 64.50,
+                "currency": "USD",
+            },
+            "offeringName": "hotel-offering",
+            "data": {
+            },
+        },
+        {
+            "title": "Eiffel Tower Scenic Walking Tour",
+            "description": "Eiffel Tower Scenic Walking Tour",
+            "images": ["https://demo.joyned.co/images/new_travel/eiffel-tower-scenic-walking-tour.jpg"],
+            "directURL": "https://demo.joyned.co/travel/item/5",
+            "offeringHash": "5",
+            "rating": 2,
+            "price": {
+                "amount": 80.00,
+                "currency": "USD",
+            },
+            "offeringName": "hotel-offering",
+            "data": {
+            },
+        },
+        {
+            "title": "Flatiron New York Tour",
+            "description": "Flatiron New York Tour",
+            "images": ["https://demo.joyned.co/images/new_travel/flatiron-new-york-tour.jpg"],
+            "directURL": "https://demo.joyned.co/travel/item/6",
+            "offeringHash": "6",
+            "rating": 5,
+            "price": {
+                "amount": 84.10,
+                "currency": "USD",
+            },
+            "offeringName": "hotel-offering",
+            "data": {
+            },
+        },
+        {
+            "title": "Golden Gate Cruise",
+            "description": "Golden Gate Cruise",
+            "images": ["https://demo.joyned.co/images/new_travel/golden-gate-cruise.jpg"],
+            "directURL": "https://demo.joyned.co/travel/item/7",
+            "offeringHash": "7",
+            "rating": 4,
+            "price": {
+                "amount": 71.80,
+                "currency": "USD",
+            },
+            "offeringName": "hotel-offering",
+            "data": {
+            },
+        },
+        {
+            "title": "Greek Mythology Bus Tour",
+            "description": "Greek Mythology Bus Tour",
+            "images": ["https://demo.joyned.co/images/new_travel/greek-mythology-bus-tour.jpg"],
+            "directURL": "https://demo.joyned.co/travel/item/8",
+            "offeringHash": "8",
+            "rating": 3,
+            "price": {
+                "amount": 71.50,
+                "currency": "USD",
+            },
+            "offeringName": "hotel-offering",
+            "data": {
+            },
+        },
+        {
+            "title": "Italian Coast Cruise",
+            "description": "Italian Coast Cruise",
+            "images": ["https://demo.joyned.co/images/new_travel/italian-coast-cruise.jpg"],
+            "directURL": "https://demo.joyned.co/travel/item/9",
+            "offeringHash": "9",
+            "rating": 4,
+            "price": {
+                "amount": 57.70,
+                "currency": "USD",
+            },
+            "offeringName": "hotel-offering",
+            "data": {
+            },
+        },
+        {
+            "title": "Liberty Island Full Day Tour",
+            "description": "Liberty Island Full Day Tour",
+            "images": ["https://demo.joyned.co/images/new_travel/liberty-island-full-day-tour.jpg"],
+            "directURL": "https://demo.joyned.co/travel/item/10",
+            "offeringHash": "10",
+            "rating": 4,
+            "price": {
+                "amount": 74.00,
+                "currency": "USD",
+            },
+            "offeringName": "hotel-offering",
+            "data": {
+            },
+        },
+        {
+            "title": "London Landmark Tour",
+            "description": "London Landmark Tour",
+            "images": ["https://demo.joyned.co/images/new_travel/london-landmark-tour.jpg"],
+            "directURL": "https://demo.joyned.co/travel/item/11",
+            "offeringHash": "11",
+            "rating": 2,
+            "price": {
+                "amount": 87.20,
+                "currency": "USD",
+            },
+            "offeringName": "hotel-offering",
+            "data": {
+            },
+        },
+        {
+            "title": "Miami Heat Vacation",
+            "description": "Miami Heat Vacation",
+            "images": ["https://demo.joyned.co/images/new_travel/miami-heat-vacation.jpg"],
+            "directURL": "https://demo.joyned.co/travel/item/12",
+            "offeringHash": "12",
+            "rating": 4,
+            "price": {
+                "amount": 52.50,
+                "currency": "USD",
+            },
+            "offeringName": "hotel-offering",
+            "data": {
+            },
+        },
+        {
+            "title": "New York Skyscraper Trip",
+            "description": "New York Skyscraper Trip",
+            "images": ["https://demo.joyned.co/images/new_travel/new-york-skyscraper-trip.jpg"],
+            "directURL": "https://demo.joyned.co/travel/item/13",
+            "offeringHash": "13",
+            "rating": 1,
+            "price": {
+                "amount": 94.30,
+                "currency": "USD",
+            },
+            "offeringName": "hotel-offering",
+            "data": {
+            },
+        },
+        {
+            "title": "Paris Eiffel Boat Ride",
+            "description": "Paris Eiffel Boat Ride",
+            "images": ["https://demo.joyned.co/images/new_travel/paris-eiffel-boat-ride.jpg"],
+            "directURL": "https://demo.joyned.co/travel/item/14",
+            "offeringHash": "14",
+            "rating": 4,
+            "price": {
+                "amount": 82.00,
+                "currency": "USD",
+            },
+            "offeringName": "hotel-offering",
+            "data": {
+            },
+        },
+        {
+            "title": "Rome Colosseum Experience",
+            "description": "Rome Colosseum Gladiator Experience",
+            "images": ["https://demo.joyned.co/images/new_travel/rome-colosseum-gladiator-experience.jpg"],
+            "directURL": "https://demo.joyned.co/travel/item/15",
+            "offeringHash": "15",
+            "rating": 2,
+            "price": {
+                "amount": 75.30,
+                "currency": "USD",
+            },
+            "offeringName": "hotel-offering",
+            "data": {
+            },
+        },
+        {
+            "title": "San Francisco All Included",
+            "description": "San Francisco All Included",
+            "images": ["https://demo.joyned.co/images/new_travel/san-francisco-all-included.jpg"],
+            "directURL": "https://demo.joyned.co/travel/item/16",
+            "offeringHash": "16",
+            "rating": 4,
+            "price": {
+                "amount": 70.90,
+                "currency": "USD",
+            },
+            "offeringName": "hotel-offering",
+            "data": {
+            },
+        },
+        {
+            "title": "Tokyo Extravagnsa",
+            "description": "Tokyo Extravagnsa",
+            "images": ["https://demo.joyned.co/images/new_travel/tokyo-extravagnsa.jpg"],
+            "directURL": "https://demo.joyned.co/travel/item/17",
+            "offeringHash": "17",
+            "rating": 5,
+            "price": {
+                "amount": 86.60,
+                "currency": "USD",
+            },
+            "offeringName": "hotel-offering",
+            "data": {
+            },
+        },
+        {
+            "title": "Tower Bridge Bungie Jump",
+            "description": "Tower Bridge Bungie Jump",
+            "images": ["https://demo.joyned.co/images/new_travel/tower-bridge-bungie-jump.jpg"],
+            "directURL": "https://demo.joyned.co/travel/item/18",
+            "offeringHash": "18",
+            "rating": 5,
+            "price": {
+                "amount": 99.00,
+                "currency": "USD",
+            },
+            "offeringName": "hotel-offering",
+            "data": {
+            },
+        },
+        {
+            "title": "Venice Waterways Guided Tour",
+            "description": "Venice Waterways Guided Tour",
+            "images": ["https://demo.joyned.co/images/new_travel/venice-waterways-guided-tour.jpg"],
+            "directURL": "https://demo.joyned.co/travel/item/19",
+            "offeringHash": "19",
+            "rating": 1,
+            "price": {
+                "amount": 98.40,
+                "currency": "USD",
+            },
+            "offeringName": "hotel-offering",
+            "data": {
+            },
+        },
+    ]
+}
+

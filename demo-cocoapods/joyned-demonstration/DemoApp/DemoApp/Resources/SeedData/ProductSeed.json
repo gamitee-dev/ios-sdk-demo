@@ -1,0 +1,196 @@
+{
+    "products" : [
+        {
+            "productTitle": "LUX & EASY Signature Syngrou 234",
+            "productRate": 4,
+            "productThumbnail": "location_landscape_02",
+            "productImages": [
+                "location_portrait_03",
+                "location_portrait_04"
+            ],
+            "productDates": {
+                "checkin": "Sat, Nov 20",
+                "checkout": "Wed, Nov 24"
+            },
+            "productTags": {
+                "pet_friendly": true,
+                "spa": false,
+                "indoor_pool": false,
+                "ac": true
+            },
+            "productDescription": "Private Suite\n1 Bedroom, 1 Living room",
+            "productDetails": {
+                "room": "1 rooms",
+                "adults": 6,
+                "children": 0
+            },
+            "productLocation": "15 Km",
+            "productPrice": "$1500",
+            "isFavorite": false
+        },
+        {
+            "productTitle": "Melia Athens",
+            "productRate": 5,
+            "productThumbnail": "location_portrait_02",
+            "productImages": [
+                "location_landscape_02"
+            ],
+            "productDates": {
+                "checkin": "Sun, Sep 25",
+                "checkout": "Wed, Sep 28"
+            },
+            "productTags": {
+                "pet_friendly": false,
+                "spa": true,
+                "indoor_pool": true,
+                "ac": true
+            },
+            "productDescription": "Private Suite\n2 Bedroom, 1 Living room,
+            "productDetails": {
+                "room": "2 room",
+                "adults": 2,
+                "children": 0
+            },
+            "productLocation": "2 Km",
+            "productPrice": "$1000",
+            "isFavorite": true
+        },
+        {
+            "productTitle": "Seaside Villa",
+            "productRate": 4,
+            "productThumbnail": "location_landscape_02",
+            "productImages": [
+                "location_portrait_03",
+                "location_portrait_04"
+            ],
+            "productDates": {
+                "checkin": "Sat, Nov 20",
+                "checkout": "Wed, Nov 24"
+            },
+            "productTags": {
+                "pet_friendly": true,
+                "spa": false,
+                "indoor_pool": false,
+                "ac": true
+            },
+            "productDescription": "Spacious Villa\n3 Bedrooms, Ocean View",
+            "productDetails": {
+                "room": "3 rooms",
+                "adults": 6,
+                "children": 0
+            },
+            "productLocation": "15 Km",
+            "productPrice": "$1500",
+            "isFavorite": false
+        },
+        {
+            "productTitle": "Mountain Retreat",
+            "productRate": 5,
+            "productThumbnail": "location_portrait_04",
+            "productImages": [
+                "location_landscape_01"
+            ],
+            "productDates": {
+                "checkin": "Mon, Aug 15",
+                "checkout": "Thu, Aug 18"
+            },
+            "productTags": {
+                "pet_friendly": false,
+                "spa": true,
+                "indoor_pool": true,
+                "ac": false
+            },
+            "productDescription": "Cosy Cabin\n1 Bedroom, Fireplace",
+            "productDetails": {
+                "room": "1 room",
+                "adults": 2,
+                "children": 0
+            },
+            "productLocation": "8 Km",
+            "productPrice": "$900",
+            "isFavorite": true
+        },
+        {
+            "productTitle": "Urban Loft",
+            "productRate": 4,
+            "productThumbnail": "location_landscape_03",
+            "productImages": [
+                "location_portrait_01",
+                "location_portrait_02"
+            ],
+            "productDates": {
+                "checkin": "Fri, Mar 5",
+                "checkout": "Mon, Mar 8"
+            },
+            "productTags": {
+                "pet_friendly": true,
+                "spa": false,
+                "indoor_pool": false,
+                "ac": true
+            },
+            "productDescription": "Modern Loft\nStudio Apartment",
+            "productDetails": {
+                "room": "1 room",
+                "adults": 2,
+                "children": 0
+            },
+            "productLocation": "3 Km",
+            "productPrice": "$500",
+            "isFavorite": true
+        },
+        {
+            "productTitle": "Rural Farmhouse",
+            "productRate": 3,
+            "productThumbnail": "location_landscape_04",
+            "productImages": [
+                "location_portrait_03"
+            ],
+            "productDates": {
+                "checkin": "Wed, Jun 1",
+                "checkout": "Sat, Jun 4"
+            },
+            "productTags": {
+                "pet_friendly": true,
+                "spa": false,
+                "indoor_pool": false,
+                "ac": false
+            },
+            "productDescription": "Quaint Farmhouse\n2 Bedrooms, Garden View",
+            "productDetails": {
+                "room": "2 rooms",
+                "adults": 4,
+                "children": 2
+            },
+            "productLocation": "20 Km",
+            "productPrice": "$800",
+            "isFavorite": false
+        },
+        {
+            "productTitle": "Tropical Bungalow",
+            "productRate": 5,
+            "productThumbnail": "location_portrait_02",
+            "productImages": [
+                "location_landscape_02"
+            ],
+            "productDates": {
+                "checkin": "Sun, Sep 25",
+                "checkout": "Wed, Sep 28"
+            },
+            "productTags": {
+                "pet_friendly": false,
+                "spa": true,
+                "indoor_pool": true,
+                "ac": true
+            },
+            "productDescription": "Beachfront Bungalow\n1 Bedroom, Ocean View",
+            "productDetails": {
+                "room": "1 room",
+                "adults": 2,
+                "children": 0
+            },
+            "productLocation": "2 Km",
+            "productPrice": "$1000",
+            "isFavorite": true
+        }
+    ]
+}

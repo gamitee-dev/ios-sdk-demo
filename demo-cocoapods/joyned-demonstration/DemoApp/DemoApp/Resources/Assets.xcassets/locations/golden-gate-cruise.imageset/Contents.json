@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "golden-gate-cruise.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

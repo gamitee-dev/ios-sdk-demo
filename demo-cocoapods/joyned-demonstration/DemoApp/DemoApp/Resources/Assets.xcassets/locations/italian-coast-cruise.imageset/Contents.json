@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "italian-coast-cruise.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

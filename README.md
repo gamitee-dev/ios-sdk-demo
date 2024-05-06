@@ -9,4 +9,4 @@ There are two ways of connecting JoynedMobileSDK shown in the demo:
 
 # Joyned mobile sdk documentation
 
-Full documentation for all Euclid types and functions can be found [**here**](https://gamitee-dev.github.io/ios-sdk-demo/documentation/joynedmobilesdk/)
+[Joyned Mobike SDK **documentation**](https://gamitee-dev.github.io/ios-sdk-demo/documentation/joynedmobilesdk/)

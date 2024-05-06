@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>JoynedMobileSDKManualActivation</key>
+	<false/>
+	<key>JoynedMobileSDKCredentials</key>
+	<dict>
+		<key>JoynedMobileSDKActivationKey</key>
+		<string>dm95YWdlLWRlbW86-pL7Mtc8q13aFLrDSZFz2rmT021NdWGqwNpAwsOnRI0</string>
+		<key>JoynedMobileSDKActivationKey1</key>
+		<string>dm95YWdlLWRlbW86giVSNSnTY8D-hwUqvr6PNTGGfZ_PphmGZUvdPi8_Shw</string>
+		<key>JoynedMobileSDKActivationKey0</key>
+		<string>Z2FtaXRlZS1kZW1vOmm3HXn4IQ</string>
+	</dict>
+	<key>JoynedMobileSDKAutoLogs</key>
+	<dict/>
+	<key>JoynedMobileSDKScreenlists</key>
+	<dict>
+		<key>JoynedMobileSDKScreenWhitelist</key>
+		<array>
+			<string>DealsFeedViewController</string>
+			<string>ProductViewController</string>
+			<string>StatusViewController</string>
+			<string>SavedViewController</string>
+			<string>ProfileViewController</string>
+		</array>
+		<key>JoynedMobileSDKScreenBlacklist</key>
+		<array>
+			<string>SplashViewController</string>
+			<string>PurchaseViewController</string>
+			<string>UIViewController</string>
+			<string>ProfileViewController</string>
+		</array>
+	</dict>
+</dict>
+</plist>

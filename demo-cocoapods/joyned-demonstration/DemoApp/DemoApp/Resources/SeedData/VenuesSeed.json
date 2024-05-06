@@ -1,0 +1,580 @@
+{
+    "venues" : [
+        {
+            "productTitle": "Acropolis Greece Guided Tour",
+            "productDescription": "Acropolis Greece Guided Tour. Qui dolor anim non irure adipisicing mollit.",
+            "productImages": [
+                "https://demo.joyned.co/images/new_travel/acropolis-greece-guided-tour.jpg"
+            ],
+            "productURL": "https://demo.joyned.co/travel/item/1",
+            "productID": "1",
+            "productRating": 3,
+            "productPrice": {
+                "amount": 53.20,
+                "currency": "USD",
+            },
+            "productThumbnail": "acropolis-greece-guided-tour",
+            "productOfferingName": "hotel-offering",
+            "productDates": {
+                "checkin": "Sat, Nov 20",
+                "checkout": "Wed, Nov 24"
+            },
+            "productTags": {
+                "pet_friendly": true,
+                "spa": false,
+                "indoor_pool": false,
+                "ac": true
+            },
+            "productDetails": {
+                "room": "1 rooms",
+                "adults": 6,
+                "children": 0
+            },
+            "isFavorite": false
+        },
+        {
+            "productTitle": "Bari Italy Boat Ride And Walking Tour",
+            "productDescription": "Bari Italy Boat Ride And Walking Tour",
+            "productImages": [
+                "https://demo.joyned.co/images/new_travel/bari-italy-boat-ride-and-walking-tour.jpg"
+            ],
+            "productURL": "https://demo.joyned.co/travel/item/2",
+            "productID": "2",
+            "productRating": 3,
+            "productPrice": {
+                "amount": 61.40,
+                "currency": "USD",
+            },
+            "productThumbnail": "bari-italy-boat-ride-and-walking-tour",
+            "productOfferingName": "hotel-offering",
+            "productDates": {
+                "checkin": "Sun, Sep 25",
+                "checkout": "Wed, Sep 28"
+            },
+            "productTags": {
+                "pet_friendly": false,
+                "spa": true,
+                "indoor_pool": true,
+                "ac": true
+            },
+            "productDetails": {
+                "room": "2 room",
+                "adults": 2,
+                "children": 0
+            },
+            "isFavorite": false
+        },
+        {
+            "productTitle": "Berlin Walking Tour",
+            "productDescription": "Berlin Walking Tour",
+            "productImages": ["https://demo.joyned.co/images/new_travel/berlin-walking-tour.jpg"],
+            "productURL": "https://demo.joyned.co/travel/item/3",
+            "productID": "3",
+            "productRating": 5,
+            "productPrice": {
+                "amount": 89.50,
+                "currency": "USD",
+            },
+            "productThumbnail": "berlin-walking-tour",
+            "productOfferingName": "hotel-offering",
+            "productDates": {
+                "checkin": "Sat, Nov 20",
+                "checkout": "Wed, Nov 24"
+            },
+            "productTags": {
+                "pet_friendly": true,
+                "spa": false,
+                "indoor_pool": false,
+                "ac": true
+            },
+            "productDetails": {
+                "room": "3 rooms",
+                "adults": 6,
+                "children": 0
+            },
+            "isFavorite": false
+            
+        },
+        {
+            "productTitle": "Colosseum Evening Tour",
+            "productDescription": "Colosseum Evening Tour",
+            "productImages": ["https://demo.joyned.co/images/new_travel/colosseum-evening-tour.jpg"],
+            "productURL": "https://demo.joyned.co/travel/item/4",
+            "productID": "4",
+            "productRating": 5,
+            "productPrice": {
+                "amount": 64.50,
+                "currency": "USD",
+            },
+            "productThumbnail": "colosseum-evening-tour",
+            "productOfferingName": "hotel-offering",
+            "productDates": {
+                "checkin": "Mon, Aug 15",
+                "checkout": "Thu, Aug 18"
+            },
+            "productTags": {
+                "pet_friendly": false,
+                "spa": true,
+                "indoor_pool": true,
+                "ac": false
+            },
+            "productDetails": {
+                "room": "1 room",
+                "adults": 2,
+                "children": 0
+            },
+            "isFavorite": false
+        },
+        {
+            "productTitle": "Eiffel Tower Scenic Walking Tour",
+            "productDescription": "Eiffel Tower Scenic Walking Tour",
+            "productImages": ["https://demo.joyned.co/images/new_travel/eiffel-tower-scenic-walking-tour.jpg"],
+            "productURL": "https://demo.joyned.co/travel/item/5",
+            "productID": "5",
+            "productRating": 2,
+            "productPrice": {
+                "amount": 80.00,
+                "currency": "USD",
+            },
+            "productThumbnail": "eiffel-tower-scenic-walking-tour",
+            "productOfferingName": "hotel-offering",
+            "productDates": {
+                "checkin": "Fri, Mar 5",
+                "checkout": "Mon, Mar 8"
+            },
+            "productTags": {
+                "pet_friendly": true,
+                "spa": false,
+                "indoor_pool": false,
+                "ac": true
+            },
+            "productDetails": {
+                "room": "1 room",
+                "adults": 2,
+                "children": 0
+            },
+            "isFavorite": false
+        },
+        {
+            "productTitle": "Flatiron New York Tour",
+            "productDescription": "Flatiron New York Tour",
+            "productImages": ["https://demo.joyned.co/images/new_travel/flatiron-new-york-tour.jpg"],
+            "productURL": "https://demo.joyned.co/travel/item/6",
+            "productID": "6",
+            "productRating": 5,
+            "productPrice": {
+                "amount": 84.10,
+                "currency": "USD",
+            },
+            "productThumbnail": "flatiron-new-york-tour",
+            "productOfferingName": "hotel-offering",
+            "productDates": {
+                "checkin": "Wed, Jun 1",
+                "checkout": "Sat, Jun 4"
+            },
+            "productTags": {
+                "pet_friendly": true,
+                "spa": false,
+                "indoor_pool": false,
+                "ac": false
+            },
+            "productDetails": {
+                "room": "2 rooms",
+                "adults": 4,
+                "children": 2
+            },
+            "isFavorite": false
+        },
+        {
+            "productTitle": "Golden Gate Cruise",
+            "productDescription": "Golden Gate Cruise",
+            "productImages": ["https://demo.joyned.co/images/new_travel/golden-gate-cruise.jpg"],
+            "productURL": "https://demo.joyned.co/travel/item/7",
+            "productID": "7",
+            "productRating": 4,
+            "productPrice": {
+                "amount": 71.80,
+                "currency": "USD",
+            },
+            "productThumbnail": "golden-gate-cruise",
+            "productOfferingName": "hotel-offering",
+            "productDates": {
+                "checkin": "Sun, Sep 25",
+                "checkout": "Wed, Sep 28"
+            },
+            "productTags": {
+                "pet_friendly": false,
+                "spa": true,
+                "indoor_pool": true,
+                "ac": true
+            },
+            "productDetails": {
+                "room": "1 room",
+                "adults": 2,
+                "children": 0
+            },
+            "isFavorite": false
+        },
+        {
+            "productTitle": "Greek Mythology Bus Tour",
+            "productDescription": "Greek Mythology Bus Tour",
+            "productImages": ["https://demo.joyned.co/images/new_travel/greek-mythology-bus-tour.jpg"],
+            "productURL": "https://demo.joyned.co/travel/item/8",
+            "productID": "8",
+            "productRating": 3,
+            "productPrice": {
+                "amount": 71.50,
+                "currency": "USD",
+            },
+            "productThumbnail": "greek-mythology-bus-tour",
+            "productOfferingName": "hotel-offering",
+            "productDates": {
+                "checkin": "Sat, Nov 20",
+                "checkout": "Wed, Nov 24"
+            },
+            "productTags": {
+                "pet_friendly": false,
+                "spa": false,
+                "indoor_pool": false,
+                "ac": true
+            },
+            "productDetails": {
+                "room": "1 room",
+                "adults": 2,
+                "children": 1
+            },
+            "isFavorite": false
+        },
+        {
+            "productTitle": "Italian Coast Cruise",
+            "productDescription": "Italian Coast Cruise",
+            "productImages": ["https://demo.joyned.co/images/new_travel/italian-coast-cruise.jpg"],
+            "productURL": "https://demo.joyned.co/travel/item/9",
+            "productID": "9",
+            "productRating": 4,
+            "productPrice": {
+                "amount": 57.70,
+                "currency": "USD",
+            },
+            "productThumbnail": "italian-coast-cruise",
+            "productOfferingName": "hotel-offering",
+            "productDates": {
+                "checkin": "Sat, Nov 20",
+                "checkout": "Wed, Nov 24"
+            },
+            "productTags": {
+                "pet_friendly": false,
+                "spa": true,
+                "indoor_pool": false,
+                "ac": false
+            },
+            "productDetails": {
+                "room": "1 room",
+                "adults": 1,
+                "children": 0
+            },
+            "isFavorite": false
+        },
+        {
+            "productTitle": "Liberty Island Full Day Tour",
+            "productDescription": "Liberty Island Full Day Tour",
+            "productImages": ["https://demo.joyned.co/images/new_travel/liberty-island-full-day-tour.jpg"],
+            "productURL": "https://demo.joyned.co/travel/item/10",
+            "productID": "10",
+            "productRating": 4,
+            "productPrice": {
+                "amount": 74.00,
+                "currency": "USD",
+            },
+            "productThumbnail": "liberty-island-full-day-tour",
+            "productOfferingName": "hotel-offering",
+            "productDates": {
+                "checkin": "Sat, Nov 20",
+                "checkout": "Wed, Nov 24"
+            },
+            "productTags": {
+                "pet_friendly": true,
+                "spa": true,
+                "indoor_pool": true,
+                "ac": true
+            },
+            "productDetails": {
+                "room": "1 room",
+                "adults": 2,
+                "children": 0
+            },
+            "isFavorite": false
+        },
+        {
+            "productTitle": "London Landmark Tour",
+            "productDescription": "London Landmark Tour",
+            "productImages": ["https://demo.joyned.co/images/new_travel/london-landmark-tour.jpg"],
+            "productURL": "https://demo.joyned.co/travel/item/11",
+            "productID": "11",
+            "productRating": 2,
+            "productPrice": {
+                "amount": 87.20,
+                "currency": "USD",
+            },
+            "productThumbnail": "london-landmark-tour",
+            "productOfferingName": "hotel-offering",
+            "productDates": {
+                "checkin": "Sat, Nov 20",
+                "checkout": "Wed, Nov 24"
+            },
+            "productTags": {
+                "pet_friendly": false,
+                "spa": false,
+                "indoor_pool": true,
+                "ac": false
+            },
+            "productDetails": {
+                "room": "1 room",
+                "adults": 2,
+                "children": 0
+            },
+            "isFavorite": false
+        },
+        {
+            "productTitle": "Miami Heat Vacation",
+            "productDescription": "Miami Heat Vacation",
+            "productImages": ["https://demo.joyned.co/images/new_travel/miami-heat-vacation.jpg"],
+            "productURL": "https://demo.joyned.co/travel/item/12",
+            "productID": "12",
+            "productRating": 4,
+            "productPrice": {
+                "amount": 52.50,
+                "currency": "USD",
+            },
+            "productThumbnail": "miami-heat-vacation",
+            "productOfferingName": "hotel-offering",
+            "productDates": {
+                "checkin": "Sat, Nov 20",
+                "checkout": "Wed, Nov 24"
+            },
+            "productTags": {
+                "pet_friendly": true,
+                "spa": true,
+                "indoor_pool": true,
+                "ac": true
+            },
+            "productDetails": {
+                "room": "1 room",
+                "adults": 2,
+                "children": 0
+            },
+            "isFavorite": false
+        },
+        {
+            "productTitle": "New York Skyscraper Trip",
+            "productDescription": "New York Skyscraper Trip",
+            "productImages": ["https://demo.joyned.co/images/new_travel/new-york-skyscraper-trip.jpg"],
+            "productURL": "https://demo.joyned.co/travel/item/13",
+            "productID": "13",
+            "productRating": 1,
+            "productPrice": {
+                "amount": 94.30,
+                "currency": "USD",
+            },
+            "productThumbnail": "new-york-skyscraper-trip",
+            "productOfferingName": "hotel-offering",
+            "productDates": {
+                "checkin": "Sat, Nov 20",
+                "checkout": "Wed, Nov 24"
+            },
+            "productTags": {
+                "pet_friendly": false,
+                "spa": true,
+                "indoor_pool": true,
+                "ac": false
+            },
+            "productDetails": {
+                "room": "1 room",
+                "adults": 2,
+                "children": 0
+            },
+            "isFavorite": false
+        },
+        {
+            "productTitle": "Paris Eiffel Boat Ride",
+            "productDescription": "Paris Eiffel Boat Ride",
+            "productImages": ["https://demo.joyned.co/images/new_travel/paris-eiffel-boat-ride.jpg"],
+            "productURL": "https://demo.joyned.co/travel/item/14",
+            "productID": "14",
+            "productRating": 4,
+            "productPrice": {
+                "amount": 82.00,
+                "currency": "USD",
+            },
+            "productThumbnail": "paris-eiffel-boat-ride",
+            "productOfferingName": "hotel-offering",
+            "productDates": {
+                "checkin": "Sat, Nov 20",
+                "checkout": "Wed, Nov 24"
+            },
+            "productTags": {
+                "pet_friendly": false,
+                "spa": false,
+                "indoor_pool": false,
+                "ac": false
+            },
+            "productDetails": {
+                "room": "1 room",
+                "adults": 1,
+                "children": 2
+            },
+            "isFavorite": false
+        },
+        {
+            "productTitle": "Rome Colosseum Experience",
+            "productDescription": "Rome Colosseum Gladiator Experience",
+            "productImages": ["https://demo.joyned.co/images/new_travel/rome-colosseum-gladiator-experience.jpg"],
+            "productURL": "https://demo.joyned.co/travel/item/15",
+            "productID": "15",
+            "productRating": 2,
+            "productPrice": {
+                "amount": 75.30,
+                "currency": "USD",
+            },
+            "productThumbnail": "rome-colosseum-gladiator-experience",
+            "productOfferingName": "hotel-offering",
+            "productDates": {
+                "checkin": "Sat, Nov 20",
+                "checkout": "Wed, Nov 24"
+            },
+            "productTags": {
+                "pet_friendly": false,
+                "spa": true,
+                "indoor_pool": true,
+                "ac": true
+            },
+            "productDetails": {
+                "room": "2 rooms",
+                "adults": 3,
+                "children": 3
+            },
+            "isFavorite": false
+        },
+        {
+            "productTitle": "San Francisco All Included",
+            "productDescription": "San Francisco All Included",
+            "productImages": ["https://demo.joyned.co/images/new_travel/san-francisco-all-included.jpg"],
+            "productURL": "https://demo.joyned.co/travel/item/16",
+            "productID": "16",
+            "productRating": 4,
+            "productPrice": {
+                "amount": 70.90,
+                "currency": "USD",
+            },
+            "productThumbnail": "san-francisco-all-included",
+            "productOfferingName": "hotel-offering",
+            "productDates": {
+                "checkin": "Sat, Nov 20",
+                "checkout": "Wed, Nov 24"
+            },
+            "productTags": {
+                "pet_friendly": false,
+                "spa": true,
+                "indoor_pool": true,
+                "ac": true
+            },
+            "productDetails": {
+                "room": "1 room",
+                "adults": 2,
+                "children": 0
+            },
+            "isFavorite": false
+        },
+        {
+            "productTitle": "Tokyo Extravagnsa",
+            "productDescription": "Tokyo Extravagnsa",
+            "productImages": ["https://demo.joyned.co/images/new_travel/tokyo-extravagnsa.jpg"],
+            "productURL": "https://demo.joyned.co/travel/item/17",
+            "productID": "17",
+            "productRating": 5,
+            "productPrice": {
+                "amount": 86.60,
+                "currency": "USD",
+            },
+            "productThumbnail": "tokyo-extravagnsa",
+            "productOfferingName": "hotel-offering",
+            "productDates": {
+                "checkin": "Sat, Nov 20",
+                "checkout": "Wed, Nov 24"
+            },
+            "productTags": {
+                "pet_friendly": false,
+                "spa": true,
+                "indoor_pool": true,
+                "ac": true
+            },
+            "productDetails": {
+                "room": "1 room",
+                "adults": 2,
+                "children": 0
+            },
+            "isFavorite": false
+        },
+        {
+            "productTitle": "Tower Bridge Bungie Jump",
+            "productDescription": "Tower Bridge Bungie Jump",
+            "productImages": ["https://demo.joyned.co/images/new_travel/tower-bridge-bungie-jump.jpg"],
+            "productURL": "https://demo.joyned.co/travel/item/18",
+            "productID": "18",
+            "productRating": 5,
+            "productPrice": {
+                "amount": 99.00,
+                "currency": "USD",
+            },
+            "productThumbnail": "tower-bridge-bungie-jump",
+            "productOfferingName": "hotel-offering",
+            "productDates": {
+                "checkin": "Sat, Nov 20",
+                "checkout": "Wed, Nov 24"
+            },
+            "productTags": {
+                "pet_friendly": false,
+                "spa": true,
+                "indoor_pool": true,
+                "ac": true
+            },
+            "productDetails": {
+                "room": "1 room",
+                "adults": 2,
+                "children": 0
+            },
+            "isFavorite": false
+        },
+        {
+            "productTitle": "Venice Waterways Guided Tour",
+            "productDescription": "Venice Waterways Guided Tour",
+            "productImages": ["https://demo.joyned.co/images/new_travel/venice-waterways-guided-tour.jpg"],
+            "productURL": "https://demo.joyned.co/travel/item/19",
+            "productID": "19",
+            "productRating": 1,
+            "productPrice": {
+                "amount": 98.40,
+                "currency": "USD",
+            },
+            "productThumbnail": "venice-waterways-guided-tour",
+            "productOfferingName": "hotel-offering",
+            "productDates": {
+                "checkin": "Sat, Nov 20",
+                "checkout": "Wed, Nov 24"
+            },
+            "productTags": {
+                "pet_friendly": false,
+                "spa": true,
+                "indoor_pool": true,
+                "ac": true
+            },
+            "productDetails": {
+                "room": "1 room",
+                "adults": 2,
+                "children": 0
+            },
+            "isFavorite": false
+        },
+    ]
+}
+
